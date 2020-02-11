@@ -1,0 +1,35 @@
+body {
+     font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.container-fluid {
+    position: relative; 
+}
+
+.navbar {
+    background-color: #295B60;
+}
+
+/* Header */
+
+header {
+    padding-top: 1.5em !important;
+}
+
+#title {
+    color: white;
+    padding-right: 2em;
+}
+
+.logo {
+    width: 12em;
+}
+
+.nav-menu {
+    padding-right: 3em;
+    color: white;
+}
+
+/*Navbar*/ 
+
+
