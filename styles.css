@@ -39,6 +39,27 @@ header {
     color: white;
 }
 
+/* Zoom buttons */
+.zoom {
+    right: 5em;
+    position: fixed;
+    z-index: 2;
+    top: 8em;
+}
+
+.zoom button {
+ /*   display: block; */
+    margin: 0.5em;
+    color: red; 
+    background-color: #295B60;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+}
+
+
 /*Navbar*/ 
 #sidebar header {
     background-color: rgba(61, 180, 169, 0.5);
