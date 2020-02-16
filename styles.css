@@ -87,8 +87,13 @@ header {
     transition: all 0.5s ease;
     }
 
+.wheel {
+    visibility: visible;
+    pointer-events: auto;
+}
+
 .staging {
-    display: inline;
+    display: inline-block;
 }
 
 /* Map Buttons: key, existing, proposed 
