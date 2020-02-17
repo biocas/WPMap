@@ -1,5 +1,3 @@
-// var svg = document.getElementsById('svg')[0];
-
 window.addEventListener('load', function() {
     var svgObject = document.getElementById('wheel').contentDocument;
     console.log(svgObject);
