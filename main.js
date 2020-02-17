@@ -9,3 +9,5 @@ window.addEventListener('load', function() {
                         alert('hello world!')
                 }, false);
   });
+
+//  IDs are: "CITY_LIFE", "MARKET_PLACE", "SPORTING_PARKS", "EXHIBITIONS_AND_EVENTS", "MIXED_USE", "GREEN_SPACES", "CITY_FACILITIES", "AQUATIC_CENTRE"
