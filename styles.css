@@ -1,5 +1,5 @@
 body {
-     font-family: 'Nunito Sans', sans-serif !important;
+    font-family: 'Nunito Sans', sans-serif !important;
     overflow-x: hidden;
     font-size: 16px;
 }
@@ -17,6 +17,7 @@ body {
 h3 {
     color: #3DB4A9;
     font-weight: 600 !important;
+    padding-top: 0.5em;
 }
 
 /* Header */
@@ -48,7 +49,6 @@ header {
 }
 
 .zoom button {
- /*   display: block; */
     margin: 0.2em;
     color: white; 
     background-color: #295B60;
@@ -77,11 +77,11 @@ header {
 #sidebar {
     z-index: 1000;
     position: fixed;
-    left: 250px;
-    /* width: 250px; */
-    height: 100%;
-    margin-left: -250px;
-    overflow-y: auto;
+    height: 85%;
+    /*  left: 300px;
+    width: 250px; 
+    margin-left: -300px; */
+    overflow-y: scroll;
     padding: 0.7em;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -94,8 +94,12 @@ header {
     pointer-events: auto;
 }
 
-.staging {
-    display: inline-block;
+.side-list {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin:1px;
+    background-color: #295B60;
+    color: white;
 }
 
 /* Map Buttons: key, existing, proposed 
