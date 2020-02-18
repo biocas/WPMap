@@ -1,13 +1,28 @@
-window.addEventListener('load', function() {
-    var svgObject = document.getElementById('wheel').contentDocument;
-    console.log(svgObject);
-    
+/*
+window.onload = function() {
+    // Get object
+    var svgObject = document.getElementById('wheel');
+    //get svg inside object
     var svgDom = svgObject.contentDocument;
-     var CITY_LIFE = svgDom.getElementById('CITY_LIFE');
-    
-    CITY_LIFE.addEventListener("mousedown",function(){
-                        alert('hello world!')
-                }, false);
-  });
+    console.log(svgObject);
+    console.log(svgDom);
+    // get one svg element by id
+     var CITY_LIFE = svgDom.getElementById("CITY_LIFE");
+    console.log(CITY_LIFE);
+    };
+*/
 
-//  IDs are: "CITY_LIFE", "MARKET_PLACE", "SPORTING_PARKS", "EXHIBITIONS_AND_EVENTS", "MIXED_USE", "GREEN_SPACES", "CITY_FACILITIES", "AQUATIC_CENTRE"
+jQuery(document).ready(function($) {
+
+    $(window).load(function () {
+
+        $("#CITY_LIFE").click(function() {
+
+            //do stuff
+            console.log('working');
+            // $(this).attr('d') = the path
+
+        })
+
+    });
+});
