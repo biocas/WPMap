@@ -12,17 +12,16 @@ window.onload = function() {
     };
 */
 
-jQuery(document).ready(function($) {
-
-    $(window).load(function () {
-
-        $("#CITY_LIFE").click(function() {
+$(document).ready(function() {
+console.log($('#wheel'));
+    console.log($('#CITY_LIFE'));
+        $('#CITY_LIFE').click(function() {
 
             //do stuff
             console.log('working');
-            // $(this).attr('d') = the path
+            $(this).attr('d') = the path
 
         })
 
-    });
+    
 });
