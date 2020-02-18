@@ -19,7 +19,7 @@ console.log($('#wheel'));
 
             //do stuff
             console.log('working');
-            $(this).attr('d') = the path
+            //$(this).attr('d') = the path
 
         })
 
