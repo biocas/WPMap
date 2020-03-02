@@ -12,16 +12,32 @@ window.onload = function() {
     };
 */
 
+
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg';
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi',//hosted style id
+//center: [-77.38, 39], // starting position
+//zoom: 3  starting zoom
+});
+
+
+
 $(document).ready(function() {
 console.log($('#wheel'));
-    console.log($('#CITY_LIFE'));
-        $('#CITY_LIFE').click(function() {
-
-            //do stuff
-            console.log('working');
-            //$(this).attr('d') = the path
-
+    
+    $('a#CITY_LIFE').click(function() {
+           alert('hello rect');
         })
+        
 
     
 });
+
+function timeout(){ 
+
+   
+
+}
+
+setTimeout(timeout, 5000)
