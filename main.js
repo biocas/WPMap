@@ -9,13 +9,13 @@ center: [-77.38, 39], // starting position
 zoom: 3  // starting zoom
 });
 
-$(window).resize(function () {
+$(window).on("load", function () {
     var h = $(window).height(),
         offsetTop = 60; // Calculate the top offset
 
     $('#map').css('height', (h - offsetTop));
-}).resize();
-
+    map.resize();
+});
 
 
 // CODES FOR WHEEL 

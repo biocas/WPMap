@@ -99,7 +99,6 @@ header {
     background-color: white;
     position: fixed;
     float: left !important;
-    height: 85%;
     overflow-y: scroll;
     padding: 0.7em;
     -webkit-transition: all 0.5s ease;
