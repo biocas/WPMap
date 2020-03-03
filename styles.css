@@ -8,14 +8,17 @@ body {
     width: 100%;
     position: relative;
     margin-right: 0;
+    
 }
 
 #map { 
+    
+  /*  this was suggested to be added but not doing any difference
     position: absolute; 
     top: 0; 
     bottom: 0; 
     width: 100%; 
-    height: 100%;
+    height: 100%; */
 }
 
 .mapboxgl-canvas {
