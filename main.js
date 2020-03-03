@@ -17,8 +17,12 @@ $(window).on("load", function () {
     map.resize();
 });
 
-map.addControl(new mapboxgl.NavigationControl()); 
+// Disable rotation and its button 
+
 map.touchZoomRotate.disableRotation();
+map.addControl(new mapboxgl.NavigationControl({
+  showCompass: false
+}));
 
 // CODES FOR WHEEL 
 /*  
