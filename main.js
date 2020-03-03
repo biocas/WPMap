@@ -17,8 +17,7 @@ $(window).on("load", function () {
     map.resize();
 });
 
-// Disable rotation and its button 
-
+// Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
 map.addControl(new mapboxgl.NavigationControl({
   showCompass: false

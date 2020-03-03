@@ -111,6 +111,17 @@ h3 {
     height: 100%; */
 }
 
+.mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon {
+  background-image: url('img/+.png') !important;
+}
+
+.mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
+  background-image: url('img/-.png') !important;
+}
+
+
+
+
 
 /*a:active {
     width: 700px;
