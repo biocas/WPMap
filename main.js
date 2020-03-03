@@ -1,18 +1,3 @@
-/*
-window.onload = function() {
-    // Get object
-    var svgObject = document.getElementById('wheel');
-    //get svg inside object
-    var svgDom = svgObject.contentDocument;
-    console.log(svgObject);
-    console.log(svgDom);
-    // get one svg element by id
-     var CITY_LIFE = svgDom.getElementById("CITY_LIFE");
-    console.log(CITY_LIFE);
-    };
-*/
-
-
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg';
 
 
@@ -24,8 +9,17 @@ center: [-77.38, 39], // starting position
 zoom: 3  // starting zoom
 });
 
+$(window).resize(function () {
+    var h = $(window).height(),
+        offsetTop = 60; // Calculate the top offset
 
-/*
+    $('#map').css('height', (h - offsetTop));
+}).resize();
+
+
+
+// CODES FOR WHEEL 
+/*  
 $(document).ready(function() {
 console.log($('#wheel'));
     
@@ -36,4 +30,15 @@ console.log($('#wheel'));
 
     
 });
+window.onload = function() {
+    // Get object
+    var svgObject = document.getElementById('wheel');
+    //get svg inside object
+    var svgDom = svgObject.contentDocument;
+    console.log(svgObject);
+    console.log(svgDom);
+    // get one svg element by id
+     var CITY_LIFE = svgDom.getElementById("CITY_LIFE");
+    console.log(CITY_LIFE);
+    };
 */
