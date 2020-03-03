@@ -102,6 +102,32 @@ $("#reset").click(function() {
     essential: true 
 });
 });
+
+
+// create DOM element for the marker
+var el = document.createElement('div');
+el.id = 'marker';
+ 
+// create the marker
+new mapboxgl.Marker(el)
+.setLngLat([
+          150.91716706752777,
+          -33.924737991796476
+        ])
+// .setPopup(popup)  sets a popup on this marker
+.addTo(map);
+
+// links 
+/* https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
+For pop up windows 
+https://stackoverflow.com/questions/6037712/how-to-float-a-div-over-google-maps 
+https://docs.mapbox.com/mapbox.js/example/v1.0.0/marker-tooltips-outside-map/ - this is mapbox.js and is not in use anymore but can help with logic
+
+
+For Staging and catalysts
+https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
+*/ 
+
 // CODES FOR WHEEL 
 /*  
 $(document).ready(function() {
