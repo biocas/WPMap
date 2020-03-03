@@ -159,12 +159,13 @@ li{
 */ 
 
 /*Zoom Buttons*/
-/* 
+ 
 .zoom {
-    right: 5em;
+    right: 40px;
     position: fixed;
     z-index: 2;
-    top: 8em;
+    top: 9em;
+    
 }
 
 .zoom button {
@@ -172,11 +173,9 @@ li{
     color: white; 
     background-color: #295B60;
     padding: 0;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 50px;
-    font-size: 2em;
+    width: 29px;
+    height: 29px;
+    font-size: 7px;
     font-weight: 800;
-}*/
+}
 

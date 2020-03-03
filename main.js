@@ -92,6 +92,16 @@ $("#open").click(function() {
     essential: true 
 });
 });
+
+$("#reset").click(function() {
+  map.flyTo({
+    center: [
+   150.906571, -33.926521
+    ],
+    zoom: 13,
+    essential: true 
+});
+});
 // CODES FOR WHEEL 
 /*  
 $(document).ready(function() {
