@@ -11,22 +11,6 @@ body {
     padding-right: 0 !important;
 }
 
-#map { 
-    
-  /*  this was suggested to be added but not doing any difference
-    position: absolute; 
-    top: 0; 
-    bottom: 0; 
-    width: 100%; 
-    height: 100%; */
-}
-
-
-/*a:active {
-    width: 700px;
-    height: 74px;
-}*/
-
 .navbar {
     background-color: #3DB4A9;
 }
@@ -38,9 +22,6 @@ h3 {
 }
 
 /* Header */
-
-
-
 #title {
     color: white;
     padding-right: 2em;
@@ -119,6 +100,26 @@ h3 {
     color: white;
 }
 
+/* Map Section */ 
+#map { 
+    
+  /*  this was suggested to be added but not doing any difference
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 100%; */
+}
+
+.mapboxgl-ctrl-compass {
+display: none !important;
+}
+
+/*a:active {
+    width: 700px;
+    height: 74px;
+}*/
+
 /* Map Buttons: key, existing, proposed 
 .map-modes {
    position: fixed;
@@ -164,3 +165,5 @@ h3 {
     background-color: white;
 }
 */ 
+
+

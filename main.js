@@ -18,6 +18,7 @@ $(window).on("load", function () {
 });
 
 map.addControl(new mapboxgl.NavigationControl()); 
+map.touchZoomRotate.disableRotation();
 
 // CODES FOR WHEEL 
 /*  
