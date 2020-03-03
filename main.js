@@ -17,6 +17,7 @@ $(window).on("load", function () {
     map.resize();
 });
 
+map.addControl(new mapboxgl.NavigationControl()); 
 
 // CODES FOR WHEEL 
 /*  
