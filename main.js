@@ -14,15 +14,18 @@ window.onload = function() {
 
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg';
+
+
 var map = new mapboxgl.Map({
 container: 'map', // container id
+pitch: 0.01, 
 style: 'mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi',//hosted style id
-//center: [-77.38, 39], // starting position
-//zoom: 3  starting zoom
+center: [-77.38, 39], // starting position
+zoom: 3  // starting zoom
 });
 
 
-
+/*
 $(document).ready(function() {
 console.log($('#wheel'));
     
@@ -33,11 +36,4 @@ console.log($('#wheel'));
 
     
 });
-
-function timeout(){ 
-
-   
-
-}
-
-setTimeout(timeout, 5000)
+*/
