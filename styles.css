@@ -7,8 +7,8 @@ body {
 .container-fluid {
     width: 100%;
     position: relative;
-    margin-right: 0;
-    
+    margin-right: 0 !important;
+    padding-right: 0 !important;
 }
 
 #map { 
@@ -21,9 +21,6 @@ body {
     height: 100%; */
 }
 
-.mapboxgl-canvas {
-   
-} 
 
 /*a:active {
     width: 700px;
@@ -42,7 +39,7 @@ h3 {
 
 /* Header */
 
-header {
+.main-wp {
     padding-top: 1.5em !important;
 }
 
@@ -86,7 +83,7 @@ header {
 #sidebar header {
     background-color: rgba(61, 180, 169, 0.5);
     color: #295B60;
-    padding: 0.7em;
+   padding: 0.7em;
     padding-right: 2em;
     margin-bottom: 2em;
     font-size: 14px;
@@ -98,18 +95,22 @@ header {
     z-index: 1000;
     background-color: white;
     position: fixed;
-    float: left !important;
+    
+    height: 100%; 
+    
+    /* Scroll Down Sidebar
     overflow-y: scroll;
-    padding: 0.7em;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    */
     }
 
-.wheel {
+#wheel {
     visibility: visible;
     pointer-events: auto;
+    
 }
 
 .side-list {
