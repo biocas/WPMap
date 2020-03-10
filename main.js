@@ -286,11 +286,34 @@ var photoMarkers = [
 }
 ];
 
+// add markers to map
+photoMarkers.features.forEach(function(marker) {
+// create a DOM element for the marker
+var el = document.createElement('div');
+el.className = 'photoMarker';
+/* el.style.backgroundImage =
+'url(https://placekitten.com/g/' +
+marker.properties.iconSize.join('/') +
+'/)';
+el.style.width = '2em';
+el.style.height = '2em'; */ 
+ 
+el.addEventListener('click', function() {
+window.alert(marker.properties.message);
+});
+ 
+// add marker to map
+new mapboxgl.Marker(el)
+.setLngLat(marker.geometry.coordinates)
+.addTo(map);
+});
+
+
 var Zoom = map.getZoom();
 
 // create DOM element for the marker
 var el = document.createElement('div');
-el.id = 'marker';
+el.className = 'photoMarker';
  
 // create the marker
 var marker = new mapboxgl.Marker(el)
@@ -305,6 +328,7 @@ var marker = new mapboxgl.Marker(el)
 if (Zoom > 13) {
    marker.remove();
 }
+
 // links 
 /* https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 For pop up windows 

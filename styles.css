@@ -90,7 +90,7 @@ li{
     height: 100%; */
 }
 
-#marker {
+.photoMarker {
 background-image: url('img/icon-photo.png');
 background-size: cover;
 width: 2em;
