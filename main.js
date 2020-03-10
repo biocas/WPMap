@@ -117,6 +117,175 @@ $("#reset").click(function() {
 });
 });
 
+// geojson of photo markers (catalysts)
+var photoMarkers = [
+    {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Market',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91716706752777,
+          -33.924737991796476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Exhibition',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91695785522458,
+          -33.925895306500564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Community',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91534852981565,
+          -33.92406140053267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Civic',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91528415679932,
+          -33.92637603260166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Sports',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91366410255432,
+          -33.9252810414233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Leisure',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9130525588989,
+          -33.92664310148554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Open',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9124732017517,
+          -33.92568164958479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          title: 'Playground',
+            icon: {
+               /* iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: 'photoMarker'  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91333150863645,
+          -33.92580628285077
+        ]
+      }
+    }
+  ]
+}
+];
+
 var Zoom = map.getZoom();
 
 // create DOM element for the marker
