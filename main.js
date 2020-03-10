@@ -17,7 +17,6 @@ $(window).on("load", function () {
     $('#map').css('height', (h - offsetTop));
     map.resize();
 });
-var zoom = map.getZoom();
 
 
 // Add zoom buttons; Disable rotation and its button 
@@ -57,7 +56,7 @@ $("#community").click(function() {
 });
 });
 
-$("#event").click(function() {
+$("#civic").click(function() {
   map.flyTo({
     center: [
    150.915213, -33.926078
@@ -97,6 +96,16 @@ $("#open").click(function() {
 });
 });
 
+$("#play").click(function() {
+  map.flyTo({
+    center: [
+   150.913482, -33.925905
+    ],
+    zoom: 17.66,
+    essential: true 
+});
+});
+
 // Reset button - resets zoom levels to original
 $("#reset").click(function() {
   map.flyTo({
@@ -108,12 +117,14 @@ $("#reset").click(function() {
 });
 });
 
+var Zoom = map.getZoom();
+
 // create DOM element for the marker
 var el = document.createElement('div');
 el.id = 'marker';
  
 // create the marker
-new mapboxgl.Marker(el)
+var marker = new mapboxgl.Marker(el)
 .setLngLat([
           150.91716706752777,
           -33.924737991796476
@@ -121,9 +132,9 @@ new mapboxgl.Marker(el)
 // .setPopup(popup)  sets a popup on this marker
 .addTo(map);
 
-if (zoom > 13) {
-    console.log("faar away");
-  $("#marker").style.display = "none";  
+
+if (Zoom > 13) {
+   marker.remove();
 }
 // links 
 /* https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
