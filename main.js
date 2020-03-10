@@ -9,6 +9,7 @@ center: [150.906571, -33.926521], // starting position
 zoom: 13  // starting zoom
 });
 
+// Resize map to full window height
 $(window).on("load", function () {
     var h = $(window).height(),
         offsetTop = 60; // Calculate the top offset
@@ -16,6 +17,8 @@ $(window).on("load", function () {
     $('#map').css('height', (h - offsetTop));
     map.resize();
 });
+var zoom = map.getZoom();
+
 
 // Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
@@ -23,6 +26,7 @@ map.addControl(new mapboxgl.NavigationControl({
   showCompass: false
 }));
 
+// Flyto functionality for each catalyst
 $("#market").click(function() {
   map.flyTo({
     center: [
@@ -93,6 +97,7 @@ $("#open").click(function() {
 });
 });
 
+// Reset button - resets zoom levels to original
 $("#reset").click(function() {
   map.flyTo({
     center: [
@@ -102,7 +107,6 @@ $("#reset").click(function() {
     essential: true 
 });
 });
-
 
 // create DOM element for the marker
 var el = document.createElement('div');
@@ -117,6 +121,10 @@ new mapboxgl.Marker(el)
 // .setPopup(popup)  sets a popup on this marker
 .addTo(map);
 
+if (zoom > 13) {
+    console.log("faar away");
+  $("#marker").style.display = "none";  
+}
 // links 
 /* https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 For pop up windows 
