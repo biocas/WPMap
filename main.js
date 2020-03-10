@@ -309,7 +309,6 @@ new mapboxgl.Marker(el)
 });
 
 
-var Zoom = map.getZoom();
 
 // create DOM element for the marker
 var el = document.createElement('div');
@@ -329,8 +328,11 @@ if (Zoom > 13) {
    marker.remove();
 }
 
-// links 
-/* https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
+// links & bits
+/* 
+var Zoom = map.getZoom();
+
+https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 For pop up windows 
 https://stackoverflow.com/questions/6037712/how-to-float-a-div-over-google-maps 
 https://docs.mapbox.com/mapbox.js/example/v1.0.0/marker-tooltips-outside-map/ - this is mapbox.js and is not in use anymore but can help with logic
