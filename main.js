@@ -294,9 +294,9 @@ $("#play").click(function() {
 $("#reset").click(function() {
   map.flyTo({
     center: [
-   150.906571, -33.926521
+   150.906686, -33.926951
     ],
-    zoom: 13,
+    zoom: 13.84,
     essential: true 
 });
 });
