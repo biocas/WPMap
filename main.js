@@ -1,22 +1,25 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg';
+mapboxgl.accessToken = "pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg";
 
 
 var map = new mapboxgl.Map({
-container: 'map', // container id
+container: "map", // container id
 pitch: 0.01, 
-style: 'mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi',//hosted style id
+style: "mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi",//hosted style id
 center: [150.906571, -33.926521], // starting position
 zoom: 13  // starting zoom
 });
 
 // Resize map to full window height
 $(window).on("load", function () {
+    
     var h = $(window).height(),
         offsetTop = 60; // Calculate the top offset
 
-    $('#map').css('height', (h - offsetTop));
+    $("#map").css("height", (h - offsetTop));
     map.resize();
-});
+    }
+    
+);
 
 
 // Add zoom buttons; Disable rotation and its button 
@@ -285,12 +288,19 @@ var photoMarkers = [
   ]
 }
 ];
+if(photoMarkers.features === undefined) {
+  console.log('no feeatures')
+} else {
+  
+    console.log(photoMarkers.features);
+  
+}
 
 // add markers to map
-photoMarkers.features.forEach(function(marker) {
+photoMarkers.features.forEach(function(photoMarkers) {
 // create a DOM element for the marker
-var el = document.createElement('div');
-el.className = 'photoMarker';
+var el = document.createElement("div");
+el.className = "photoMarker";
 /* el.style.backgroundImage =
 'url(https://placekitten.com/g/' +
 marker.properties.iconSize.join('/') +
@@ -298,18 +308,18 @@ marker.properties.iconSize.join('/') +
 el.style.width = '2em';
 el.style.height = '2em'; */ 
  
-el.addEventListener('click', function() {
+el.addEventListener("click", function() {
 window.alert(marker.properties.message);
 });
  
 // add marker to map
 new mapboxgl.Marker(el)
-.setLngLat(marker.geometry.coordinates)
+.setLngLat(photoMarkers.geometry.coordinates)
 .addTo(map);
 });
 
 
-
+/*
 // create DOM element for the marker
 var el = document.createElement('div');
 el.className = 'photoMarker';
@@ -326,7 +336,7 @@ var marker = new mapboxgl.Marker(el)
 
 if (Zoom > 13) {
    marker.remove();
-}
+} */
 
 // links & bits
 /* 
