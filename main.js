@@ -1,8 +1,5 @@
 mapboxgl.accessToken = "pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg";
 
-// geojson of photo markers (catalysts)
-
-
 var map = new mapboxgl.Map({
 container: "map", // container id
 pitch: 0.01, 
@@ -190,12 +187,7 @@ photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
 el.className = "photoMarker";
-/* el.style.backgroundImage =
-'url(https://placekitten.com/g/' +
-marker.properties.iconSize.join('/') +
-'/)';
-el.style.width = '2em';
-el.style.height = '2em';  
+/*  
  
 el.addEventListener("click", function() {
 window.alert(marker.properties.message);
@@ -209,9 +201,6 @@ new mapboxgl.Marker(el)
 
     }  
 );
-
-
-
 
 // Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
@@ -313,59 +302,22 @@ $("#reset").click(function() {
 
 
 /*
-// create DOM element for the marker
-var el = document.createElement('div');
-el.className = 'photoMarker';
- 
-// create the marker
-var marker = new mapboxgl.Marker(el)
-.setLngLat([
-          150.91716706752777,
-          -33.924737991796476
-        ])
+
 // .setPopup(popup)  sets a popup on this marker
 .addTo(map);
 
-
+var Zoom = map.getZoom();
 if (Zoom > 13) {
    marker.remove();
 } */
 
 // links & bits
 /* 
-var Zoom = map.getZoom();
-
 https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 For pop up windows 
 https://stackoverflow.com/questions/6037712/how-to-float-a-div-over-google-maps 
 https://docs.mapbox.com/mapbox.js/example/v1.0.0/marker-tooltips-outside-map/ - this is mapbox.js and is not in use anymore but can help with logic
 
-
 For Staging and catalysts
 https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
 */ 
-
-// CODES FOR WHEEL 
-/*  
-$(document).ready(function() {
-console.log($('#wheel'));
-    
-    $('a#CITY_LIFE').click(function() {
-           alert('hello rect');
-        })
-        
-
-    
-});
-window.onload = function() {
-    // Get object
-    var svgObject = document.getElementById('wheel');
-    //get svg inside object
-    var svgDom = svgObject.contentDocument;
-    console.log(svgObject);
-    console.log(svgDom);
-    // get one svg element by id
-     var CITY_LIFE = svgDom.getElementById("CITY_LIFE");
-    console.log(CITY_LIFE);
-    };
-*/
