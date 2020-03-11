@@ -1,13 +1,16 @@
 mapboxgl.accessToken = "pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg";
 
+// geojson of photo markers (catalysts)
+
 
 var map = new mapboxgl.Map({
 container: "map", // container id
 pitch: 0.01, 
 style: "mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi",//hosted style id
 center: [150.906571, -33.926521], // starting position
-zoom: 13  // starting zoom
+zoom: 16  // starting zoom
 });
+
 
 // Resize map to full window height
 $(window).on("load", function () {
@@ -17,112 +20,7 @@ $(window).on("load", function () {
 
     $("#map").css("height", (h - offsetTop));
     map.resize();
-    }
-    
-);
-
-
-// Add zoom buttons; Disable rotation and its button 
-map.touchZoomRotate.disableRotation();
-map.addControl(new mapboxgl.NavigationControl({
-  showCompass: false
-}));
-
-// Flyto functionality for each catalyst
-$("#market").click(function() {
-  map.flyTo({
-    center: [
-   150.917281, -33.924748
-    ],
-    zoom: 17.32,
-    essential: true 
-});
-});
-
-$("#exhibition").click(function() {
-  map.flyTo({
-    center: [
-   150.917134, -33.926206
-    ],
-    zoom: 17.67,
-    essential: true 
-});
-});
-
-$("#community").click(function() {
-  map.flyTo({
-    center: [
-   150.915180, -33.924748
-    ],
-    zoom: 17.36,
-    essential: true 
-});
-});
-
-$("#civic").click(function() {
-  map.flyTo({
-    center: [
-   150.915213, -33.926078
-    ],
-    zoom: 17.81,
-    essential: true 
-});
-});
-
-$("#sports").click(function() {
-  map.flyTo({
-    center: [
-   150.913617, -33.926399
-    ],
-    zoom: 17.57,
-    essential: true 
-});
-});
-
-$("#leisure").click(function() {
-  map.flyTo({
-    center: [
-   150.913083, -33.926876
-    ],
-    zoom: 17.81,
-    essential: true 
-});
-});
-
-$("#open").click(function() {
-  map.flyTo({
-    center: [
-   150.912620, -33.925912
-    ],
-    zoom: 16.87,
-    essential: true 
-});
-});
-
-$("#play").click(function() {
-  map.flyTo({
-    center: [
-   150.913482, -33.925905
-    ],
-    zoom: 17.66,
-    essential: true 
-});
-});
-
-// Reset button - resets zoom levels to original
-$("#reset").click(function() {
-  map.flyTo({
-    center: [
-   150.906571, -33.926521
-    ],
-    zoom: 13,
-    essential: true 
-});
-});
-
-// geojson of photo markers (catalysts)
-var photoMarkers = [
-    {
+    var photoMarkers = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -286,18 +184,9 @@ var photoMarkers = [
       }
     }
   ]
-}
-];
-if(photoMarkers.features === undefined) {
-  console.log('no feeatures')
-} else {
-  
-    console.log(photoMarkers.features);
-  
-}
-
-// add markers to map
-photoMarkers.features.forEach(function(photoMarkers) {
+};
+    // add markers to map
+photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
 el.className = "photoMarker";
@@ -306,16 +195,120 @@ el.className = "photoMarker";
 marker.properties.iconSize.join('/') +
 '/)';
 el.style.width = '2em';
-el.style.height = '2em'; */ 
+el.style.height = '2em';  
  
 el.addEventListener("click", function() {
 window.alert(marker.properties.message);
-});
+}); */
  
 // add marker to map
 new mapboxgl.Marker(el)
-.setLngLat(photoMarkers.geometry.coordinates)
+.setLngLat(photoMarker.geometry.coordinates)
 .addTo(map);
+});
+
+    }  
+);
+
+
+
+
+// Add zoom buttons; Disable rotation and its button 
+map.touchZoomRotate.disableRotation();
+map.addControl(new mapboxgl.NavigationControl({
+  showCompass: false
+}));
+
+// Flyto functionality for each catalyst
+$("#market").click(function() {
+  map.flyTo({
+    center: [
+   150.917281, -33.924748
+    ],
+    zoom: 17.32,
+    essential: true 
+});
+});
+
+$("#exhibition").click(function() {
+  map.flyTo({
+    center: [
+   150.917134, -33.926206
+    ],
+    zoom: 17.67,
+    essential: true 
+});
+});
+
+$("#community").click(function() {
+  map.flyTo({
+    center: [
+   150.915180, -33.924748
+    ],
+    zoom: 17.36,
+    essential: true 
+});
+});
+
+$("#civic").click(function() {
+  map.flyTo({
+    center: [
+   150.915213, -33.926078
+    ],
+    zoom: 17.81,
+    essential: true 
+});
+});
+
+$("#sports").click(function() {
+  map.flyTo({
+    center: [
+   150.913617, -33.926399
+    ],
+    zoom: 17.57,
+    essential: true 
+});
+});
+
+$("#leisure").click(function() {
+  map.flyTo({
+    center: [
+   150.913083, -33.926876
+    ],
+    zoom: 17.81,
+    essential: true 
+});
+});
+
+$("#open").click(function() {
+  map.flyTo({
+    center: [
+   150.912620, -33.925912
+    ],
+    zoom: 16.87,
+    essential: true 
+});
+});
+
+$("#play").click(function() {
+  map.flyTo({
+    center: [
+   150.913482, -33.925905
+    ],
+    zoom: 17.66,
+    essential: true 
+});
+});
+
+// Reset button - resets zoom levels to original
+$("#reset").click(function() {
+  map.flyTo({
+    center: [
+   150.906571, -33.926521
+    ],
+    zoom: 13,
+    essential: true 
+});
 });
 
 
