@@ -4,8 +4,9 @@ var map = new mapboxgl.Map({
 container: "map", // container id
 pitch: 0.01, 
 style: "mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi",//hosted style id
-center: [150.906571, -33.926521], // starting position
-zoom: 16  // starting zoom
+center: [150.906686, -33.926951], // starting position
+zoom: 13.84
+  // starting zoom
 });
 
 
