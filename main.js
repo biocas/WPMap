@@ -10,14 +10,14 @@ zoom: 13.84
 });
 
 
-// Resize map to full window height
 $(window).on("load", function () {
-    
+    // Resize map to full window height
     var h = $(window).height(),
         offsetTop = 60; // Calculate the top offset
-
     $("#map").css("height", (h - offsetTop));
     map.resize();
+    
+    //markers with photo icon
     var photoMarkers = {
   "type": "FeatureCollection",
   "features": [
@@ -26,11 +26,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Market',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -46,11 +44,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Exhibition',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -66,11 +62,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Community',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -86,11 +80,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Civic',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -106,11 +98,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Sports',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -126,11 +116,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Leisure',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -146,11 +134,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Open',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /*
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -166,11 +152,9 @@ $(window).on("load", function () {
       "properties": {
           title: 'Playground',
             icon: {
-               /* iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+               /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoMarker'  
+                className: 'photoIcon'  
            }
       },
       "geometry": {
@@ -188,11 +172,10 @@ photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
 el.className = "photoMarker";
-/*  
- 
+
 el.addEventListener("click", function() {
-window.alert(marker.properties.message);
-}); */
+window.alert(photoMarker.properties.message);
+}); 
  
 // add marker to map
 new mapboxgl.Marker(el)
@@ -219,7 +202,6 @@ $("#market").click(function() {
     essential: true 
 });
 });
-
 $("#exhibition").click(function() {
   map.flyTo({
     center: [
@@ -229,7 +211,6 @@ $("#exhibition").click(function() {
     essential: true 
 });
 });
-
 $("#community").click(function() {
   map.flyTo({
     center: [
@@ -239,7 +220,6 @@ $("#community").click(function() {
     essential: true 
 });
 });
-
 $("#civic").click(function() {
   map.flyTo({
     center: [
@@ -249,7 +229,6 @@ $("#civic").click(function() {
     essential: true 
 });
 });
-
 $("#sports").click(function() {
   map.flyTo({
     center: [
@@ -259,7 +238,6 @@ $("#sports").click(function() {
     essential: true 
 });
 });
-
 $("#leisure").click(function() {
   map.flyTo({
     center: [
@@ -269,7 +247,6 @@ $("#leisure").click(function() {
     essential: true 
 });
 });
-
 $("#open").click(function() {
   map.flyTo({
     center: [
@@ -279,7 +256,6 @@ $("#open").click(function() {
     essential: true 
 });
 });
-
 $("#play").click(function() {
   map.flyTo({
     center: [
@@ -303,22 +279,44 @@ $("#reset").click(function() {
 
 
 /*
+// links & bits
 
 // .setPopup(popup)  sets a popup on this marker
 .addTo(map);
 
-var Zoom = map.getZoom();
-if (Zoom > 13) {
-   marker.remove();
-} */
-
-// links & bits
-/* 
-https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 For pop up windows 
-https://stackoverflow.com/questions/6037712/how-to-float-a-div-over-google-maps 
-https://docs.mapbox.com/mapbox.js/example/v1.0.0/marker-tooltips-outside-map/ - this is mapbox.js and is not in use anymore but can help with logic
+https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 
 For Staging and catalysts
 https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
+
+
+markers anchors and url from geojson
+iconUrl: 'img/icon-photo.png',
+                 iconSize: [50, 50], // size of the icon
+                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+                
+https://github.com/Nmargolis/story-resume/blob/gh-pages/scripts.js
+
+https://github.com/samreaves/mapbox-starter/blob/master/index.html
+
+https://github.com/atcodedog05/MapboxGL-JS-Pubs-in-Bangalore/blob/master/map.html
+
+
+ el.addEventListener('click', function(e) {
+      flyToStore(marker); // Fly to the point
+      createPopUp(marker); // Close all other popups and display popup for clicked store
+      var activeItem = document.getElementsByClassName('active');
+
+function createPopUp(currentFeature) {
+    var popUps = document.getElementsByClassName('mapboxgl-popup');
+    if (popUps[0]) popUps[0].remove();
+
+    var popup = new mapboxgl.Popup({ closeOnClick: false })
+      .setLngLat(currentFeature.geometry.coordinates)
+      .setHTML('<h3>Sweetgreen</h3>' +
+        '<h4>' + currentFeature.properties.address + '</h4>')
+      .addTo(map);
+  }
+
 */ 
