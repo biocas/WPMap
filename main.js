@@ -302,11 +302,11 @@ https://github.com/samreaves/mapbox-starter/blob/master/index.html
 
 https://github.com/atcodedog05/MapboxGL-JS-Pubs-in-Bangalore/blob/master/map.html
 
+var activeItem = document.getElementsByClassName('active');
 
  el.addEventListener('click', function(e) {
-      flyToStore(marker); // Fly to the point
-      createPopUp(marker); // Close all other popups and display popup for clicked store
-      var activeItem = document.getElementsByClassName('active');
+      createPopUp(marker); // Close all other popups and display popup 
+      
 
 function createPopUp(currentFeature) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
