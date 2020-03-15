@@ -80,8 +80,7 @@ li{
 }
 
 /* Map Section */ 
-#map { 
-    
+#map {   
   /*  this was suggested to be added but not doing any difference
     position: absolute; 
     top: 0; 
@@ -90,6 +89,7 @@ li{
     height: 100%; */
 }
 
+/* Styles photo marker */
 .photoMarker {
 background-image: url('img/icon-photo.png');
 background-size: cover;
@@ -99,16 +99,14 @@ border-radius: 50%;
 cursor: pointer;
 } 
 
+/* Styles photo marker pop up */
 .photo-popup {
-    background-color: aquamarine;
-}
-
-.mapboxgl-popup-content-wrapper {
-    background-color: red;
+ 
 }
 
 .mapboxgl-popup-content {
     font-family: 'Nunito Sans', sans-serif !important;
+    
 }
 
 .mapboxgl-popup-tip {
@@ -142,10 +140,15 @@ cursor: pointer;
 /*a:active {
     width: 700px;
     height: 74px;
-}*/
+}
 
-/* Map Buttons: key, existing, proposed*/ 
-/*  
+// to make pop ups scrollable 
+.mapboxgl-popup-content {
+overflow-y: scroll;
+overflow-x: scroll;
+}
+
+// Map modes 
 .map-modes {
    position: fixed;
     z-index: 2;

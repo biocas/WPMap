@@ -159,7 +159,7 @@ var photoMarkers = {
   ]
 };
 
-
+//create pop ups for photo markers 
 function createPopUp(photoMarker) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
     if (popUps[0]) popUps[0].remove();
