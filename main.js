@@ -164,7 +164,7 @@ function createPopUp(photoMarker) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
     if (popUps[0]) popUps[0].remove();
 
-    var popup = new mapboxgl.Popup({ closeOnClick: false })
+    var popup = new mapboxgl.Popup({ closeOnClick: false, closeOnMove: true, className: "photo-popup" })
       .setLngLat(photoMarker.geometry.coordinates)
       .setHTML('<h3>Catalyst</h3>' +
         '<h4>' + photoMarker.properties.title + '</h4>')
@@ -293,9 +293,6 @@ $("#reset").click(function() {
 /*
 // links & bits
 
-// .setPopup(popup)  sets a popup on this marker
-.addTo(map);
-
 For pop up windows 
 https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 
@@ -315,10 +312,5 @@ https://github.com/samreaves/mapbox-starter/blob/master/index.html
 https://github.com/atcodedog05/MapboxGL-JS-Pubs-in-Bangalore/blob/master/map.html
 
 var activeItem = document.getElementsByClassName('active');
-
- el.addEventListener('click', function(e) {
-      createPopUp(marker); // Close all other popups and display popup 
-      
-
 
 */ 
