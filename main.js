@@ -8,17 +8,8 @@ center: [150.906686, -33.926951], // starting position
 zoom: 13.84
   // starting zoom
 });
-
-
-$(window).on("load", function () {
-    // Resize map to full window height
-    var h = $(window).height(),
-        offsetTop = 60; // Calculate the top offset
-    $("#map").css("height", (h - offsetTop));
-    map.resize();
-    
-    //markers with photo icon
-    var photoMarkers = {
+//markers with photo icon
+var photoMarkers = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -167,6 +158,27 @@ $(window).on("load", function () {
     }
   ]
 };
+
+
+function createPopUp(photoMarker) {
+    var popUps = document.getElementsByClassName('mapboxgl-popup');
+    if (popUps[0]) popUps[0].remove();
+
+    var popup = new mapboxgl.Popup({ closeOnClick: false })
+      .setLngLat(photoMarker.geometry.coordinates)
+      .setHTML('<h3>Catalyst</h3>' +
+        '<h4>' + photoMarker.properties.title + '</h4>')
+      .addTo(map);
+  }
+
+$(window).on("load", function () {
+    // Resize map to full window height
+    var h = $(window).height(),
+        offsetTop = 60; // Calculate the top offset
+    $("#map").css("height", (h - offsetTop));
+    map.resize();
+    
+    
     // add markers to map
 photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
@@ -174,7 +186,7 @@ var el = document.createElement("div");
 el.className = "photoMarker";
 
 el.addEventListener("click", function() {
-window.alert(photoMarker.properties.message);
+createPopUp(photoMarker);
 }); 
  
 // add marker to map
@@ -308,15 +320,5 @@ var activeItem = document.getElementsByClassName('active');
       createPopUp(marker); // Close all other popups and display popup 
       
 
-function createPopUp(currentFeature) {
-    var popUps = document.getElementsByClassName('mapboxgl-popup');
-    if (popUps[0]) popUps[0].remove();
-
-    var popup = new mapboxgl.Popup({ closeOnClick: false })
-      .setLngLat(currentFeature.geometry.coordinates)
-      .setHTML('<h3>Sweetgreen</h3>' +
-        '<h4>' + currentFeature.properties.address + '</h4>')
-      .addTo(map);
-  }
 
 */ 
