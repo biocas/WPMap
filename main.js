@@ -210,7 +210,7 @@ $("#market").click(function() {
     center: [
    150.917281, -33.924748
     ],
-    zoom: 17.32,
+    zoom: 16.32,
     essential: true 
 });
 });
@@ -219,7 +219,7 @@ $("#exhibition").click(function() {
     center: [
    150.917134, -33.926206
     ],
-    zoom: 17.67,
+    zoom: 16.32,
     essential: true 
 });
 });
@@ -228,7 +228,7 @@ $("#community").click(function() {
     center: [
    150.915180, -33.924748
     ],
-    zoom: 17.36,
+    zoom: 16.32,
     essential: true 
 });
 });
@@ -237,7 +237,7 @@ $("#civic").click(function() {
     center: [
    150.915213, -33.926078
     ],
-    zoom: 17.81,
+    zoom: 16.32,
     essential: true 
 });
 });
@@ -246,7 +246,7 @@ $("#sports").click(function() {
     center: [
    150.913617, -33.926399
     ],
-    zoom: 17.57,
+    zoom: 16.32,
     essential: true 
 });
 });
@@ -255,7 +255,7 @@ $("#leisure").click(function() {
     center: [
    150.913083, -33.926876
     ],
-    zoom: 17.81,
+    zoom: 16.32,
     essential: true 
 });
 });
@@ -264,7 +264,7 @@ $("#open").click(function() {
     center: [
    150.912620, -33.925912
     ],
-    zoom: 16.87,
+    zoom: 16.32,
     essential: true 
 });
 });
@@ -273,7 +273,7 @@ $("#play").click(function() {
     center: [
    150.913482, -33.925905
     ],
-    zoom: 17.66,
+    zoom: 16.32,
     essential: true 
 });
 });
