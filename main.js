@@ -15,11 +15,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Market Hall',
+          title: "Market Hall",
+          description: "",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon" 
            }
       },
       "geometry": {
@@ -33,11 +34,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Exhibition Centre ',
+          title: "Exhibition Centre",
+          description: "",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon" 
            }
       },
       "geometry": {
@@ -51,11 +53,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Community Facilities',
+          title: "Community Facilities",
+          description: "",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon"  
            }
       },
       "geometry": {
@@ -69,11 +72,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Civic Centre',
+          title: "Civic Centre",
+          description: "",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon"  
            }
       },
       "geometry": {
@@ -87,11 +91,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Sports Facilities',
+          title: "Sports Facilities",
+          description: "",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon" 
            }
       },
       "geometry": {
@@ -105,11 +110,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Leisure Centre',
+          title: "Leisure Centre",
+          description: "",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon"  
            }
       },
       "geometry": {
@@ -123,11 +129,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Open Space',
+          title: "Open Space",
+          description: "",
             icon: {
                /*
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon" 
            }
       },
       "geometry": {
@@ -141,11 +148,12 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: 'Regional Playground',
+          title: "Regional Playground",
+          description: "",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
-                className: 'photoIcon'  
+                className: "photoIcon"  
            }
       },
       "geometry": {
