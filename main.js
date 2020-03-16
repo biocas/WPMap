@@ -17,6 +17,7 @@ var photoMarkers = {
       "properties": {
           title: "Market Hall",
           description: "",
+          image: "img/placeholder.jpeg",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -36,6 +37,7 @@ var photoMarkers = {
       "properties": {
           title: "Exhibition Centre",
           description: "",
+          image: "img/placeholder.jpeg",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -55,6 +57,7 @@ var photoMarkers = {
       "properties": {
           title: "Community Facilities",
           description: "",
+          image: "img/placeholder.jpeg",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -74,6 +77,7 @@ var photoMarkers = {
       "properties": {
           title: "Civic Centre",
           description: "",
+          image: "img/placeholder.jpeg",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -93,6 +97,7 @@ var photoMarkers = {
       "properties": {
           title: "Sports Facilities",
           description: "",
+          image: "img/placeholder.jpeg",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -111,6 +116,7 @@ var photoMarkers = {
       "type": "Feature",
       "properties": {
           title: "Leisure Centre",
+          image: "img/placeholder.jpeg",
           description: "",
             icon: {
                /* 
@@ -131,6 +137,7 @@ var photoMarkers = {
       "properties": {
           title: "Open Space",
           description: "",
+          image: "img/placeholder.jpeg",
             icon: {
                /*
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -150,6 +157,7 @@ var photoMarkers = {
       "properties": {
           title: "Regional Playground",
           description: "",
+          image: "img/placeholder.jpeg",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -175,7 +183,8 @@ function createPopUp(photoMarker) {
     var popup = new mapboxgl.Popup({ closeOnClick: false, closeOnMove: true, className: "photo-popup" })
       .setLngLat(photoMarker.geometry.coordinates)
       .setHTML(
-        '<h4>' + photoMarker.properties.title + '</h4>')
+        "<h4>" + photoMarker.properties.title + "</h4> <img src=" + photoMarker.properties.image + " alt='An Image of'" + photoMarker.properties.title + ">"
+      )
       .addTo(map);
   }
 
