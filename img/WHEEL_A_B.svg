@@ -436,7 +436,7 @@
 		</i:pgfRef>
 	</foreignObject>
 	<g i:extraneous="self">
-        <a href="" id="CITY_LIFE">
+        <a href="javascript:;" id="CITY_LIFE">
         <g>
 			<g>
 				<path class="st0" d="M411.26,312.85L307.78,64.33C194.5,111.5,111.07,200.12,67.74,305.26L319.49,409
@@ -1417,7 +1417,7 @@
 			</g>
 		</g>
         </a>
-		<a href="" id="MARKET_PLACE">
+		<a href="javascript:;" id="MARKET_PLACE">
         <g>
 			<g>
 				<path class="st35" d="M309.59,450.67c1.58-14.59,4.96-28.55,9.9-41.68L67.74,305.26c-43.32,105.15-46.54,226.82,0.63,340.1
@@ -2935,7 +2935,7 @@
 			</g>
 		</g>
         </a>
-		<a href="" id="SPORTING_PARKS"> 
+		<a href="javascript:;" id="SPORTING_PARKS"> 
             <g>
 			<g>
 				<path class="st68" d="M323.7,539.05L68.37,645.36c47.17,113.28,135.79,196.72,240.93,240.04l106.49-258.43
@@ -4646,7 +4646,7 @@
 			</g>
 		</g>
         </a>
-		<a href="" id="EXHIBITIONS_AND_EVENTS"> 
+		<a href="javascript:;" id="EXHIBITIONS_AND_EVENTS"> 
         <g>
 			<g>
 				<path class="st298" d="M460.3,637.98c-15.65-1.69-30.57-5.47-44.52-11.01L309.3,885.41c105.15,43.33,226.82,46.54,340.1-0.63
@@ -5059,7 +5059,7 @@
 			</g>
 		</g>
         </a>
-		<a href="" id="MIXED_USE">
+		<a href="javascript:;" id="MIXED_USE">
         <g>
 			<g>
 				<path class="st36" d="M541.96,626.75L649.4,884.78c113.28-47.17,196.72-135.79,240.04-240.93L633.77,538.49
@@ -6183,7 +6183,7 @@
 			</g>
 		</g>
         </a>
-		<a href="" id="GREEN_SPACES">
+		<a href="javascript:;" id="GREEN_SPACES">
         <g>
 			<g>
 				<path class="st332" d="M888.82,303.75L637.48,408.4c9.3,24.34,13.13,51.19,10.13,78.87c-1.97,18.19-6.75,35.39-13.84,51.23
@@ -7041,7 +7041,7 @@
 			</g>
 		</g>
         </a>
-		<a href="" id="CITY_FACILITES">
+		<a href="javascript:;" id="CITY_FACILITES">
         <g >
 			<g>
 				<path class="st353" d="M637.48,408.4l251.33-104.65C841.65,190.47,753.03,107.03,647.88,63.7L545.33,312.58
@@ -7994,7 +7994,7 @@
 			</g>
 		</g>
         </a>
-		<a href="" id="AQUATIC_CENTRE">
+		<a href="javascript:;" id="AQUATIC_CENTRE">
         <g>
 			<g>
 				<path class="st376" d="M496.9,299.96c17.12,1.85,33.37,6.2,48.44,12.62L647.88,63.7c-105.15-43.33-226.82-46.54-340.1,0.63
