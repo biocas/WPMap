@@ -330,4 +330,6 @@ https://github.com/atcodedog05/MapboxGL-JS-Pubs-in-Bangalore/blob/master/map.htm
 
 var activeItem = document.getElementsByClassName('active');
 
+Just add data-toggle="collapse" and a data-target to the element to automatically assign control of one or more collapsible elements. The data-target attribute accepts a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible element.
+
 */ 
