@@ -5,7 +5,8 @@ container: "map", // container id
 pitch: 0.01, 
 style: "mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi",//hosted style id
 center: [150.906686, -33.926951], // starting position
-zoom: 13.84
+zoom: 13.84,
+minZoom: 12
   // starting zoom
 });
 //markers with photo icon
@@ -309,9 +310,6 @@ $("#reset").click(function() {
 
 /*
 // links & bits
-
-For pop up windows 
-https://docs.mapbox.com/mapbox-gl-js/example/set-popup/
 
 For Staging and catalysts
 https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
