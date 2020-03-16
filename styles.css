@@ -1,7 +1,12 @@
+html{
+    height: 100%;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif !important;
     overflow-x: hidden;
     font-size: 10px;
+    overflow-y: hidden;
 }
 
 .container-fluid {
@@ -45,10 +50,9 @@ li{
 #sidebar header {
     background-color: rgba(61, 180, 169, 0.5);
     color: #295B60;
-   padding: 0.7em;
+    padding: 0.7em;
     padding-right: 2em;
     font-size: 10px;
-   /* line-height: 22px; */
     text-align: justify;
 }
 
@@ -56,7 +60,7 @@ li{
     z-index: 1000;
     background-color: white;
     position: fixed;
-    height: 100%; 
+    height: 100vh; 
     overflow-y: scroll;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -68,6 +72,7 @@ li{
     visibility: visible;
     pointer-events: auto;
     width: 65%; 
+    height: auto;
 }
 
 .side-list {
