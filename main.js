@@ -246,12 +246,19 @@ new mapboxgl.Marker(el)
     type: "vector",
     url: "mapbox://margaridappp.6ot50v35"
     });
-    }  
-);
-
-//on map load 
-map.on("load", function() {
-}); 
+    
+    map.addLayer({
+    "id": "stage-7",
+    "type": "fill",
+    "source": "7-stage",
+    "source-layer": "Stage_7-4h9mtg",
+   'layout': {
+        'visibility': 'hidden'  
+    },
+    });
+    
+});  
+             
 //functions to addLayer to each stage 
 function stageNow () {
     map.addLayer({
