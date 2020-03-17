@@ -252,42 +252,84 @@ new mapboxgl.Marker(el)
     "type": "fill",
     "source": "now-stage",
     "source-layer": "Existing_Builtform-3sw3zo",
+        "layout": {
+        "visibility": "none" 
+    },
+         "paint": {
+    "fill-color": "#ff69b4"
+    },
     });
     map.addLayer({
     "id": "stage-1",
     "type": "fill",
     "source": "1-stage",
     "source-layer": "Stage_1-bxirbd",
+        "layout": {
+        "visibility": "none" 
+    },
+         "paint": {
+    "fill-color": "#ff69b4"
+    },
     });
     map.addLayer({
     "id": "stage-2",
     "type": "fill",
     "source": "2-stage",
     "source-layer": "Stage_2-7piuxz",
+        "layout": {
+        "visibility": "none" 
+    },
+         "paint": {
+    "fill-color": "#ff69b4"
+    },
     });
     map.addLayer({
     "id": "stage-3",
     "type": "fill",
     "source": "3-stage",
     "source-layer": "Stage_3-0qja53",
+        "layout": {
+        "visibility": "none" 
+    },
+         "paint": {
+    "fill-color": "#ff69b4"
+    },
     });
     map.addLayer({
     "id": "stage-4",
     "type": "fill",
     "source": "4-stage",
     "source-layer": "Stage_4-94c0lt",
+        "layout": {
+        "visibility": "none" 
+    },
+         "paint": {
+    "fill-color": "#ff69b4"
+    },
     });
      map.addLayer({
     "id": "stage-5",
     "type": "fill",
     "source": "5-stage",
     "source-layer": "Stage_5-50lqqa",
+         "layout": {
+        "visibility": "none" 
+    },
+          "paint": {
+    "fill-color": "#ff69b4"
+    },
     });
     map.addLayer({
     "id": "stage-6",
     "type": "fill",
     "source": "6-stage",
     "source-layer": "Stage_6-2qksol",
+        "layout": {
+        "visibility": "none" 
+    },
+         "paint": {
+    "fill-color": "#ff69b4"
+    },
     });
     map.addLayer({
     "id": "stage-7",
@@ -296,6 +338,9 @@ new mapboxgl.Marker(el)
     "source-layer": "Stage_7-4h9mtg",
    "layout": {
         "visibility": "none" 
+    },
+         "paint": {
+    "fill-color": "#ff69b4"
     },
     });
     
