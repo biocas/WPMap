@@ -190,15 +190,15 @@ function createPopUp(photoMarker) {
   }
 // on page load
 $(window).on("load", function () {
-    // Resize map to full window height
+// Resize map to full window height
     var h = $(window).height(),
         offsetTop = 60; // Calculate the top offset
     $("#map").css("height", (h - offsetTop));
     map.resize();
     
     
-    // add markers to map
-photoMarkers.features.forEach(function(photoMarker) {
+// add markers to map
+    photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
 el.className = "photoMarker";
@@ -213,16 +213,18 @@ new mapboxgl.Marker(el)
 .addTo(map);
 });
 
+// Add map source
+    map.addSource("tway", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
     }  
 );
 
 //on map load 
 map.on("load", function() {
     
-    map.addSource("tway", {
-    type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
     
     
  
@@ -236,7 +238,7 @@ function stageNow () {
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
     "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#eb4034"
     },
     });
 }
@@ -258,7 +260,7 @@ function stage2 () {
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
     "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#c0eb34"
     },
     });
 }
@@ -269,7 +271,7 @@ function stage3 () {
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
     "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#34eb93"
     },
     });
 }
@@ -280,7 +282,7 @@ function stage4 () {
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
     "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#3499eb"
     },
     });
 }
@@ -291,7 +293,7 @@ function stage5 () {
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
     "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#6234eb"
     },
     });
 }
@@ -302,7 +304,7 @@ function stage6 () {
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
     "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ebab34"
     },
     });
 }
@@ -313,7 +315,7 @@ function stage7 () {
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
     "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#9934eb"
     },
     });
 }
