@@ -214,49 +214,37 @@ new mapboxgl.Marker(el)
 });
 
 // Add map sources - all staging added as different sources
-    map.addSource("tway", {
-    type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
-    
     map.addSource("now-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
+    url: "mapbox://margaridappp.cs26xz9f"
     });
-    
     map.addSource("1-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
-    
+    url: "mapbox://margaridappp.7bilpqrg"
+    }); 
     map.addSource("2-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
-    
+    url: "mapbox://margaridappp.80cbjvf5"
+    });   
     map.addSource("3-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
-    
+    url: "mapbox://margaridappp.1ex24ocz"
+    });    
     map.addSource("4-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
-    
+    url: "mapbox://margaridappp.4zwbhblp"
+    });    
     map.addSource("5-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
-    
+    url: "mapbox://margaridappp.asuiwdv3"
+    });    
     map.addSource("6-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
-    });
-    
+    url: "mapbox://margaridappp.cts7r34u"
+    });    
     map.addSource("7-stage", {
     type: "vector",
-    url: "mapbox://margaridappp.8ryqrsey"
+    url: "mapbox://margaridappp.6ot50v35"
     });
     }  
 );
@@ -269,87 +257,66 @@ function stageNow () {
     map.addLayer({
     "id": "stage-now",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#eb4034"
-    },
+    "source": "now-stage",
+    "source-layer": "Existing_Builtform-3sw3zo",
     });
 }
 function stage1 () {
     map.addLayer({
     "id": "stage-1",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#ff69b4"
-    },
+    "source": "1-stage",
+    "source-layer": "Stage_1-bxirbd",
     });
 }
 function stage2 () {
     map.addLayer({
     "id": "stage-2",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#c0eb34"
-    },
+    "source": "2-stage",
+    "source-layer": "Stage_2-7piuxz",
     });
 }
 function stage3 () {
     map.addLayer({
     "id": "stage-3",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#34eb93"
-    },
+    "source": "3-stage",
+    "source-layer": "Stage_3-0qja53",
     });
 }
 function stage4 () {
     map.addLayer({
     "id": "stage-4",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#3499eb"
-    },
+    "source": "4-stage",
+    "source-layer": "Stage_4-94c0lt",
     });
 }
 function stage5 () {
     map.addLayer({
     "id": "stage-5",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#6234eb"
-    },
+    "source": "5-stage",
+    "source-layer": "Stage_5-50lqqa",
     });
 }
 function stage6 () {
     map.addLayer({
     "id": "stage-6",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#ebab34"
-    },
+    "source": "6-stage",
+    "source-layer": "Stage_6-2qksol",
     });
 }
 function stage7 () {
     map.addLayer({
     "id": "stage-7",
     "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    "paint": {
-    "fill-color": "#9934eb"
+    "source": "7-stage",
+    "source-layer": "Stage_7-4h9mtg",
+   'layout': {
+        'visibility': 'visible'  
     },
     });
 }
