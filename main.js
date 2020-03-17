@@ -233,7 +233,7 @@ map.on("load", function() {
 //functions to addLayer to each stage 
 function stageNow () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-now",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
@@ -244,7 +244,7 @@ function stageNow () {
 }
 function stage1 () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-1",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
@@ -255,7 +255,7 @@ function stage1 () {
 }
 function stage2 () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-2",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
@@ -266,7 +266,7 @@ function stage2 () {
 }
 function stage3 () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-3",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
@@ -277,7 +277,7 @@ function stage3 () {
 }
 function stage4 () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-4",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
@@ -288,7 +288,7 @@ function stage4 () {
 }
 function stage5 () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-5",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
@@ -299,7 +299,7 @@ function stage5 () {
 }
 function stage6 () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-6",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
@@ -310,7 +310,7 @@ function stage6 () {
 }
 function stage7 () {
     map.addLayer({
-    "id": "mainroad",
+    "id": "stage-7",
     "type": "fill",
     "source": "tway",
     "source-layer": "T-Way-9ttiis",
