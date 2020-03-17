@@ -357,36 +357,66 @@ new mapboxgl.Marker(el)
 //functions to addLayer to each stage 
 function stageNow () {
     $(this).toggleClass( "clicked" )
-     //map.setLayoutProperty('stage-now', 'visibility', 'visible');
-    //var state = $(this).data('state');
-   // state = !state;
     if ($(this).hasClass("clicked")) {
-    map.setLayoutProperty('stage-now', 'visibility', 'visible');
-} else {
-    map.setLayoutProperty('stage-now', 'visibility', 'none');
-} 
-
+        map.setLayoutProperty('stage-now', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+    } 
 }
 function stage1 () {
-    map.setLayoutProperty('stage-1', 'visibility', 'visible');
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.setLayoutProperty('stage-1', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+    } 
 }
 function stage2 () {
-    map.setLayoutProperty('stage-2', 'visibility', 'visible');
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.setLayoutProperty('stage-2', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+    } 
 }
 function stage3 () {
-    map.setLayoutProperty('stage-3', 'visibility', 'visible');
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.setLayoutProperty('stage-3', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+    } 
 }
 function stage4 () {
-    map.setLayoutProperty('stage-4', 'visibility', 'visible');
-}
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.setLayoutProperty('stage-4', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+    } }
 function stage5 () {
-   map.setLayoutProperty('stage-5', 'visibility', 'visible');
+   $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.setLayoutProperty('stage-5', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+    } 
 }
 function stage6 () {
-    map.setLayoutProperty('stage-6', 'visibility', 'visible');
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.setLayoutProperty('stage-6', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
+    } 
 }
 function stage7 () {
-    map.setLayoutProperty('stage-7', 'visibility', 'visible');
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.setLayoutProperty('stage-7', 'visibility', 'visible');
+    } else {
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
+    } 
 }
 
 
