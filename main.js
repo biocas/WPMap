@@ -188,7 +188,7 @@ function createPopUp(photoMarker) {
       )
       .addTo(map);
   }
-
+// on page load
 $(window).on("load", function () {
     // Resize map to full window height
     var h = $(window).height(),
@@ -215,6 +215,35 @@ new mapboxgl.Marker(el)
 
     }  
 );
+
+//on map load 
+map.on("load", function() {
+    
+    map.addSource("tway", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    
+ 
+   
+}); 
+
+function stage1 () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
+
+//event listeners to stages  
+document.getElementById("stage1").addEventListener("click", stage1);
+
 
 // Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
@@ -329,5 +358,19 @@ https://github.com/atcodedog05/MapboxGL-JS-Pubs-in-Bangalore/blob/master/map.htm
 var activeItem = document.getElementsByClassName('active');
 
 Just add data-toggle="collapse" and a data-target to the element to automatically assign control of one or more collapsible elements. The data-target attribute accepts a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible element.
+
+map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    'layout': {
+        'visibility': 'visible' - maybe we can use this to toggle the filters 
+    },
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+ 
 
 */ 
