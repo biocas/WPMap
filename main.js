@@ -248,6 +248,48 @@ new mapboxgl.Marker(el)
     });
     
     map.addLayer({
+    "id": "stage-now",
+    "type": "fill",
+    "source": "now-stage",
+    "source-layer": "Existing_Builtform-3sw3zo",
+    });
+    map.addLayer({
+    "id": "stage-1",
+    "type": "fill",
+    "source": "1-stage",
+    "source-layer": "Stage_1-bxirbd",
+    });
+    map.addLayer({
+    "id": "stage-2",
+    "type": "fill",
+    "source": "2-stage",
+    "source-layer": "Stage_2-7piuxz",
+    });
+    map.addLayer({
+    "id": "stage-3",
+    "type": "fill",
+    "source": "3-stage",
+    "source-layer": "Stage_3-0qja53",
+    });
+    map.addLayer({
+    "id": "stage-4",
+    "type": "fill",
+    "source": "4-stage",
+    "source-layer": "Stage_4-94c0lt",
+    });
+     map.addLayer({
+    "id": "stage-5",
+    "type": "fill",
+    "source": "5-stage",
+    "source-layer": "Stage_5-50lqqa",
+    });
+    map.addLayer({
+    "id": "stage-6",
+    "type": "fill",
+    "source": "6-stage",
+    "source-layer": "Stage_6-2qksol",
+    });
+    map.addLayer({
     "id": "stage-7",
     "type": "fill",
     "source": "7-stage",
@@ -261,7 +303,7 @@ new mapboxgl.Marker(el)
              
 //functions to addLayer to each stage 
 function stageNow () {
-    map.setLayoutProperty('Existing_Builtform-3sw3zo', 'visibility', 'visible');
+    map.setLayoutProperty('stage-now', 'visibility', 'visible');
 }
 function stage1 () {
     map.setLayoutProperty('stage-1', 'visibility', 'visible');
