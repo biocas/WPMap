@@ -256,7 +256,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4", 
+     "fill-opacity" : 0.17       
     },
     });
     map.addLayer({
@@ -268,7 +269,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4",
+    "fill-opacity" : 0.17
     },
     });
     map.addLayer({
@@ -280,7 +282,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4",
+    "fill-opacity" : 0.17
     },
     });
     map.addLayer({
@@ -292,7 +295,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4",
+    "fill-opacity" : 0.17
     },
     });
     map.addLayer({
@@ -304,7 +308,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4",
+    "fill-opacity" : 0.17
     },
     });
     map.addLayer({
@@ -316,7 +321,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
           "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4",
+    "fill-opacity" : 0.17
     },
     });
     map.addLayer({
@@ -328,7 +334,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4",
+    "fill-opacity" : 0.17
     },
     });
     map.addLayer({
@@ -340,7 +347,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4"
+    "fill-color": "#ff69b4",
+    "fill-opacity" : 0.17
     },
     });
     
@@ -348,10 +356,11 @@ new mapboxgl.Marker(el)
              
 //functions to addLayer to each stage 
 function stageNow () {
-    // map.setLayoutProperty('stage-now', 'visibility', 'visible');
-    var state = $(this).data('state');
-    state = !state;
-    if (state) {
+    $(this).toggleClass( "clicked" )
+     //map.setLayoutProperty('stage-now', 'visibility', 'visible');
+    //var state = $(this).data('state');
+   // state = !state;
+    if ($(this).hasClass("clicked")) {
     map.setLayoutProperty('stage-now', 'visibility', 'visible');
 } else {
     map.setLayoutProperty('stage-now', 'visibility', 'none');
