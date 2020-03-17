@@ -246,7 +246,7 @@ new mapboxgl.Marker(el)
     type: "vector",
     url: "mapbox://margaridappp.6ot50v35"
     });
-    
+//Add map layers corresponding to each stage   
     map.addLayer({
     "id": "stage-now",
     "type": "fill",
@@ -307,7 +307,7 @@ new mapboxgl.Marker(el)
     "fill-color": "#ff69b4"
     },
     });
-     map.addLayer({
+    map.addLayer({
     "id": "stage-5",
     "type": "fill",
     "source": "5-stage",
@@ -348,7 +348,15 @@ new mapboxgl.Marker(el)
              
 //functions to addLayer to each stage 
 function stageNow () {
+    // map.setLayoutProperty('stage-now', 'visibility', 'visible');
+    var state = $(this).data('state');
+    state = !state;
+    if (state) {
     map.setLayoutProperty('stage-now', 'visibility', 'visible');
+} else {
+    map.setLayoutProperty('stage-now', 'visibility', 'none');
+} 
+
 }
 function stage1 () {
     map.setLayoutProperty('stage-1', 'visibility', 'visible');
