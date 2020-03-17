@@ -256,8 +256,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4", 
-     "fill-opacity" : 0.17       
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35       
     },
     });
     map.addLayer({
@@ -269,8 +269,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4",
-    "fill-opacity" : 0.17
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35 
     },
     });
     map.addLayer({
@@ -282,8 +282,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4",
-    "fill-opacity" : 0.17
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35 
     },
     });
     map.addLayer({
@@ -295,8 +295,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4",
-    "fill-opacity" : 0.17
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35 
     },
     });
     map.addLayer({
@@ -308,8 +308,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4",
-    "fill-opacity" : 0.17
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35 
     },
     });
     map.addLayer({
@@ -321,8 +321,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
           "paint": {
-    "fill-color": "#ff69b4",
-    "fill-opacity" : 0.17
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35 
     },
     });
     map.addLayer({
@@ -334,8 +334,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4",
-    "fill-opacity" : 0.17
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35 
     },
     });
     map.addLayer({
@@ -347,8 +347,8 @@ new mapboxgl.Marker(el)
         "visibility": "none" 
     },
          "paint": {
-    "fill-color": "#ff69b4",
-    "fill-opacity" : 0.17
+            "fill-color": "#fe8c01", 
+            "fill-opacity" : 0.35 
     },
     });
     
