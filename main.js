@@ -213,22 +213,56 @@ new mapboxgl.Marker(el)
 .addTo(map);
 });
 
-// Add map source
+// Add map sources - all staging added as different sources
     map.addSource("tway", {
     type: "vector",
     url: "mapbox://margaridappp.8ryqrsey"
     });
     
+    map.addSource("now-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    map.addSource("1-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    map.addSource("2-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    map.addSource("3-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    map.addSource("4-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    map.addSource("5-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    map.addSource("6-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
+    
+    map.addSource("7-stage", {
+    type: "vector",
+    url: "mapbox://margaridappp.8ryqrsey"
+    });
     }  
 );
 
 //on map load 
 map.on("load", function() {
-    
-    
-    
- 
-   
 }); 
 //functions to addLayer to each stage 
 function stageNow () {
