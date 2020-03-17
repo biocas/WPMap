@@ -228,7 +228,18 @@ map.on("load", function() {
  
    
 }); 
-
+//functions to addLayer to each stage 
+function stageNow () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
 function stage1 () {
     map.addLayer({
     "id": "mainroad",
@@ -240,9 +251,81 @@ function stage1 () {
     },
     });
 }
-
+function stage2 () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
+function stage3 () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
+function stage4 () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
+function stage5 () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
+function stage6 () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
+function stage7 () {
+    map.addLayer({
+    "id": "mainroad",
+    "type": "fill",
+    "source": "tway",
+    "source-layer": "T-Way-9ttiis",
+    "paint": {
+    "fill-color": "#ff69b4"
+    },
+    });
+}
 //event listeners to stages  
+document.getElementById("stageNow").addEventListener("click", stageNow);
 document.getElementById("stage1").addEventListener("click", stage1);
+document.getElementById("stage2").addEventListener("click", stage2);
+document.getElementById("stage3").addEventListener("click", stage3);
+document.getElementById("stage4").addEventListener("click", stage4);
+document.getElementById("stage5").addEventListener("click", stage5);
+document.getElementById("stage6").addEventListener("click", stage6);
+document.getElementById("stage7").addEventListener("click", stage7);
 
 
 // Add zoom buttons; Disable rotation and its button 
