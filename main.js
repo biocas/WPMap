@@ -419,7 +419,6 @@ function stage7 () {
     } 
 }
 
-
 //event listeners to stages  
 document.getElementById("stageNow").addEventListener("click", stageNow);
 document.getElementById("stage1").addEventListener("click", stage1);
@@ -429,7 +428,6 @@ document.getElementById("stage4").addEventListener("click", stage4);
 document.getElementById("stage5").addEventListener("click", stage5);
 document.getElementById("stage6").addEventListener("click", stage6);
 document.getElementById("stage7").addEventListener("click", stage7);
-
 
 // Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
