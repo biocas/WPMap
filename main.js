@@ -7,8 +7,9 @@ style: "mapbox://styles/margaridappp/ck6hfu5d60jgr1ikdhhjvrefi",//hosted style i
 center: [150.906686, -33.926951], // starting position
 zoom: 13.84,
 minZoom: 12
-  // starting zoom
 });
+
+ 
 //markers with photo icon
 var photoMarkers = {
   "type": "FeatureCollection",
@@ -188,7 +189,22 @@ function createPopUp(photoMarker) {
       )
       .addTo(map);
   }
-// on page load
+
+
+// resize map function 
+window.onresize = function(event) {
+    var h = $(window).height(),
+        offsetTop = 60; // Calculate the top offset
+    $("#map").css("height", (h - offsetTop));
+    map.resize();
+};
+
+/* map.on('load', function() {
+    var mapCanvas = document.getElementsByClassName('mapboxgl-canvas')[0];
+    var mapDiv = document.getElementById('map');
+    
+    map.resize();
+}); */ 
 $(window).on("load", function () {
 // Resize map to full window height
     var h = $(window).height(),
@@ -520,7 +536,6 @@ $("#reset").click(function() {
 });
 });
 
-
 /*
 // links & bits
 
@@ -543,86 +558,12 @@ var activeItem = document.getElementsByClassName('active');
 
 Just add data-toggle="collapse" and a data-target to the element to automatically assign control of one or more collapsible elements. The data-target attribute accepts a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible element.
 
-map.addLayer({
-    "id": "mainroad",
-    "type": "fill",
-    "source": "tway",
-    "source-layer": "T-Way-9ttiis",
-    'layout': {
-        'visibility': 'visible' - maybe we can use this to toggle the filters 
-    },
-    "paint": {
-    "fill-color": "#ff69b4"
-    },
-    });
 
-function stageNow () {
-    map.addLayer({
-    "id": "stage-now",
-    "type": "fill",
-    "source": "now-stage",
-    "source-layer": "Existing_Builtform-3sw3zo",
-    });
+function checkViewport() {
+    var vWidth = $(window).width();
+    return (vWidth <= 768) ? true : false;
 }
-function stage1 () {
-    map.addLayer({
-    "id": "stage-1",
-    "type": "fill",
-    "source": "1-stage",
-    "source-layer": "Stage_1-bxirbd",
-    });
-}
-function stage2 () {
-    map.addLayer({
-    "id": "stage-2",
-    "type": "fill",
-    "source": "2-stage",
-    "source-layer": "Stage_2-7piuxz",
-    });
-}
-function stage3 () {
-    map.addLayer({
-    "id": "stage-3",
-    "type": "fill",
-    "source": "3-stage",
-    "source-layer": "Stage_3-0qja53",
-    });
-}
-function stage4 () {
-    map.addLayer({
-    "id": "stage-4",
-    "type": "fill",
-    "source": "4-stage",
-    "source-layer": "Stage_4-94c0lt",
-    });
-}
-function stage5 () {
-    map.addLayer({
-    "id": "stage-5",
-    "type": "fill",
-    "source": "5-stage",
-    "source-layer": "Stage_5-50lqqa",
-    });
-}
-function stage6 () {
-    map.addLayer({
-    "id": "stage-6",
-    "type": "fill",
-    "source": "6-stage",
-    "source-layer": "Stage_6-2qksol",
-    });
-}
-function stage7 () {
-    map.addLayer({
-    "id": "stage-7",
-    "type": "fill",
-    "source": "7-stage",
-    "source-layer": "Stage_7-4h9mtg",
-   'layout': {
-        'visibility': 'visible'  
-    },
-    }); 
+
     
-}
 
 */ 
