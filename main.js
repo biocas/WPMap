@@ -190,21 +190,6 @@ function createPopUp(photoMarker) {
       .addTo(map);
   }
 
-
-// resize map function 
-window.onresize = function(event) {
-    var h = $(window).height(),
-        offsetTop = 60; // Calculate the top offset
-    $("#map").css("height", (h - offsetTop));
-    map.resize();
-};
-
-/* map.on('load', function() {
-    var mapCanvas = document.getElementsByClassName('mapboxgl-canvas')[0];
-    var mapDiv = document.getElementById('map');
-    
-    map.resize();
-}); */ 
 $(window).on("load", function () {
 // Resize map to full window height
     var h = $(window).height(),
@@ -212,8 +197,7 @@ $(window).on("load", function () {
     $("#map").css("height", (h - offsetTop));
     map.resize();
     
-    
-// add markers to map
+        // add markers to map
     photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
@@ -228,8 +212,8 @@ new mapboxgl.Marker(el)
 .setLngLat(photoMarker.geometry.coordinates)
 .addTo(map);
 });
-
-// Add map sources - all staging added as different sources
+    
+    // Add map sources - all staging added as different sources
     map.addSource("now-stage", {
     type: "vector",
     url: "mapbox://margaridappp.cs26xz9f"
@@ -367,8 +351,22 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
-    
 });  
+
+ 
+// resize map function 
+window.onresize = function(event) {
+    var h = $(window).height(),
+        offsetTop = 60; // Calculate the top offset
+    $("#map").css("height", (h - offsetTop));
+    map.resize();
+};
+
+map.on('styledata', function() {
+
+
+}); 
+
              
 //functions to addLayer to each stage 
 function stageNow () {
