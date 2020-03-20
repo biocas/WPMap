@@ -197,8 +197,13 @@ $(window).on("load", function () {
     $("#map").css("height", (h - offsetTop));
     map.resize();
     
-        // add markers to map
-    photoMarkers.features.forEach(function(photoMarker) {
+//access SVG Activation Wheel
+    var svgObject = document.getElementById('wheel').contentDocument; // this bit is working
+    //var svg = svgObject.getElementById('MARKET_PLACE');
+    console.log(svgObject);
+    
+// add markers to map
+photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
 el.className = "photoMarker";
@@ -213,41 +218,41 @@ new mapboxgl.Marker(el)
 .addTo(map);
 });
     
-    // Add map sources - all staging added as different sources
-    map.addSource("now-stage", {
+// Add map sources - all staging added as different sources
+map.addSource("now-stage", {
     type: "vector",
     url: "mapbox://margaridappp.cs26xz9f"
     });
-    map.addSource("1-stage", {
+map.addSource("1-stage", {
     type: "vector",
     url: "mapbox://margaridappp.7bilpqrg"
     }); 
-    map.addSource("2-stage", {
+map.addSource("2-stage", {
     type: "vector",
     url: "mapbox://margaridappp.80cbjvf5"
     });   
-    map.addSource("3-stage", {
+map.addSource("3-stage", {
     type: "vector",
     url: "mapbox://margaridappp.1ex24ocz"
     });    
-    map.addSource("4-stage", {
+map.addSource("4-stage", {
     type: "vector",
     url: "mapbox://margaridappp.4zwbhblp"
     });    
-    map.addSource("5-stage", {
+map.addSource("5-stage", {
     type: "vector",
     url: "mapbox://margaridappp.asuiwdv3"
     });    
-    map.addSource("6-stage", {
+map.addSource("6-stage", {
     type: "vector",
     url: "mapbox://margaridappp.cts7r34u"
     });    
-    map.addSource("7-stage", {
+map.addSource("7-stage", {
     type: "vector",
     url: "mapbox://margaridappp.6ot50v35"
     });
 //Add map layers corresponding to each stage   
-    map.addLayer({
+map.addLayer({
     "id": "stage-now",
     "type": "fill",
     "source": "now-stage",
@@ -260,7 +265,7 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35       
     },
     });
-    map.addLayer({
+map.addLayer({
     "id": "stage-1",
     "type": "fill",
     "source": "1-stage",
@@ -273,7 +278,7 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
-    map.addLayer({
+map.addLayer({
     "id": "stage-2",
     "type": "fill",
     "source": "2-stage",
@@ -286,7 +291,7 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
-    map.addLayer({
+map.addLayer({
     "id": "stage-3",
     "type": "fill",
     "source": "3-stage",
@@ -299,7 +304,7 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
-    map.addLayer({
+map.addLayer({
     "id": "stage-4",
     "type": "fill",
     "source": "4-stage",
@@ -312,7 +317,7 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
-    map.addLayer({
+map.addLayer({
     "id": "stage-5",
     "type": "fill",
     "source": "5-stage",
@@ -325,7 +330,7 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
-    map.addLayer({
+map.addLayer({
     "id": "stage-6",
     "type": "fill",
     "source": "6-stage",
@@ -338,7 +343,7 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
-    map.addLayer({
+map.addLayer({
     "id": "stage-7",
     "type": "fill",
     "source": "7-stage",
@@ -351,6 +356,17 @@ new mapboxgl.Marker(el)
             "fill-opacity" : 0.35 
     },
     });
+    map.loadImage('img/0001.jpg', function(error, image) {
+   if (error) throw error;
+   if (!map.hasImage('border-image')) {
+     map.addImage('border-image', image, {
+         content: [16, 16, 300, 384], // place text over left half of image, avoiding the 16px border
+         //stretchX: [[16, 584]], // stretch everything horizontally except the 16px border
+         //stretchY: [[16, 384]], // stretch everything vertically except the 16px border
+     });
+   }
+});
+
 });  
 
  
@@ -540,6 +556,8 @@ $("#reset").click(function() {
 For Staging and catalysts
 https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
 
+https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/
+https://gis.stackexchange.com/questions/257056/overlaying-image-on-mapbox-map
 
 markers anchors and url from geojson
 iconUrl: 'img/icon-photo.png',
@@ -556,12 +574,12 @@ var activeItem = document.getElementsByClassName('active');
 
 Just add data-toggle="collapse" and a data-target to the element to automatically assign control of one or more collapsible elements. The data-target attribute accepts a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible element.
 
-
-function checkViewport() {
-    var vWidth = $(window).width();
-    return (vWidth <= 768) ? true : false;
-}
-
-    
-
+https://docs.mapbox.com/mapbox-gl-js/api/ - set popup anchor
+    TO FIZ STAGING CLICKS (REMOVE LAYER WHEN SOMETHING ELSE IS CLICKED)
+$(document).on("click",".sidebar li",function(){
+  if (!$(this).hasClass("current")) {
+    $("li.current").removeClass("current");
+    $(this).addClass("current");
+  }
+});
 */ 
