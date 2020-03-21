@@ -197,11 +197,7 @@ $(window).on("load", function () {
     $("#map").css("height", (h - offsetTop));
     map.resize();
     
-//access SVG Activation Wheel
-    var svgObject = document.getElementById('wheel').contentDocument; // this bit is working
-    //var svg = svgObject.getElementById('MARKET_PLACE');
-    console.log(svgObject);
-    
+
 // add markers to map
 photoMarkers.features.forEach(function(photoMarker) {
 // create a DOM element for the marker
@@ -218,7 +214,24 @@ new mapboxgl.Marker(el)
 .addTo(map);
 });
     
-// Add map sources - all staging added as different sources
+});  
+
+ 
+// resize map function 
+window.onresize = function(event) {
+    var h = $(window).height(),
+        offsetTop = 60; // Calculate the top offset
+    $("#map").css("height", (h - offsetTop));
+    map.resize();
+};
+
+map.on('load', function() {
+//access SVG Activation Wheel
+    var svgObject = document.getElementById('wheel').contentDocument; // this bit is working
+    //var svg = svgObject.getElementById('MARKET_PLACE');
+    console.log(svgObject);
+    
+    // Add map sources - all staging added as different sources
 map.addSource("now-stage", {
     type: "vector",
     url: "mapbox://margaridappp.cs26xz9f"
@@ -367,20 +380,6 @@ map.addLayer({
    }
 });
 
-});  
-
- 
-// resize map function 
-window.onresize = function(event) {
-    var h = $(window).height(),
-        offsetTop = 60; // Calculate the top offset
-    $("#map").css("height", (h - offsetTop));
-    map.resize();
-};
-
-map.on('styledata', function() {
-
-
 }); 
 
              
@@ -389,6 +388,14 @@ function stageNow () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-now', 'visibility', 'visible');
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
+
     } else {
         map.setLayoutProperty('stage-now', 'visibility', 'none');
     } 
@@ -397,6 +404,13 @@ function stage1 () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-1', 'visibility', 'visible');
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
     } else {
         map.setLayoutProperty('stage-1', 'visibility', 'none');
     } 
@@ -405,6 +419,13 @@ function stage2 () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-2', 'visibility', 'visible');
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
     } else {
         map.setLayoutProperty('stage-2', 'visibility', 'none');
     } 
@@ -413,6 +434,13 @@ function stage3 () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-3', 'visibility', 'visible');
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
     } else {
         map.setLayoutProperty('stage-3', 'visibility', 'none');
     } 
@@ -421,6 +449,13 @@ function stage4 () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-4', 'visibility', 'visible');
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
     } else {
         map.setLayoutProperty('stage-4', 'visibility', 'none');
     } }
@@ -428,6 +463,13 @@ function stage5 () {
    $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-5', 'visibility', 'visible');
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
     } else {
         map.setLayoutProperty('stage-5', 'visibility', 'none');
     } 
@@ -436,6 +478,13 @@ function stage6 () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-6', 'visibility', 'visible');
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+        map.setLayoutProperty('stage-7', 'visibility', 'none');
     } else {
         map.setLayoutProperty('stage-6', 'visibility', 'none');
     } 
@@ -444,6 +493,13 @@ function stage7 () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-7', 'visibility', 'visible');
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.setLayoutProperty('stage-1', 'visibility', 'none');
+        map.setLayoutProperty('stage-2', 'visibility', 'none');
+        map.setLayoutProperty('stage-3', 'visibility', 'none');
+        map.setLayoutProperty('stage-4', 'visibility', 'none');
+        map.setLayoutProperty('stage-5', 'visibility', 'none');
+        map.setLayoutProperty('stage-6', 'visibility', 'none');
     } else {
         map.setLayoutProperty('stage-7', 'visibility', 'none');
     } 
