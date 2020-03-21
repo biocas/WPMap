@@ -393,39 +393,6 @@ map.addLayer({
             "fill-opacity" : 0.35 
     },
     });
-   /* map.loadImage('img/0001.jpg', function(error, image) {
-   if (error) throw error;
-   if (!map.hasImage('border-image')) {
-     map.addImage('border-image', image, {
-         content: [
-          [
-            [
-              510.91112136840826,
-              -33.92883303474794
-            ],
-            [
-              510.91811656951904,
-              -33.92883303474794
-            ],
-            [
-              510.91811656951904,
-              -33.923491635300394
-            ],
-            [
-              510.91112136840826,
-              -33.923491635300394
-            ],
-            [
-              510.91112136840826,
-              -33.92883303474794
-            ]
-          ]
-        ], // place text over left half of image, avoiding the 16px border
-         //stretchX: [[16, 584]], // stretch everything horizontally except the 16px border
-         //stretchY: [[16, 384]], // stretch everything vertically except the 16px border
-     });
-   }
-}); */
 
 }); 
 
@@ -552,6 +519,24 @@ function stage7 () {
     } 
 }
 
+//functions to add Image 
+function stageNowImage () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+
+    } else {
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+    } 
+}
+
 //event listeners to stages  
 document.getElementById("stageNow").addEventListener("click", stageNow);
 document.getElementById("stage1").addEventListener("click", stage1);
@@ -561,6 +546,9 @@ document.getElementById("stage4").addEventListener("click", stage4);
 document.getElementById("stage5").addEventListener("click", stage5);
 document.getElementById("stage6").addEventListener("click", stage6);
 document.getElementById("stage7").addEventListener("click", stage7);
+
+//event listerner from stage to image 
+document.getElementById("stageNow").addEventListener("click", stageNowImage);
 
 // Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
@@ -678,11 +666,24 @@ var activeItem = document.getElementsByClassName('active');
 Just add data-toggle="collapse" and a data-target to the element to automatically assign control of one or more collapsible elements. The data-target attribute accepts a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible element.
 
 https://docs.mapbox.com/mapbox-gl-js/api/ - set popup anchor
-    TO FIZ STAGING CLICKS (REMOVE LAYER WHEN SOMETHING ELSE IS CLICKED)
-$(document).on("click",".sidebar li",function(){
-  if (!$(this).hasClass("current")) {
-    $("li.current").removeClass("current");
-    $(this).addClass("current");
-  }
+  
+map.addLayer({
+                "id": "overlay",
+                "source": "myImageSource",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+            
+            update image source
+            map.getSource('source_KEWX_L2_REFLECTIVITY').updateImage({
+  url: "images/KEWX_L2_REFLECTIVITY.gif?" + counter++,
+  coordinates': [
+    [-103.009641, 33.911],
+    [-94.009641, 33.911],
+    [-94.009641, 24.911],
+    [-103.009641, 24.911]
+  ]
 });
 */ 
