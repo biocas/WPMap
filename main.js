@@ -226,12 +226,13 @@ window.onresize = function(event) {
 };
 
 map.on('load', function() {
-//access SVG Activation Wheel
-    var svgObject = document.getElementById('wheel').contentDocument; // this bit is working
-    //var svg = svgObject.getElementById('MARKET_PLACE');
-    console.log(svgObject);
     
-    // Add map sources - all staging added as different sources
+//access SVG Activation Wheel - this is not working
+/*    var svgObject = document.getElementById('wheel').contentDocument;
+    var svg = svgObject.getElementById('MARKET_PLACE');
+    console.log(svgObject); */
+    
+// Add map sources - all staging added as different sources
 map.addSource("now-stage", {
     type: "vector",
     url: "mapbox://margaridappp.cs26xz9f"
@@ -264,6 +265,29 @@ map.addSource("7-stage", {
     type: "vector",
     url: "mapbox://margaridappp.6ot50v35"
     });
+
+// add images 
+map.addSource("ImageTest", {
+                "type": "image",
+                "url": "img/0001.jpg",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });
+    
 //Add map layers corresponding to each stage   
 map.addLayer({
     "id": "stage-now",
@@ -369,16 +393,39 @@ map.addLayer({
             "fill-opacity" : 0.35 
     },
     });
-    map.loadImage('img/0001.jpg', function(error, image) {
+   /* map.loadImage('img/0001.jpg', function(error, image) {
    if (error) throw error;
    if (!map.hasImage('border-image')) {
      map.addImage('border-image', image, {
-         content: [16, 16, 300, 384], // place text over left half of image, avoiding the 16px border
+         content: [
+          [
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+          ]
+        ], // place text over left half of image, avoiding the 16px border
          //stretchX: [[16, 584]], // stretch everything horizontally except the 16px border
          //stretchY: [[16, 384]], // stretch everything vertically except the 16px border
      });
    }
-});
+}); */
 
 }); 
 
