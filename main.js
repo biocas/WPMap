@@ -533,12 +533,122 @@ function stageNowImage () {
             });
 
     } else {
-        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        map.removeLayer('overlay');
     } 
 }
+function stage1Image () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
 
+    } else {
+        map.removeLayer('overlay');
+    } 
+}
+function stage2Image () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+
+    } else {
+        map.removeLayer('overlay');    } 
+}
+function stage3Image () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+
+    } else {
+            map.removeLayer('overlay');
+    } 
+}
+function stage4Image () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+
+    } else {
+            map.removeLayer('overlay');
+    } 
+}
+function stage5Image () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+
+    } else {
+            map.removeLayer('overlay');
+    } 
+}
+function stage6Image () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+
+    } else {
+            map.removeLayer('overlay');
+    } 
+}
+function stage7Image () {
+    $(this).toggleClass( "clicked" )
+    if ($(this).hasClass("clicked")) {
+        map.addLayer({
+                "id": "overlay",
+                "source": "ImageTest",
+                "type": "raster",
+                "paint": {
+                "raster-opacity": 0.85
+                }
+            });
+
+    } else {
+            map.removeLayer('overlay');
+    } 
+}
 //event listeners to stages  
-document.getElementById("stageNow").addEventListener("click", stageNow);
+/* document.getElementById("stageNow").addEventListener("click", stageNow);
 document.getElementById("stage1").addEventListener("click", stage1);
 document.getElementById("stage2").addEventListener("click", stage2);
 document.getElementById("stage3").addEventListener("click", stage3);
@@ -546,9 +656,17 @@ document.getElementById("stage4").addEventListener("click", stage4);
 document.getElementById("stage5").addEventListener("click", stage5);
 document.getElementById("stage6").addEventListener("click", stage6);
 document.getElementById("stage7").addEventListener("click", stage7);
+*/
 
 //event listerner from stage to image 
 document.getElementById("stageNow").addEventListener("click", stageNowImage);
+document.getElementById("stage1").addEventListener("click", stage1Image);
+document.getElementById("stage2").addEventListener("click", stage2Image);
+document.getElementById("stage3").addEventListener("click", stage3Image);
+document.getElementById("stage4").addEventListener("click", stage4Image);
+document.getElementById("stage5").addEventListener("click", stage5Image);
+document.getElementById("stage6").addEventListener("click", stage6Image);
+document.getElementById("stage7").addEventListener("click", stage7Image);
 
 // Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
