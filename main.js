@@ -232,7 +232,7 @@ map.on('load', function() {
     var svg = svgObject.getElementById('MARKET_PLACE');
     console.log(svgObject); */
     
-// Add map sources - all staging added as different sources
+// Add map sources - all staging added as different sources SHAPEFILES
 map.addSource("now-stage", {
     type: "vector",
     url: "mapbox://margaridappp.cs26xz9f"
@@ -266,8 +266,8 @@ map.addSource("7-stage", {
     url: "mapbox://margaridappp.6ot50v35"
     });
 
-// add images 
-map.addSource("ImageTest", {
+// add images to stages
+map.addSource("ImageNow", {
                 "type": "image",
                 "url": "img/0001.jpg",
                 "coordinates": [
@@ -287,8 +287,152 @@ map.addSource("ImageTest", {
             ]
                 ]
             });
+map.addSource("ImageStage1", {
+                "type": "image",
+                "url": "img/Stage_1.png",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });
     
-//Add map layers corresponding to each stage   
+map.addSource("ImageStage2", {
+                "type": "image",
+                "url": "img/Stage_2.png",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });
+    
+map.addSource("ImageStage3", {
+                "type": "image",
+                "url": "img/Stage_3.png",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });
+
+map.addSource("ImageStage4", {
+                "type": "image",
+                "url": "img/Stage_4.png",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });
+    
+map.addSource("ImageStage5", {
+                "type": "image",
+                "url": "img/Stage_5.png",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });
+map.addSource("ImageStage6", {
+                "type": "image",
+                "url": "img/0001.jpg",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });    
+
+    map.addSource("ImageStage7", {
+                "type": "image",
+                "url": "img/0001.jpg",
+                "coordinates": [
+                    [510.91112136840826,
+              -33.92883303474794],
+            [
+              510.91811656951904,
+              -33.92883303474794
+            ],
+            [
+              510.91811656951904,
+              -33.923491635300394
+            ],
+            [
+              510.91112136840826,
+              -33.92883303474794
+            ]
+                ]
+            });
+//Add map layers corresponding to each stage SHAPEFILES  
 map.addLayer({
     "id": "stage-now",
     "type": "fill",
@@ -397,7 +541,7 @@ map.addLayer({
 }); 
 
              
-//functions to addLayer to each stage 
+//functions to addLayer to each stage SHAPEFILES
 function stageNow () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
