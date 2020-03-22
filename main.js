@@ -267,7 +267,7 @@ map.addSource("7-stage", {
     });
 
 // add images to stages
-map.addSource("ImageNow", {
+map.addSource("ImageTest", {
                 "type": "image",
                 "url": "img/0001.jpg",
                 "coordinates": [
@@ -306,8 +306,7 @@ map.addSource("ImageStage1", {
               -33.92883303474794
             ]
                 ]
-            });
-    
+            });   
 map.addSource("ImageStage2", {
                 "type": "image",
                 "url": "img/Stage_2.png",
@@ -327,8 +326,7 @@ map.addSource("ImageStage2", {
               -33.92883303474794
             ]
                 ]
-            });
-    
+            });   
 map.addSource("ImageStage3", {
                 "type": "image",
                 "url": "img/Stage_3.png",
@@ -349,7 +347,6 @@ map.addSource("ImageStage3", {
             ]
                 ]
             });
-
 map.addSource("ImageStage4", {
                 "type": "image",
                 "url": "img/Stage_4.png",
@@ -369,8 +366,7 @@ map.addSource("ImageStage4", {
               -33.92883303474794
             ]
                 ]
-            });
-    
+            });   
 map.addSource("ImageStage5", {
                 "type": "image",
                 "url": "img/Stage_5.png",
@@ -411,10 +407,9 @@ map.addSource("ImageStage6", {
             ]
                 ]
             });    
-
-    map.addSource("ImageStage7", {
+map.addSource("ImageStage7", {
                 "type": "image",
-                "url": "img/0001.jpg",
+                "url": "img/Final_Stage.png",
                 "coordinates": [
                     [510.91112136840826,
               -33.92883303474794],
@@ -432,6 +427,8 @@ map.addSource("ImageStage6", {
             ]
                 ]
             });
+    
+
 //Add map layers corresponding to each stage SHAPEFILES  
 map.addLayer({
     "id": "stage-now",
@@ -664,36 +661,38 @@ function stage7 () {
 }
 
 //functions to add Image 
-function stageNowImage () {
+
+// Stage Now uses the shapefile and not the image function 
+/* function stageNowImage () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
                 "id": "overlay",
                 "source": "ImageTest",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+                //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
         map.removeLayer('overlay');
     } 
-}
+} */
 function stage1Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
-                "id": "overlay",
-                "source": "ImageTest",
+                "id": "stage1img",
+                "source": "ImageStage1",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+                //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
-        map.removeLayer('overlay');
+        map.removeLayer('stage1img');
     } 
 }
 function stage2Image () {
@@ -703,9 +702,9 @@ function stage2Image () {
                 "id": "overlay",
                 "source": "ImageTest",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+               //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
@@ -718,9 +717,9 @@ function stage3Image () {
                 "id": "overlay",
                 "source": "ImageTest",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+                //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
@@ -734,9 +733,9 @@ function stage4Image () {
                 "id": "overlay",
                 "source": "ImageTest",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+                //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
@@ -750,9 +749,9 @@ function stage5Image () {
                 "id": "overlay",
                 "source": "ImageTest",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+                //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
@@ -766,9 +765,9 @@ function stage6Image () {
                 "id": "overlay",
                 "source": "ImageTest",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+                //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
@@ -779,21 +778,21 @@ function stage7Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
-                "id": "overlay",
-                "source": "ImageTest",
+                "id": "stage7img",
+                "source": "ImageStage7",
                 "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
+                //"paint": {
+                //"raster-opacity": 0.85
+                //}
             });
 
     } else {
-            map.removeLayer('overlay');
+            map.removeLayer('stage7img');
     } 
 }
 //event listeners to stages  
-/* document.getElementById("stageNow").addEventListener("click", stageNow);
-document.getElementById("stage1").addEventListener("click", stage1);
+ document.getElementById("stageNow").addEventListener("click", stageNow);
+/* document.getElementById("stage1").addEventListener("click", stage1);
 document.getElementById("stage2").addEventListener("click", stage2);
 document.getElementById("stage3").addEventListener("click", stage3);
 document.getElementById("stage4").addEventListener("click", stage4);
@@ -803,7 +802,7 @@ document.getElementById("stage7").addEventListener("click", stage7);
 */
 
 //event listerner from stage to image 
-document.getElementById("stageNow").addEventListener("click", stageNowImage);
+// document.getElementById("stageNow").addEventListener("click", stageNowImage);
 document.getElementById("stage1").addEventListener("click", stage1Image);
 document.getElementById("stage2").addEventListener("click", stage2Image);
 document.getElementById("stage3").addEventListener("click", stage3Image);
