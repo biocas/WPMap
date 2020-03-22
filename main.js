@@ -389,7 +389,7 @@ map.addSource("ImageStage5", {
             });
 map.addSource("ImageStage6", {
                 "type": "image",
-                "url": "img/0001.jpg",
+                "url": "img/Stage6_Test",
                 "coordinates": [
                     [510.91112136840826,
               -33.92883303474794],
