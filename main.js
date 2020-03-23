@@ -237,7 +237,7 @@ map.addSource("now-stage", {
     type: "vector",
     url: "mapbox://margaridappp.cs26xz9f"
     });
-map.addSource("1-stage", {
+/* map.addSource("1-stage", {
     type: "vector",
     url: "mapbox://margaridappp.7bilpqrg"
     }); 
@@ -264,10 +264,10 @@ map.addSource("6-stage", {
 map.addSource("7-stage", {
     type: "vector",
     url: "mapbox://margaridappp.6ot50v35"
-    });
+    }); */ 
 
 // add images to stages
-map.addSource("ImageTest", {
+/* map.addSource("ImageTest", {
                 "type": "image",
                 "url": "img/0001.jpg",
                 "coordinates": [
@@ -286,7 +286,7 @@ map.addSource("ImageTest", {
               -33.92883303474794
             ]
                 ]
-            });
+            }); */ 
 map.addSource("ImageStage1", {
                 "type": "image",
                 "url": "img/Stage_1.png",
@@ -410,22 +410,12 @@ map.addSource("ImageStage6", {
 map.addSource("ImageStage7", {
                 "type": "image",
                 "url": "img/Final_Stage.png",
-                "coordinates": [
-                    [510.91112136840826,
-              -33.92883303474794],
-            [
-              510.91811656951904,
-              -33.92883303474794
-            ],
-            [
-              510.91811656951904,
-              -33.923491635300394
-            ],
-            [
-              510.91112136840826,
-              -33.92883303474794
-            ]
-                ]
+                "coordinates": 
+          [
+          150.91716706752777,
+          -33.924737991796476
+        ]
+        
             });
     
 
@@ -443,7 +433,7 @@ map.addLayer({
             "fill-opacity" : 0.35       
     },
     });
-map.addLayer({
+/* map.addLayer({
     "id": "stage-1",
     "type": "fill",
     "source": "1-stage",
@@ -533,7 +523,7 @@ map.addLayer({
             "fill-color": "#fe8c01", 
             "fill-opacity" : 0.35 
     },
-    });
+    }); */ 
 
 }); 
 
@@ -543,19 +533,33 @@ function stageNow () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-now', 'visibility', 'visible');
-        map.setLayoutProperty('stage-1', 'visibility', 'none');
-        map.setLayoutProperty('stage-2', 'visibility', 'none');
-        map.setLayoutProperty('stage-3', 'visibility', 'none');
-        map.setLayoutProperty('stage-4', 'visibility', 'none');
-        map.setLayoutProperty('stage-5', 'visibility', 'none');
-        map.setLayoutProperty('stage-6', 'visibility', 'none');
-        map.setLayoutProperty('stage-7', 'visibility', 'none');
+        if(map.getLayer("stage1img")) {
+           map.removeLayer('stage1img');
+            } 
+        if(map.getLayer("stage2img")) {
+           map.removeLayer('stage2img');
+            } 
+        if(map.getLayer("stage3img")) {
+            map.removeLayer('stage3img');
+            }
+        if(map.getLayer("stage4img")) {
+            map.removeLayer('stage4img');            
+            }
+        if(map.getLayer("stage5img")) {
+            map.removeLayer('stage5img');
+            }
+        if(map.getLayer("stage6img")) {
+            map.removeLayer('stage6img');
+            }
+        if(map.getLayer("stage7img")) {
+            map.removeLayer('stage7img');
+            }
 
     } else {
         map.setLayoutProperty('stage-now', 'visibility', 'none');
     } 
 }
-function stage1 () {
+/* function stage1 () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.setLayoutProperty('stage-1', 'visibility', 'visible');
@@ -658,7 +662,7 @@ function stage7 () {
     } else {
         map.setLayoutProperty('stage-7', 'visibility', 'none');
     } 
-}
+} */
 
 //functions to add Image 
 
@@ -690,7 +694,25 @@ function stage1Image () {
                 //"raster-opacity": 0.85
                 //}
             });
-
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        if(map.getLayer("stage2img")) {
+           map.removeLayer('stage2img');
+            } 
+        if(map.getLayer("stage3img")) {
+            map.removeLayer('stage3img');
+            }
+        if(map.getLayer("stage4img")) {
+            map.removeLayer('stage4img');            
+            }
+        if(map.getLayer("stage5img")) {
+            map.removeLayer('stage5img');
+            }
+        if(map.getLayer("stage6img")) {
+            map.removeLayer('stage6img');
+            }
+        if(map.getLayer("stage7img")) {
+            map.removeLayer('stage7img');
+            }
     } else {
         map.removeLayer('stage1img');
     } 
@@ -706,6 +728,25 @@ function stage2Image () {
                 //"raster-opacity": 0.85
                 //}
             });
+            map.setLayoutProperty('stage-now', 'visibility', 'none');
+            if(map.getLayer("stage1img")) {
+                map.removeLayer('stage1img');
+            } 
+            if(map.getLayer("stage3img")) {
+                map.removeLayer('stage3img');
+                }
+            if(map.getLayer("stage4img")) {
+                map.removeLayer('stage4img');            
+                }
+            if(map.getLayer("stage5img")) {
+                map.removeLayer('stage5img');
+                }
+            if(map.getLayer("stage6img")) {
+                map.removeLayer('stage6img');
+                }
+            if(map.getLayer("stage7img")) {
+                map.removeLayer('stage7img');
+                }
 
     } else {
         map.removeLayer('stage2img');    } 
@@ -721,7 +762,25 @@ function stage3Image () {
                 //"raster-opacity": 0.85
                 //}
             });
-
+            map.setLayoutProperty('stage-now', 'visibility', 'none');
+            if(map.getLayer("stage1img")) {
+           map.removeLayer('stage1img');
+            } 
+        if(map.getLayer("stage2img")) {
+            map.removeLayer('stage2img');
+            }
+        if(map.getLayer("stage4img")) {
+            map.removeLayer('stage4img');            
+            }
+        if(map.getLayer("stage5img")) {
+            map.removeLayer('stage5img');
+            }
+        if(map.getLayer("stage6img")) {
+            map.removeLayer('stage6img');
+            }
+        if(map.getLayer("stage7img")) {
+            map.removeLayer('stage7img');
+            }
     } else {
             map.removeLayer('stage3img');
     } 
@@ -737,6 +796,26 @@ function stage4Image () {
                 //"raster-opacity": 0.85
                 //}
             });
+            map.setLayoutProperty('stage-now', 'visibility', 'none');
+            
+            if(map.getLayer("stage1img")) {
+                    map.removeLayer('stage1img');            
+                    }
+            if(map.getLayer("stage2img")) {
+                   map.removeLayer('stage2img');
+                    } 
+            if(map.getLayer("stage3img")) {
+                map.removeLayer('stage3img');
+                }
+            if(map.getLayer("stage5img")) {
+                map.removeLayer('stage5img');
+                }
+            if(map.getLayer("stage6img")) {
+                map.removeLayer('stage6img');
+                }
+            if(map.getLayer("stage7img")) {
+                map.removeLayer('stage7img');
+                }
 
     } else {
             map.removeLayer('stage4img');
@@ -753,6 +832,25 @@ function stage5Image () {
                 //"raster-opacity": 0.85
                 //}
             });
+            map.setLayoutProperty('stage-now', 'visibility', 'none');
+                if(map.getLayer("stage1img")) {
+                        map.removeLayer('stage1img');            
+                        }
+                if(map.getLayer("stage2img")) {
+                       map.removeLayer('stage2img');
+                        } 
+                if(map.getLayer("stage3img")) {
+                    map.removeLayer('stage3img');
+                    }
+                if(map.getLayer("stage4img")) {
+                    map.removeLayer('stage4img');
+                    }
+                if(map.getLayer("stage6img")) {
+                    map.removeLayer('stage6img');
+                    }
+                if(map.getLayer("stage7img")) {
+                    map.removeLayer('stage7img');
+                    }
 
     } else {
             map.removeLayer('stage5img');
@@ -769,6 +867,25 @@ function stage6Image () {
                 //"raster-opacity": 0.85
                 //}
             });
+            map.setLayoutProperty('stage-now', 'visibility', 'none');
+            if(map.getLayer("stage1img")) {
+                    map.removeLayer('stage1img');            
+                    }
+            if(map.getLayer("stage2img")) {
+                   map.removeLayer('stage2img');
+                    } 
+            if(map.getLayer("stage3img")) {
+                map.removeLayer('stage3img');
+                }
+            if(map.getLayer("stage4img")) {
+                map.removeLayer('stage4img');
+                }
+            if(map.getLayer("stage5img")) {
+                map.removeLayer('stage5img');
+                }
+            if(map.getLayer("stage7img")) {
+                map.removeLayer('stage7img');
+                }
 
     } else {
             map.removeLayer('stage6img');
@@ -785,7 +902,25 @@ function stage7Image () {
                 //"raster-opacity": 0.85
                 //}
             });
-
+        map.setLayoutProperty('stage-now', 'visibility', 'none');
+        if(map.getLayer("stage1img")) {
+                    map.removeLayer('stage1img');            
+                    }
+            if(map.getLayer("stage2img")) {
+                   map.removeLayer('stage2img');
+                    } 
+            if(map.getLayer("stage3img")) {
+                map.removeLayer('stage3img');
+                }
+            if(map.getLayer("stage4img")) {
+                map.removeLayer('stage4img');
+                }
+            if(map.getLayer("stage5img")) {
+                map.removeLayer('stage5img');
+                }
+            if(map.getLayer("stage6img")) {
+                map.removeLayer('stage6img');
+                }
     } else {
             map.removeLayer('stage7img');
     } 
@@ -910,41 +1045,13 @@ https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
 
 https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/
 https://gis.stackexchange.com/questions/257056/overlaying-image-on-mapbox-map
-
-markers anchors and url from geojson
-iconUrl: 'img/icon-photo.png',
-                 iconSize: [50, 50], // size of the icon
-                iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
-                
+           
 https://github.com/Nmargolis/story-resume/blob/gh-pages/scripts.js
 
 https://github.com/samreaves/mapbox-starter/blob/master/index.html
 
 https://github.com/atcodedog05/MapboxGL-JS-Pubs-in-Bangalore/blob/master/map.html
 
-var activeItem = document.getElementsByClassName('active');
-
-Just add data-toggle="collapse" and a data-target to the element to automatically assign control of one or more collapsible elements. The data-target attribute accepts a CSS selector to apply the collapse to. Be sure to add the class collapse to the collapsible element.
-
 https://docs.mapbox.com/mapbox-gl-js/api/ - set popup anchor
-  
-map.addLayer({
-                "id": "overlay",
-                "source": "myImageSource",
-                "type": "raster",
-                "paint": {
-                "raster-opacity": 0.85
-                }
-            });
-            
-            update image source
-            map.getSource('source_KEWX_L2_REFLECTIVITY').updateImage({
-  url: "images/KEWX_L2_REFLECTIVITY.gif?" + counter++,
-  coordinates': [
-    [-103.009641, 33.911],
-    [-94.009641, 33.911],
-    [-94.009641, 24.911],
-    [-103.009641, 24.911]
-  ]
-});
+
 */ 
