@@ -389,7 +389,7 @@ map.addSource("ImageStage5", {
             });
 map.addSource("ImageStage6", {
                 "type": "image",
-                "url": "img/Stage6_Test",
+                "url": "img/Stage6_Test.png",
                 "coordinates": [
                     [510.91112136840826,
               -33.92883303474794],
@@ -699,8 +699,8 @@ function stage2Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
-                "id": "overlay",
-                "source": "ImageTest",
+                "id": "stage2img",
+                "source": "ImageStage2",
                 "type": "raster",
                //"paint": {
                 //"raster-opacity": 0.85
@@ -708,14 +708,14 @@ function stage2Image () {
             });
 
     } else {
-        map.removeLayer('overlay');    } 
+        map.removeLayer('stage2img');    } 
 }
 function stage3Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
-                "id": "overlay",
-                "source": "ImageTest",
+                "id": "stage3img",
+                "source": "ImageStage3",
                 "type": "raster",
                 //"paint": {
                 //"raster-opacity": 0.85
@@ -723,15 +723,15 @@ function stage3Image () {
             });
 
     } else {
-            map.removeLayer('overlay');
+            map.removeLayer('stage3img');
     } 
 }
 function stage4Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
-                "id": "overlay",
-                "source": "ImageTest",
+                "id": "stage4img",
+                "source": "ImageStage4",
                 "type": "raster",
                 //"paint": {
                 //"raster-opacity": 0.85
@@ -739,15 +739,15 @@ function stage4Image () {
             });
 
     } else {
-            map.removeLayer('overlay');
+            map.removeLayer('stage4img');
     } 
 }
 function stage5Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
-                "id": "overlay",
-                "source": "ImageTest",
+                "id": "stage5img",
+                "source": "ImageStage5",
                 "type": "raster",
                 //"paint": {
                 //"raster-opacity": 0.85
@@ -755,15 +755,15 @@ function stage5Image () {
             });
 
     } else {
-            map.removeLayer('overlay');
+            map.removeLayer('stage5img');
     } 
 }
 function stage6Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
         map.addLayer({
-                "id": "overlay",
-                "source": "ImageTest",
+                "id": "stage6img",
+                "source": "ImageStage6",
                 "type": "raster",
                 //"paint": {
                 //"raster-opacity": 0.85
@@ -771,7 +771,7 @@ function stage6Image () {
             });
 
     } else {
-            map.removeLayer('overlay');
+            map.removeLayer('stage6img');
     } 
 }
 function stage7Image () {
