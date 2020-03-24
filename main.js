@@ -213,8 +213,6 @@ var aquaticMarker = {
       .addTo(map);
 }
 
-
-
 //create pop ups for photo markers 
 function createPopUp(photoMarker) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
@@ -252,6 +250,22 @@ new mapboxgl.Marker(el)
 });
 
 //add aquatic marker to map 
+/*  function aquaticMarker(aquaticMarker) {
+// create a DOM element for the marker
+var el = document.createElement("div");
+el.className = "aquaticMarker";
+
+el.addEventListener("click", function() {
+AquaticPopUp(aquaticMarker);
+}); 
+ 
+// add marker to map
+new mapboxgl.Marker(el)
+.setLngLat(aquaticMarker.geometry.coordinates)
+.addTo(map);
+}; */
+
+  
 aquaticMarker.features.forEach(function(aquaticMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
@@ -265,7 +279,7 @@ AquaticPopUp(aquaticMarker);
 new mapboxgl.Marker(el)
 .setLngLat(aquaticMarker.geometry.coordinates)
 .addTo(map);
-});
+}); 
     
 });  
 

@@ -139,6 +139,11 @@ cursor: pointer;
     width: 400px !important; 
 }
 
+video {
+    width: 200px !important;
+    height: 200px !important;
+}
+
 .mapboxgl-popup-tip {
     visibility: hidden;
 }
