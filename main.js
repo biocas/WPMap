@@ -716,6 +716,7 @@ function stage7 () {
 function stage1Image () {
     $(this).toggleClass( "clicked" )
     if ($(this).hasClass("clicked")) {
+       // $(this).css("background-color", "#3DB4A9");
         map.addLayer({
                 "id": "stage1img",
                 "source": "ImageStage1",
@@ -745,6 +746,7 @@ function stage1Image () {
             }
     } else {
         map.removeLayer('stage1img');
+       // $(this).css("background-color", "#295B60");
     } 
 }
 function stage2Image () {
@@ -975,6 +977,8 @@ document.getElementById("stage4").addEventListener("click", stage4Image);
 document.getElementById("stage5").addEventListener("click", stage5Image);
 document.getElementById("stage6").addEventListener("click", stage6Image);
 document.getElementById("stage7").addEventListener("click", stage7Image);
+
+
 
 // Add zoom buttons; Disable rotation and its button 
 map.touchZoomRotate.disableRotation();
