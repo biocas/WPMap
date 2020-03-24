@@ -208,7 +208,7 @@ var aquaticMarker = {
     var aquaticPopUp = new mapboxgl.Popup ({ closeOnClick: false, closeOnMove: true, className: "aquatic-popup" })
       .setLngLat(aquaticMarker.geometry.coordinates)
       .setHTML(
-        "<h4>" + aquaticMarker.properties.title + "</h4> <video  controls> <source src='img/Final_1.mp4' type='video/mp4' </video>"
+        "<h4>" + aquaticMarker.properties.title + "</h4> <video controls> <source src='img/Final_1.mp4' type='video/mp4' </video>"
       )
       .addTo(map);
 }
