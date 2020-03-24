@@ -213,6 +213,8 @@ var aquaticMarker = {
       .addTo(map);
 }
 
+
+
 //create pop ups for photo markers 
 function createPopUp(photoMarker) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
@@ -233,39 +235,8 @@ $(window).on("load", function () {
     $("#map").css("height", (h - offsetTop));
     map.resize(); 
 
-// add markers to map
-photoMarkers.features.forEach(function(photoMarker) {
-// create a DOM element for the marker
-var el = document.createElement("div");
-el.className = "photoMarker";
-
-el.addEventListener("click", function() {
-createPopUp(photoMarker);
-}); 
- 
-// add marker to map
-new mapboxgl.Marker(el)
-.setLngLat(photoMarker.geometry.coordinates)
-.addTo(map);
-});
-
+    
 //add aquatic marker to map 
-/*  function aquaticMarker(aquaticMarker) {
-// create a DOM element for the marker
-var el = document.createElement("div");
-el.className = "aquaticMarker";
-
-el.addEventListener("click", function() {
-AquaticPopUp(aquaticMarker);
-}); 
- 
-// add marker to map
-new mapboxgl.Marker(el)
-.setLngLat(aquaticMarker.geometry.coordinates)
-.addTo(map);
-}; */
-
-  
 aquaticMarker.features.forEach(function(aquaticMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
@@ -279,7 +250,27 @@ AquaticPopUp(aquaticMarker);
 new mapboxgl.Marker(el)
 .setLngLat(aquaticMarker.geometry.coordinates)
 .addTo(map);
+    console.log("div");
+});
+    
+    
+// add markers to map
+photoMarkers.features.forEach(function(photoMarker) {
+// create a DOM element for the marker
+var el = document.createElement("div");
+el.className = "photoMarker";
+
+el.addEventListener("click", function() {
+createPopUp(photoMarker);
 }); 
+
+// add marker to map
+new mapboxgl.Marker(el)
+.setLngLat(photoMarker.geometry.coordinates)
+.addTo(map);
+});
+
+
     
 });  
 
@@ -776,7 +767,6 @@ function stage7 () {
                 //"raster-opacity": 0.85
                 //}
             });
-
     } else {
         map.removeLayer('overlay');
     } 
@@ -1142,19 +1132,13 @@ $("#reset").click(function() {
 
 /*
 // links & bits
-
 For Staging and catalysts
 https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
-
 https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/
 https://gis.stackexchange.com/questions/257056/overlaying-image-on-mapbox-map
            
 https://github.com/Nmargolis/story-resume/blob/gh-pages/scripts.js
-
 https://github.com/samreaves/mapbox-starter/blob/master/index.html
-
 https://github.com/atcodedog05/MapboxGL-JS-Pubs-in-Bangalore/blob/master/map.html
-
 https://docs.mapbox.com/mapbox-gl-js/api/ - set popup anchor
-
 */ 
