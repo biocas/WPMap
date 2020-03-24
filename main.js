@@ -177,6 +177,44 @@ var photoMarkers = {
   ]
 };
 
+// aquatic marker with video
+var aquaticMarker = {
+    "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          title: "Aquatic",
+          description: '',
+            icon: {
+               /* 
+                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+                className: "AquaticIcon"  
+           }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91353535652158,
+          -33.92683895146819
+        ]
+      }
+    }
+  ]
+}
+
+// create popup for aquatic 
+ function AquaticPopUp(aquaticMarker) {
+    var aquaticPopUp = new mapboxgl.Popup ({ closeOnClick: false, closeOnMove: true, className: "aquatic-popup" })
+      .setLngLat(aquaticMarker.geometry.coordinates)
+      .setHTML(
+        "<h4>" + aquaticMarker.properties.title + "</h4> <video  controls> <source src='img/Final_1.mp4' type='video/mp4' </video>"
+      )
+      .addTo(map);
+}
+
+
+
 //create pop ups for photo markers 
 function createPopUp(photoMarker) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
@@ -210,6 +248,22 @@ createPopUp(photoMarker);
 // add marker to map
 new mapboxgl.Marker(el)
 .setLngLat(photoMarker.geometry.coordinates)
+.addTo(map);
+});
+
+//add aquatic marker to map 
+aquaticMarker.features.forEach(function(aquaticMarker) {
+// create a DOM element for the marker
+var el = document.createElement("div");
+el.className = "aquaticMarker";
+
+el.addEventListener("click", function() {
+AquaticPopUp(aquaticMarker);
+}); 
+ 
+// add marker to map
+new mapboxgl.Marker(el)
+.setLngLat(aquaticMarker.geometry.coordinates)
 .addTo(map);
 });
     
