@@ -195,8 +195,7 @@ $(window).on("load", function () {
     var h = $(window).height(),
         offsetTop = 60; // Calculate the top offset
     $("#map").css("height", (h - offsetTop));
-    map.resize();
-    
+    map.resize(); 
 
 // add markers to map
 photoMarkers.features.forEach(function(photoMarker) {
@@ -216,7 +215,6 @@ new mapboxgl.Marker(el)
     
 });  
 
- 
 // resize map function 
 window.onresize = function(event) {
     var h = $(window).height(),
@@ -289,7 +287,7 @@ map.addSource("7-stage", {
             }); */ 
 map.addSource("ImageStage1", {
                 "type": "image",
-                "url": "img/Maps_Staging_S1-04.png",
+                "url": "img/V3Stage1.png",
                 "coordinates": [
               [ // creek 
               150.913090,
@@ -312,7 +310,7 @@ map.addSource("ImageStage1", {
             });   
 map.addSource("ImageStage2", {
                 "type": "image",
-                "url": "img/Maps_Staging_S2-04.png",
+                "url": "img/V3Stage2.png",
                 "coordinates": [
               [ // creek 
               150.913090,
@@ -335,7 +333,7 @@ map.addSource("ImageStage2", {
             });   
 map.addSource("ImageStage3", {
                 "type": "image",
-                "url": "img/Maps_Staging_S3-04.png",
+                "url": "img/V3Stage3.png",
                 "coordinates": [
               [ // creek 
               150.913090,
@@ -358,7 +356,7 @@ map.addSource("ImageStage3", {
             });
 map.addSource("ImageStage4", {
                 "type": "image",
-                "url": "img/Maps_Staging_S4-04.png",
+                "url": "img/V3Stage4.png",
                 "coordinates": [
               [ // creek 
               150.913090,
@@ -381,7 +379,7 @@ map.addSource("ImageStage4", {
             });   
 map.addSource("ImageStage5", {
                 "type": "image",
-                "url": "img/Maps_Staging_S6-04.png",
+                "url": "img/V3Stage5.png",
                 "coordinates": [
               [ // creek 
               150.913090,
@@ -404,7 +402,7 @@ map.addSource("ImageStage5", {
             });
 map.addSource("ImageStage6", {
                 "type": "image",
-                "url": "img/Maps_Staging_S7-04.png",
+                "url": "img/V3Stage6.png",
                 "coordinates": [
               [ // creek 
               150.913090,
@@ -427,7 +425,7 @@ map.addSource("ImageStage6", {
             });    
 map.addSource("ImageStage7", {
                 "type": "image",
-                "url": "img/Final_Stage.png",
+                "url": "img/V3Stage7.png",
                 "coordinates": 
           [
               [ // creek 
