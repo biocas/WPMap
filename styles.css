@@ -6,7 +6,7 @@ html{
 body {
     font-family: 'Nunito Sans', sans-serif !important;
     overflow-x: hidden;
-    font-size: 20px !important;
+    font-size: 10px !important;
     overflow-y: hidden;
 }
 
@@ -54,7 +54,7 @@ li{
     color: #295B60;
     padding: 0.7em;
     padding-right: 2em;
-    font-size: 10em;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -91,8 +91,9 @@ ul {
     margin:1px;
     background-color: #295B60;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
+
 
 /* Map Section */ 
 #map {   
