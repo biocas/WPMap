@@ -19,7 +19,7 @@ var photoMarkers = {
       "properties": {
           title: "Market Hall",
           description: "",
-          image: "img/placeholder.jpeg",
+          image: "img/MarketHall.png",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -39,7 +39,7 @@ var photoMarkers = {
       "properties": {
           title: "Exhibition Centre",
           description: "",
-          image: "img/placeholder.jpeg",
+          image: "img/Exhibition.png",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -59,7 +59,7 @@ var photoMarkers = {
       "properties": {
           title: "Community Facilities",
           description: "",
-          image: "img/placeholder.jpeg",
+          image: "img/Community.png",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -79,7 +79,7 @@ var photoMarkers = {
       "properties": {
           title: "Civic Centre",
           description: "",
-          image: "img/placeholder.jpeg",
+          image: "img/Civic.png",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -99,7 +99,7 @@ var photoMarkers = {
       "properties": {
           title: "Sports Facilities",
           description: "",
-          image: "img/placeholder.jpeg",
+          image: "img/Sport.png",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -118,7 +118,7 @@ var photoMarkers = {
       "type": "Feature",
       "properties": {
           title: "Leisure Centre",
-          image: "img/placeholder.jpeg",
+          image: "img/Leisure.png",
           description: "",
             icon: {
                /* 
@@ -139,7 +139,7 @@ var photoMarkers = {
       "properties": {
           title: "Open Space",
           description: "",
-          image: "img/placeholder.jpeg",
+          image: "img/Open.png",
             icon: {
                /*
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -159,7 +159,7 @@ var photoMarkers = {
       "properties": {
           title: "Regional Playground",
           description: "",
-          image: "img/placeholder.jpeg",
+          image: "img/Playground.png",
             icon: {
                /* 
                 popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
@@ -187,8 +187,8 @@ var aquaticMarker = {
           title: "Aquatic",
           description: '',
             icon: {
-               /* 
-                popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  */
+               
+                //popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor  
                 className: "AquaticIcon"  
            }
       },
@@ -201,7 +201,7 @@ var aquaticMarker = {
       }
     }
   ]
-}
+} 
 
 // create popup for aquatic 
  function AquaticPopUp(aquaticMarker) {
@@ -211,7 +211,7 @@ var aquaticMarker = {
         "<h4>" + aquaticMarker.properties.title + "</h4> <video controls> <source src='img/Final_1.mp4' type='video/mp4' </video>"
       )
       .addTo(map);
-}
+} 
 
 
 
@@ -223,7 +223,7 @@ function createPopUp(photoMarker) {
     var popup = new mapboxgl.Popup({ closeOnClick: false, closeOnMove: true, className: "photo-popup" })
       .setLngLat(photoMarker.geometry.coordinates)
       .setHTML(
-        "<h4>" + photoMarker.properties.title + "</h4> <img src=" + photoMarker.properties.image + " alt='An Image of'" + photoMarker.properties.title + ">"
+        "<h4>" + photoMarker.properties.title + "</h4> <img width='250' src=" + photoMarker.properties.image + " alt='An Image of'" + photoMarker.properties.title + ">"
       )
       .addTo(map);
   }
@@ -237,6 +237,7 @@ $(window).on("load", function () {
 
     
 //add aquatic marker to map 
+    
 aquaticMarker.features.forEach(function(aquaticMarker) {
 // create a DOM element for the marker
 var el = document.createElement("div");
@@ -251,7 +252,7 @@ new mapboxgl.Marker(el)
 .setLngLat(aquaticMarker.geometry.coordinates)
 .addTo(map);
     console.log("div");
-});
+}); 
     
     
 // add markers to map
