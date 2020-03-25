@@ -77,7 +77,7 @@ var photoMarkers = {
     {
       "type": "Feature",
       "properties": {
-          title: "Civic Centre",
+          title: "Event Lawn",
           description: "",
           image: "img/Civic.png",
             icon: {
@@ -118,7 +118,7 @@ var photoMarkers = {
       "type": "Feature",
       "properties": {
           title: "Leisure Centre",
-          image: "img/Leisure.png",
+          image: "img/AquaticImg.png",
           description: "",
             icon: {
                /* 
@@ -184,7 +184,7 @@ var aquaticMarker = {
     {
       "type": "Feature",
       "properties": {
-          title: "Aquatic",
+          title: "Leisure Centre",
           description: '',
             icon: {
                
