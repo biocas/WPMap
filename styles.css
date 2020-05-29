@@ -131,12 +131,13 @@ cursor: pointer;
 
 /* Styles photo marker pop up */
 .photo-popup {
- 
+
 }
 
 .mapboxgl-popup-content {
     font-family: 'Nunito Sans', sans-serif !important;
-    width: 400px !important; 
+height: 70% !important;
+    width: 80% !important;
 }
 
 video {

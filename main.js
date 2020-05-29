@@ -1,5 +1,7 @@
 mapboxgl.accessToken = "pk.eyJ1IjoibWFyZ2FyaWRhcHBwIiwiYSI6ImNrNjYxaWJqMDFneTgza29mdHBjeG45dWYifQ.cGtIIZKuy5NgVMSxZpWQRg";
 
+
+
 var map = new mapboxgl.Map({
 container: "map", // container id
 pitch: 0.01, 
@@ -9,7 +11,11 @@ zoom: 13.84,
 minZoom: 12
 });
 
- 
+var center = map.getCenter(); 
+console.log(center);
+
+var mapOffset = $("#map").offset();
+
 //markers with photo icon
 var photoMarkers = {
   "type": "FeatureCollection",
@@ -220,10 +226,10 @@ function createPopUp(photoMarker) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
     if (popUps[0]) popUps[0].remove();
 
-    var popup = new mapboxgl.Popup({ closeOnClick: false, closeOnMove: true, className: "photo-popup" })
-      .setLngLat(photoMarker.geometry.coordinates)
+    var popup = new mapboxgl.Popup({ closeOnClick: false, closeOnMove: true, className: "photo-popup", maxWidth: "80%" })
+      .setLngLat(center)
       .setHTML(
-        "<h4>" + photoMarker.properties.title + "</h4> <img width='250' src=" + photoMarker.properties.image + " alt='An Image of'" + photoMarker.properties.title + ">"
+        "<h4 id=>" + photoMarker.properties.title + "</h4> <img width='500' src=" + photoMarker.properties.image + " alt='An Image of'" + photoMarker.properties.title + ">"
       )
       .addTo(map);
   }
@@ -1130,6 +1136,7 @@ $("#reset").click(function() {
     essential: true 
 });
 });
+
 
 /*
 // links & bits
