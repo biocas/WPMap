@@ -1,0 +1,6908 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93066930770874,
+          -33.91979697140356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92828750610352,
+          -33.9173040956046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "shopping and retail",
+        "name": "westfield ",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92386722564697,
+          -33.91899569785073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "shopping and retail",
+        "name": "liverpool plaza",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92305183410645,
+          -33.921595357941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "bigge park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.92740774154663,
+              -33.92074068392399
+            ],
+            [
+              150.92698931694028,
+              -33.92289515824
+            ],
+            [
+              150.9287166595459,
+              -33.922574661378206
+            ],
+            [
+              150.92925310134888,
+              -33.920972158983524
+            ],
+            [
+              150.92740774154663,
+              -33.92074068392399
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "University of Wollongong, Liverpool Campus",
+        "number": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92543363571167,
+          -33.922592466791045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Liverpool Public Shool",
+        "number": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92597544193268,
+          -33.92357175876646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "western sydney university ",
+        "number": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9253370761871,
+          -33.9194007870887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Tafe NSW, South Western Sydney Institute "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9272038936615,
+          -33.923233459174945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "TAFE NSW",
+        "number": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92991828918457,
+          -33.92167103178974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "ACBC",
+        "number": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92198967933655,
+          -33.92488043137779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "meals on wheels",
+        "number": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91478526592252,
+          -33.924386343060306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Ku Marcia Burgees Autism  Early Learning Centre",
+        "number": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9151554107666,
+          -33.924844821504784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "South Western Sydney clinical school",
+        "number": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92948913574216,
+          -33.92074958682253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "all saints catholic college",
+        "number": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92593789100647,
+          -33.919489817432286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "All Saints Catholic Primary School",
+        "number": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9261256456375,
+          -33.918550542620906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Liverpool Girls Highschool",
+        "number": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9309858083725,
+          -33.91823448099589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Liverpool Boys High School",
+        "number": "Not on map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93147933483124,
+          -33.917010287580986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Ingham Institute",
+        "number": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9301221370697,
+          -33.918323512558175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Liverpool west Public School",
+        "number": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90718388557434,
+          -33.92664310148554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Mainsbridge School",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90686202049255,
+          -33.92564604004673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Marsden Road Public School",
+        "number": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.913428068161,
+          -33.91663634863124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "St Francis Xavier Primary School",
+        "number": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89900851249695,
+          -33.933653360192096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community",
+        "name": "Liverpool Library",
+        "number": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92593789100647,
+          -33.922040497262515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "Cultural Attractions",
+        "name": "St Luke's Anglican church",
+        "number": "not mon other map (replace no.1 with this)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9232771396637,
+          -33.920660557795316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "sporting",
+        "name": "Hillier Oval",
+        "number": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.916850566864,
+          -33.92640273952772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "sporting",
+        "name": "Woodward Park Netball Courts",
+        "number": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91437220573425,
+          -33.92738198770115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "sporting",
+        "name": "Whitlam Aquatic Centre",
+        "number": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9149193763733,
+          -33.925628235272114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "sporting",
+        "name": "Collimore Park Recreation",
+        "number": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91765522956848,
+          -33.91983258338657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "sporting",
+        "name": "Dwyer Oval",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92525124549866,
+          -33.907768172681166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "sporting",
+        "name": "Durrant Oval",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9307336807251,
+          -33.90883667650567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Squashlands Gym & Fitnss",
+        "number": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9204125404358,
+          -33.92577067336483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "sporting",
+        "name": "Anytime Fitness (gym)",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9250259399414,
+          -33.919983934148284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "shopping and retail",
+        "name": "Hoxton Park Road Shops",
+        "number": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9086537361145,
+          -33.92780039030616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "shopping and retail",
+        "name": "Hume Highway Shops",
+        "number": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91781616210938,
+          -33.93009711693486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "cultural attractions",
+        "name": "All Saints Church",
+        "number": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92571258544922,
+          -33.920161993523735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "cultual attractions",
+        "name": "Serbian Orthodox Church of the Apostle Luke",
+        "number": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90883612632751,
+          -33.92127040476766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "cultural attractions",
+        "name": "Liverpool South Anglican Church",
+        "number": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90086460113525,
+          -33.93955043249883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "cultural attractions",
+        "name": "St Francis Xavier Catholic Church",
+        "number": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89953422546387,
+          -33.93329284667624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "cultural attractions",
+        "name": "Liverpool Regional Museum",
+        "number": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91686129570007,
+          -33.93375572794925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "cultural attractions",
+        "name": "Liverpool Pioneers Memorial Park",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92411398887634,
+          -33.91727293419557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community",
+        "name": "Skyview Reception Function Centre",
+        "number": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92534244060516,
+          -33.924430855638796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "commmunity",
+        "name": "Quest Hotel Liverpool",
+        "number": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92505007982254,
+          -33.92490936438864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community",
+        "name": "macquarie paradisco function centre",
+        "number": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92303574085236,
+          -33.92445756317474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community",
+        "name": "Liverpool Courthouse",
+        "number": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92532634735107,
+          -33.92169328879129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community",
+        "name": "Inspire Community Youth Centre",
+        "number": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9131920337677,
+          -33.92415042600599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community",
+        "name": "liverpool community recycling centre",
+        "number": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90916872024536,
+          -33.93116534077617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "craik park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.80700874328613,
+              -33.92665200376723
+            ],
+            [
+              150.80649375915525,
+              -33.92932264627174
+            ],
+            [
+              150.80991625785825,
+              -33.92982115693149
+            ],
+            [
+              150.81040978431702,
+              -33.92709711666638
+            ],
+            [
+              150.80700874328613,
+              -33.92665200376723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Bringelly Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.72678923606873,
+              -33.93639054265581
+            ],
+            [
+              150.72624206542966,
+              -33.93886505790099
+            ],
+            [
+              150.7286989688873,
+              -33.93916769152053
+            ],
+            [
+              150.72927832603455,
+              -33.93673769121762
+            ],
+            [
+              150.72678923606873,
+              -33.93639054265581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Bringelly Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7284414768219,
+          -33.938820552866204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "The Junction Youth Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.81222295761108,
+          -33.92390115444627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Whitlam Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.88120937347412,
+              -33.90485643178078
+            ],
+            [
+              150.88128447532654,
+              -33.90526604048762
+            ],
+            [
+              150.8810591697693,
+              -33.90552427105218
+            ],
+            [
+              150.88080167770386,
+              -33.90577359637228
+            ],
+            [
+              150.88289380073547,
+              -33.90703802069761
+            ],
+            [
+              150.8831512928009,
+              -33.90664622925005
+            ],
+            [
+              150.88340878486633,
+              -33.906396906482215
+            ],
+            [
+              150.88375210762024,
+              -33.90633457567631
+            ],
+            [
+              150.88435292243958,
+              -33.906379097685175
+            ],
+            [
+              150.88436365127563,
+              -33.90692226432099
+            ],
+            [
+              150.8865201473236,
+              -33.90695788168438
+            ],
+            [
+              150.8865737915039,
+              -33.906494854799405
+            ],
+            [
+              150.8862841129303,
+              -33.90618320067223
+            ],
+            [
+              150.88632702827454,
+              -33.90582702313172
+            ],
+            [
+              150.88703513145447,
+              -33.905675647226346
+            ],
+            [
+              150.88706731796262,
+              -33.90510575905411
+            ],
+            [
+              150.8879256248474,
+              -33.90487424089592
+            ],
+            [
+              150.88778614997864,
+              -33.904624912945465
+            ],
+            [
+              150.8879578113556,
+              -33.90441120269326
+            ],
+            [
+              150.88809728622437,
+              -33.904384488874065
+            ],
+            [
+              150.88812947273254,
+              -33.90428653813206
+            ],
+            [
+              150.8875608444214,
+              -33.90397487593153
+            ],
+            [
+              150.88640213012695,
+              -33.90494547731926
+            ],
+            [
+              150.8856189250946,
+              -33.90523042241733
+            ],
+            [
+              150.88440656661984,
+              -33.90536399010419
+            ],
+            [
+              150.88438510894775,
+              -33.90507904545256
+            ],
+            [
+              150.8843207359314,
+              -33.90494547731926
+            ],
+            [
+              150.88120937347412,
+              -33.90485643178078
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Heckenberg Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8821964263916,
+          -33.905185899808544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Lalich Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.8876895904541,
+              -33.90390363869714
+            ],
+            [
+              150.88874101638794,
+              -33.90439339348139
+            ],
+            [
+              150.88952422142026,
+              -33.90330702452231
+            ],
+            [
+              150.89119791984558,
+              -33.90228297553366
+            ],
+            [
+              150.89158415794373,
+              -33.90119657968225
+            ],
+            [
+              150.89153051376343,
+              -33.90105410051102
+            ],
+            [
+              150.8916592597961,
+              -33.900733521505195
+            ],
+            [
+              150.8924424648285,
+              -33.89980739760653
+            ],
+            [
+              150.89354753494263,
+              -33.89912170323902
+            ],
+            [
+              150.89388012886047,
+              -33.899103892922234
+            ],
+            [
+              150.89425563812256,
+              -33.8992285650616
+            ],
+            [
+              150.89499592781067,
+              -33.89906827227751
+            ],
+            [
+              150.89434146881104,
+              -33.898124319770126
+            ],
+            [
+              150.89464187622067,
+              -33.89794621435163
+            ],
+            [
+              150.89557528495789,
+              -33.89736736917232
+            ],
+            [
+              150.89561820030212,
+              -33.897251599664955
+            ],
+            [
+              150.8955430984497,
+              -33.89722488360246
+            ],
+            [
+              150.89609026908872,
+              -33.896610411855214
+            ],
+            [
+              150.8964765071869,
+              -33.896610411855214
+            ],
+            [
+              150.8966588973999,
+              -33.896637128110214
+            ],
+            [
+              150.89714169502258,
+              -33.895693148690256
+            ],
+            [
+              150.89661598205564,
+              -33.89589797530112
+            ],
+            [
+              150.8957040309906,
+              -33.89579110930465
+            ],
+            [
+              150.89559674263,
+              -33.89613842330355
+            ],
+            [
+              150.89482426643372,
+              -33.896868668636216
+            ],
+            [
+              150.89452385902405,
+              -33.8970913031645
+            ],
+            [
+              150.89472770690918,
+              -33.897215978246436
+            ],
+            [
+              150.89420199394226,
+              -33.897607813031584
+            ],
+            [
+              150.89389085769653,
+              -33.8976345289741
+            ],
+            [
+              150.8935260772705,
+              -33.897830445630106
+            ],
+            [
+              150.89326858520505,
+              -33.89792840378931
+            ],
+            [
+              150.8925712108612,
+              -33.89796402491021
+            ],
+            [
+              150.89236736297607,
+              -33.897839350921956
+            ],
+            [
+              150.89176654815674,
+              -33.89792840378931
+            ],
+            [
+              150.89144468307495,
+              -33.8980085512904
+            ],
+            [
+              150.8908116817474,
+              -33.89848052949111
+            ],
+            [
+              150.89059710502625,
+              -33.89866753899894
+            ],
+            [
+              150.89035034179688,
+              -33.89908608260173
+            ],
+            [
+              150.89041471481323,
+              -33.8995313394983
+            ],
+            [
+              150.8902645111084,
+              -33.899860828104885
+            ],
+            [
+              150.88950276374817,
+              -33.9002348406559
+            ],
+            [
+              150.88950276374817,
+              -33.900786951423214
+            ],
+            [
+              150.8892560005188,
+              -33.90131234383357
+            ],
+            [
+              150.88878393173218,
+              -33.90172196956843
+            ],
+            [
+              150.88838696479797,
+              -33.90213159333526
+            ],
+            [
+              150.88929891586304,
+              -33.90267478703427
+            ],
+            [
+              150.88912725448608,
+              -33.90293302544792
+            ],
+            [
+              150.88892340660095,
+              -33.90289740640288
+            ],
+            [
+              150.8888053894043,
+              -33.90303988249373
+            ],
+            [
+              150.8886444568634,
+              -33.90330702452231
+            ],
+            [
+              150.8884084224701,
+              -33.903396071679154
+            ],
+            [
+              150.88819384574887,
+              -33.90341388109936
+            ],
+            [
+              150.8876895904541,
+              -33.90390363869714
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Greenway Park Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8368080854416,
+          -33.935277877471144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Greenway Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.8360731601715,
+              -33.93424086042921
+            ],
+            [
+              150.83603024482727,
+              -33.93449900319105
+            ],
+            [
+              150.83594441413877,
+              -33.93493072295776
+            ],
+            [
+              150.83580493927002,
+              -33.935202215710646
+            ],
+            [
+              150.83570837974548,
+              -33.935344637792234
+            ],
+            [
+              150.83584785461426,
+              -33.93542475010845
+            ],
+            [
+              150.83616971969604,
+              -33.93546035555813
+            ],
+            [
+              150.8366096019745,
+              -33.935682889281324
+            ],
+            [
+              150.8368617296219,
+              -33.93588316913495
+            ],
+            [
+              150.83739817142487,
+              -33.93611015239957
+            ],
+            [
+              150.83786487579346,
+              -33.93615910949498
+            ],
+            [
+              150.8388090133667,
+              -33.936025590077584
+            ],
+            [
+              150.83939373493195,
+              -33.93600778747279
+            ],
+            [
+              150.83987653255463,
+              -33.936087899165095
+            ],
+            [
+              150.8400321006775,
+              -33.93601668877566
+            ],
+            [
+              150.84011793136597,
+              -33.93601223812434
+            ],
+            [
+              150.8402305841446,
+              -33.936052293977816
+            ],
+            [
+              150.84060609340668,
+              -33.936074547221615
+            ],
+            [
+              150.8407777547836,
+              -33.936030040728205
+            ],
+            [
+              150.8411157131195,
+              -33.93598998486427
+            ],
+            [
+              150.8415126800537,
+              -33.93575409994991
+            ],
+            [
+              150.84209740161896,
+              -33.93553601708927
+            ],
+            [
+              150.84250509738922,
+              -33.93546035555813
+            ],
+            [
+              150.84312200546265,
+              -33.93543810215383
+            ],
+            [
+              150.84396421909332,
+              -33.93416519774728
+            ],
+            [
+              150.84368526935577,
+              -33.93410733800397
+            ],
+            [
+              150.8418881893158,
+              -33.9338180386977
+            ],
+            [
+              150.84145367145538,
+              -33.933809137165
+            ],
+            [
+              150.84114253520966,
+              -33.933809137165
+            ],
+            [
+              150.84087431430817,
+              -33.933804686398304
+            ],
+            [
+              150.8398336172104,
+              -33.93383139099501
+            ],
+            [
+              150.8388090133667,
+              -33.93402277369302
+            ],
+            [
+              150.83865880966187,
+              -33.93401387218173
+            ],
+            [
+              150.83863735198975,
+              -33.93406283048236
+            ],
+            [
+              150.8371138572693,
+              -33.934316523043925
+            ],
+            [
+              150.83671689033508,
+              -33.93420080372362
+            ],
+            [
+              150.83656668663025,
+              -33.934236409685084
+            ],
+            [
+              150.8360731601715,
+              -33.93424086042921
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Carnes Hill Community & Recreation Precinct"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8463191986084,
+          -33.935402496694834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Carnes Hill Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.8433848619461,
+              -33.935665086604864
+            ],
+            [
+              150.84468841552734,
+              -33.93579860658755
+            ],
+            [
+              150.84658205509186,
+              -33.93607899786967
+            ],
+            [
+              150.84690928459167,
+              -33.93603894202875
+            ],
+            [
+              150.84701657295227,
+              -33.93513990597504
+            ],
+            [
+              150.8470380306244,
+              -33.93505089198794
+            ],
+            [
+              150.84718286991117,
+              -33.93495297649466
+            ],
+            [
+              150.84728479385376,
+              -33.93492627224968
+            ],
+            [
+              150.84739744663239,
+              -33.93474379301817
+            ],
+            [
+              150.8472633361816,
+              -33.93478384946834
+            ],
+            [
+              150.84638357162476,
+              -33.93446339733939
+            ],
+            [
+              150.84578275680542,
+              -33.93446339733939
+            ],
+            [
+              150.8454555273056,
+              -33.93456576412277
+            ],
+            [
+              150.84528923034665,
+              -33.93455686266824
+            ],
+            [
+              150.84486544132233,
+              -33.93462362355461
+            ],
+            [
+              150.84422707557678,
+              -33.93508649759395
+            ],
+            [
+              150.8438408374786,
+              -33.93526897609105
+            ],
+            [
+              150.8433848619461,
+              -33.935665086604864
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Churchill Gardens"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.89728116989136,
+              -33.94666198089991
+            ],
+            [
+              150.89684128761292,
+              -33.948922598990244
+            ],
+            [
+              150.8969485759735,
+              -33.94918069723662
+            ],
+            [
+              150.89864373207092,
+              -33.949189597162196
+            ],
+            [
+              150.89876174926758,
+              -33.94839750014188
+            ],
+            [
+              150.89893341064453,
+              -33.94782789772794
+            ],
+            [
+              150.8989655971527,
+              -33.94675988292719
+            ],
+            [
+              150.89728116989136,
+              -33.94666198089991
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Casula Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89768886566162,
+          -33.94868229991931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Jardine Pak"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.90524196624756,
+              -33.9444369044629
+            ],
+            [
+              150.90396523475647,
+              -33.947356192843344
+            ],
+            [
+              150.90572476387024,
+              -33.947560895284155
+            ],
+            [
+              150.90681910514832,
+              -33.94488192440351
+            ],
+            [
+              150.90554237365723,
+              -33.94479292060151
+            ],
+            [
+              150.9055745601654,
+              -33.94445470530518
+            ],
+            [
+              150.90524196624756,
+              -33.9444369044629
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Meere Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.89088678359985,
+              -33.94157092030868
+            ],
+            [
+              150.89051127433777,
+              -33.94324423954928
+            ],
+            [
+              150.89277505874634,
+              -33.94353795708635
+            ],
+            [
+              150.89306473731995,
+              -33.94186464361922
+            ],
+            [
+              150.89088678359985,
+              -33.94157092030868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Amalfi Memorial Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.90243101119995,
+              -33.93292788082164
+            ],
+            [
+              150.90167999267578,
+              -33.934245311173115
+            ],
+            [
+              150.90082168579102,
+              -33.93618581335333
+            ],
+            [
+              150.89970588684082,
+              -33.939069780761336
+            ],
+            [
+              150.90140104293823,
+              -33.939140988597366
+            ],
+            [
+              150.90174436569214,
+              -33.93777022729239
+            ],
+            [
+              150.90264558792114,
+              -33.93705813478769
+            ],
+            [
+              150.90354681015015,
+              -33.933088109926025
+            ],
+            [
+              150.90243101119995,
+              -33.93292788082164
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Pearce Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.90922236442563,
+              -33.92798733548664
+            ],
+            [
+              150.90916872024536,
+              -33.92845024559618
+            ],
+            [
+              150.9084391593933,
+              -33.92843244140773
+            ],
+            [
+              150.90807437896729,
+              -33.92869060177616
+            ],
+            [
+              150.90765595436096,
+              -33.92904668375898
+            ],
+            [
+              150.9067440032959,
+              -33.92893985932046
+            ],
+            [
+              150.90661525726318,
+              -33.92955409801234
+            ],
+            [
+              150.90654015541077,
+              -33.92960750986317
+            ],
+            [
+              150.90606808662415,
+              -33.929696529540095
+            ],
+            [
+              150.90593934059143,
+              -33.93097840257114
+            ],
+            [
+              150.9048557281494,
+              -33.93191308949295
+            ],
+            [
+              150.90282797813416,
+              -33.93281215961431
+            ],
+            [
+              150.90378284454346,
+              -33.932981290556604
+            ],
+            [
+              150.90373992919922,
+              -33.93278545469798
+            ],
+            [
+              150.90426564216614,
+              -33.9325985200492
+            ],
+            [
+              150.9053599834442,
+              -33.93263412668059
+            ],
+            [
+              150.90524196624756,
+              -33.933097011534095
+            ],
+            [
+              150.90621829032898,
+              -33.933230535543494
+            ],
+            [
+              150.90625047683716,
+              -33.93285666778958
+            ],
+            [
+              150.9058427810669,
+              -33.932847766156385
+            ],
+            [
+              150.9064221382141,
+              -33.93193089295381
+            ],
+            [
+              150.90710878372192,
+              -33.93196649986436
+            ],
+            [
+              150.9071946144104,
+              -33.931298867814235
+            ],
+            [
+              150.90928673744202,
+              -33.93001699960664
+            ],
+            [
+              150.90945839881897,
+              -33.930061509242734
+            ],
+            [
+              150.90957641601562,
+              -33.9298567647241
+            ],
+            [
+              150.9101665019989,
+              -33.92987456861482
+            ],
+            [
+              150.910906791687,
+              -33.92886864295365
+            ],
+            [
+              150.91137886047363,
+              -33.92893985932046
+            ],
+            [
+              150.91168999671936,
+              -33.92817428025681
+            ],
+            [
+              150.90922236442563,
+              -33.92798733548664
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "woodward park/ hillier oval"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91302037239075,
+              -33.923598466571725
+            ],
+            [
+              150.9103488922119,
+              -33.92784490110064
+            ],
+            [
+              150.91276288032532,
+              -33.92810306324989
+            ],
+            [
+              150.91692566871643,
+              -33.92870840591067
+            ],
+            [
+              150.91782689094543,
+              -33.92849475605106
+            ],
+            [
+              150.9174942970276,
+              -33.92728406339041
+            ],
+            [
+              150.9181809425354,
+              -33.924239451386256
+            ],
+            [
+              150.91302037239075,
+              -33.923598466571725
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "barbara long park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91332077980042,
+              -33.92139949590272
+            ],
+            [
+              150.9129023551941,
+              -33.923509440521585
+            ],
+            [
+              150.91422200202942,
+              -33.923598466571725
+            ],
+            [
+              150.91483354568481,
+              -33.92212952484771
+            ],
+            [
+              150.9154665470123,
+              -33.921604260750236
+            ],
+            [
+              150.91332077980042,
+              -33.92139949590272
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Cecil Hills Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85249900817868,
+          -33.887784684259024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Pye Hill Reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.85040688514707,
+              -33.88718795730507
+            ],
+            [
+              150.8508038520813,
+              -33.888034061450796
+            ],
+            [
+              150.85293889045715,
+              -33.88789156028762
+            ],
+            [
+              150.85331439971924,
+              -33.88781140327873
+            ],
+            [
+              150.85323929786682,
+              -33.88898703186041
+            ],
+            [
+              150.85127592086792,
+              -33.889343279746946
+            ],
+            [
+              150.85196256637573,
+              -33.891801349612436
+            ],
+            [
+              150.85275650024414,
+              -33.89162323098827
+            ],
+            [
+              150.85407614707947,
+              -33.89043873267618
+            ],
+            [
+              150.85508465766907,
+              -33.89018045642375
+            ],
+            [
+              150.85580348968503,
+              -33.889735150703665
+            ],
+            [
+              150.8559536933899,
+              -33.889209686963845
+            ],
+            [
+              150.85620045661926,
+              -33.88918296838212
+            ],
+            [
+              150.85603952407837,
+              -33.88820328127288
+            ],
+            [
+              150.85577130317688,
+              -33.887686714448506
+            ],
+            [
+              150.8549451828003,
+              -33.88784702862531
+            ],
+            [
+              150.85282087326047,
+              -33.88595886475436
+            ],
+            [
+              150.8534324169159,
+              -33.884898980872165
+            ],
+            [
+              150.85270285606381,
+              -33.88521071279263
+            ],
+            [
+              150.85158705711365,
+              -33.886626852033075
+            ],
+            [
+              150.85040688514707,
+              -33.88718795730507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Lindsey Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.8565652370453,
+              -33.884756474472
+            ],
+            [
+              150.85577130317688,
+              -33.88774015254092
+            ],
+            [
+              150.8560609817505,
+              -33.88826562533324
+            ],
+            [
+              150.85622191429138,
+              -33.88916515598965
+            ],
+            [
+              150.85695147514343,
+              -33.88848828231971
+            ],
+            [
+              150.85767030715942,
+              -33.88865750124074
+            ],
+            [
+              150.85760593414307,
+              -33.887624369965046
+            ],
+            [
+              150.8564043045044,
+              -33.88764218267926
+            ],
+            [
+              150.8571982383728,
+              -33.88482772770184
+            ],
+            [
+              150.8565652370453,
+              -33.884756474472
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Chipping Norton Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.96105873584747,
+          -33.90844489332524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "childs park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9615683555603,
+              -33.90889900548197
+            ],
+            [
+              150.96139669418332,
+              -33.90998530317816
+            ],
+            [
+              150.96243739128113,
+              -33.91005653533029
+            ],
+            [
+              150.96283435821533,
+              -33.908480510052414
+            ],
+            [
+              150.96272706985474,
+              -33.908311330465764
+            ],
+            [
+              150.96243739128113,
+              -33.90804420411898
+            ],
+            [
+              150.96145033836365,
+              -33.90785721517812
+            ],
+            [
+              150.96110701560974,
+              -33.90792844910872
+            ],
+            [
+              150.9607207775116,
+              -33.90795516181734
+            ],
+            [
+              150.96058130264282,
+              -33.908765443334076
+            ],
+            [
+              150.9615683555603,
+              -33.90889900548197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Rowley Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9672975540161,
+              -33.90132124876177
+            ],
+            [
+              150.96770524978638,
+              -33.90169525490657
+            ],
+            [
+              150.97012996673584,
+              -33.90219392721421
+            ],
+            [
+              150.97062349319458,
+              -33.90178430374685
+            ],
+            [
+              150.97010850906372,
+              -33.900804761388436
+            ],
+            [
+              150.9672975540161,
+              -33.90132124876177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "strong park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.96377849578857,
+              -33.903066596734256
+            ],
+            [
+              150.96416473388672,
+              -33.903404976389716
+            ],
+            [
+              150.96457242965698,
+              -33.90449134410062
+            ],
+            [
+              150.96506595611572,
+              -33.90466943584724
+            ],
+            [
+              150.96633195877075,
+              -33.904651626689315
+            ],
+            [
+              150.96719026565552,
+              -33.904544771663666
+            ],
+            [
+              150.96813440322876,
+              -33.903850210732294
+            ],
+            [
+              150.9668254852295,
+              -33.90285288257567
+            ],
+            [
+              150.96588134765625,
+              -33.902924120688056
+            ],
+            [
+              150.96467971801758,
+              -33.90285288257567
+            ],
+            [
+              150.964035987854,
+              -33.9028885016393
+            ],
+            [
+              150.96377849578857,
+              -33.903066596734256
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "south park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.94927310943604,
+              -33.90960242934055
+            ],
+            [
+              150.95073223114014,
+              -33.912362644092845
+            ],
+            [
+              150.95141887664795,
+              -33.9155145219361
+            ],
+            [
+              150.95234155654907,
+              -33.91547890814835
+            ],
+            [
+              150.9518265724182,
+              -33.91238045163974
+            ],
+            [
+              150.95242738723755,
+              -33.90976270231908
+            ],
+            [
+              150.94927310943604,
+              -33.90960242934055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Cabramatta Sports Grounds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.93682765960693,
+              -33.902461071893526
+            ],
+            [
+              150.93528270721436,
+              -33.902407643024624
+            ],
+            [
+              150.93504667282102,
+              -33.902728215735756
+            ],
+            [
+              150.93427419662476,
+              -33.90269259660516
+            ],
+            [
+              150.9339952468872,
+              -33.90313783466807
+            ],
+            [
+              150.9331154823303,
+              -33.90320907254235
+            ],
+            [
+              150.932879447937,
+              -33.903387166967654
+            ],
+            [
+              150.93272924423218,
+              -33.90324469145719
+            ],
+            [
+              150.93260049819946,
+              -33.903298119801505
+            ],
+            [
+              150.93272924423218,
+              -33.903511832844
+            ],
+            [
+              150.932514667511,
+              -33.904348870435456
+            ],
+            [
+              150.93204259872437,
+              -33.90481190897666
+            ],
+            [
+              150.93122720718384,
+              -33.90504342730414
+            ],
+            [
+              150.9309482574463,
+              -33.90529275403058
+            ],
+            [
+              150.9310984611511,
+              -33.905737978514054
+            ],
+            [
+              150.93172073364258,
+              -33.90582702313172
+            ],
+            [
+              150.93247175216675,
+              -33.90579140529581
+            ],
+            [
+              150.9328579902649,
+              -33.90602292096316
+            ],
+            [
+              150.93360900878906,
+              -33.90669965546257
+            ],
+            [
+              150.93395233154297,
+              -33.905559888999704
+            ],
+            [
+              150.93395233154297,
+              -33.905239326936304
+            ],
+            [
+              150.93401670455933,
+              -33.90470505415192
+            ],
+            [
+              150.93508958816525,
+              -33.90466943584724
+            ],
+            [
+              150.93562602996826,
+              -33.90477629071663
+            ],
+            [
+              150.93607664108276,
+              -33.90470505415192
+            ],
+            [
+              150.93609809875488,
+              -33.90429544274963
+            ],
+            [
+              150.93614101409912,
+              -33.90383240140323
+            ],
+            [
+              150.93594789505005,
+              -33.9034584046336
+            ],
+            [
+              150.9362268447876,
+              -33.90324469145719
+            ],
+            [
+              150.93663454055786,
+              -33.903280310357125
+            ],
+            [
+              150.93682765960693,
+              -33.902461071893526
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Dwyer Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9241247177124,
+              -33.90685993389923
+            ],
+            [
+              150.9240174293518,
+              -33.90837365982623
+            ],
+            [
+              150.9253478050232,
+              -33.90840927658317
+            ],
+            [
+              150.92541217803955,
+              -33.90862297681231
+            ],
+            [
+              150.92560529708862,
+              -33.90862297681231
+            ],
+            [
+              150.92577695846558,
+              -33.90887229306914
+            ],
+            [
+              150.92607736587524,
+              -33.90887229306914
+            ],
+            [
+              150.92612028121948,
+              -33.90849831841042
+            ],
+            [
+              150.92663526535034,
+              -33.90842708495607
+            ],
+            [
+              150.92687129974362,
+              -33.90787502366636
+            ],
+            [
+              150.92730045318604,
+              -33.90780378969111
+            ],
+            [
+              150.92777252197266,
+              -33.907910640631655
+            ],
+            [
+              150.92811584472656,
+              -33.908480510052414
+            ],
+            [
+              150.9282660484314,
+              -33.90846270169069
+            ],
+            [
+              150.9283947944641,
+              -33.908712018416324
+            ],
+            [
+              150.92796564102173,
+              -33.90906818390221
+            ],
+            [
+              150.92908143997192,
+              -33.90858736014466
+            ],
+            [
+              150.92946767807007,
+              -33.908890101345285
+            ],
+            [
+              150.93079805374146,
+              -33.90716268123511
+            ],
+            [
+              150.9299397468567,
+              -33.907305150197594
+            ],
+            [
+              150.92944622039792,
+              -33.90719829849806
+            ],
+            [
+              150.92884540557858,
+              -33.90703802069761
+            ],
+            [
+              150.9285020828247,
+              -33.907180489868445
+            ],
+            [
+              150.92818021774292,
+              -33.90757227886045
+            ],
+            [
+              150.92715024948117,
+              -33.90760789595225
+            ],
+            [
+              150.9268069267273,
+              -33.90769693861664
+            ],
+            [
+              150.92657089233398,
+              -33.907785981188006
+            ],
+            [
+              150.9263777732849,
+              -33.907910640631655
+            ],
+            [
+              150.9265065193176,
+              -33.907679130091196
+            ],
+            [
+              150.9263777732849,
+              -33.90739419317823
+            ],
+            [
+              150.9261846542358,
+              -33.9070024033677
+            ],
+            [
+              150.92556238174438,
+              -33.90691335997781
+            ],
+            [
+              150.9254550933838,
+              -33.90664622925005
+            ],
+            [
+              150.92466115951538,
+              -33.90664622925005
+            ],
+            [
+              150.9241247177124,
+              -33.90685993389923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "education",
+        "name": "Warwick Farm Public School",
+        "number": "not on other map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92926383018494,
+          -33.90986064676869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Jacqui Osmond Reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.94253540039062,
+              -33.90552427105218
+            ],
+            [
+              150.9412908554077,
+              -33.90669965546257
+            ],
+            [
+              150.94077587127686,
+              -33.90666403799128
+            ],
+            [
+              150.94045400619507,
+              -33.906521567957284
+            ],
+            [
+              150.94013214111328,
+              -33.90632567127175
+            ],
+            [
+              150.9400463104248,
+              -33.90646814163315
+            ],
+            [
+              150.93950986862183,
+              -33.90636128888442
+            ],
+            [
+              150.9383726119995,
+              -33.904651626689315
+            ],
+            [
+              150.93809366226196,
+              -33.9047940998485
+            ],
+            [
+              150.93695640563965,
+              -33.90490095456165
+            ],
+            [
+              150.93648433685303,
+              -33.906966786022906
+            ],
+            [
+              150.9418487548828,
+              -33.90780378969111
+            ],
+            [
+              150.94255685806274,
+              -33.90653937672455
+            ],
+            [
+              150.94253540039062,
+              -33.90552427105218
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Irelands Bridge Reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.946204662323,
+              -33.90208706910811
+            ],
+            [
+              150.94566822052002,
+              -33.90281726349715
+            ],
+            [
+              150.9454321861267,
+              -33.90274602529548
+            ],
+            [
+              150.94526052474976,
+              -33.902870692109346
+            ],
+            [
+              150.94390869140622,
+              -33.90279945395231
+            ],
+            [
+              150.94332933425903,
+              -33.90404611310639
+            ],
+            [
+              150.943500995636,
+              -33.904455725706654
+            ],
+            [
+              150.94489574432373,
+              -33.90481190897666
+            ],
+            [
+              150.94536781311035,
+              -33.9045269624797
+            ],
+            [
+              150.94629049301147,
+              -33.904117350221725
+            ],
+            [
+              150.94626903533936,
+              -33.90320907254235
+            ],
+            [
+              150.94729900360107,
+              -33.902835073038275
+            ],
+            [
+              150.9475779533386,
+              -33.9025323103333
+            ],
+            [
+              150.946204662323,
+              -33.90208706910811
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Durrant Oval"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.93645215034485,
+              -33.90490095456165
+            ],
+            [
+              150.93589425086972,
+              -33.90523042241733
+            ],
+            [
+              150.93535780906677,
+              -33.905711265110625
+            ],
+            [
+              150.93445658683777,
+              -33.90585373649887
+            ],
+            [
+              150.9343922138214,
+              -33.90604963426894
+            ],
+            [
+              150.93411326408386,
+              -33.906201009510205
+            ],
+            [
+              150.93357682228088,
+              -33.90683322084738
+            ],
+            [
+              150.93242883682248,
+              -33.90684212519893
+            ],
+            [
+              150.93159198760986,
+              -33.907189394183725
+            ],
+            [
+              150.93064785003662,
+              -33.90804420411898
+            ],
+            [
+              150.92987537384033,
+              -33.90867640178587
+            ],
+            [
+              150.929993391037,
+              -33.909148320931436
+            ],
+            [
+              150.93116283416748,
+              -33.90994968707978
+            ],
+            [
+              150.93142032623288,
+              -33.90937092339507
+            ],
+            [
+              150.93165636062622,
+              -33.909272978382695
+            ],
+            [
+              150.93146324157712,
+              -33.908712018416324
+            ],
+            [
+              150.93159198760986,
+              -33.907759268426354
+            ],
+            [
+              150.93243956565857,
+              -33.90780378969111
+            ],
+            [
+              150.93262195587158,
+              -33.907750364170624
+            ],
+            [
+              150.9329652786255,
+              -33.90787502366636
+            ],
+            [
+              150.9334909915924,
+              -33.90772365139781
+            ],
+            [
+              150.9341025352478,
+              -33.907750364170624
+            ],
+            [
+              150.93402743339539,
+              -33.907545566031835
+            ],
+            [
+              150.93544363975525,
+              -33.907064733685296
+            ],
+            [
+              150.93602299690247,
+              -33.90711815963551
+            ],
+            [
+              150.93645215034485,
+              -33.90490095456165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Rosedale Park/ Oval"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.93849062919617,
+              -33.91502483104996
+            ],
+            [
+              150.93814730644226,
+              -33.917036997443184
+            ],
+            [
+              150.94075441360474,
+              -33.917286289086555
+            ],
+            [
+              150.94045400619507,
+              -33.91686783484124
+            ],
+            [
+              150.94057202339172,
+              -33.91599530661386
+            ],
+            [
+              150.9408938884735,
+              -33.91557684602885
+            ],
+            [
+              150.94091534614563,
+              -33.91530083898639
+            ],
+            [
+              150.93849062919617,
+              -33.91502483104996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "chipping norton boatshed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.95642924308777,
+          -33.90630786245983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Green Valley District Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8659529685974,
+          -33.90843598914112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Winnal Reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.86845278739926,
+              -33.90665513362113
+            ],
+            [
+              150.86808800697327,
+              -33.9083202346629
+            ],
+            [
+              150.868581533432,
+              -33.90828461786875
+            ],
+            [
+              150.86926817893982,
+              -33.90833804305439
+            ],
+            [
+              150.86999773979187,
+              -33.90888119720768
+            ],
+            [
+              150.87083458900452,
+              -33.908916813752555
+            ],
+            [
+              150.8717143535614,
+              -33.908890101345285
+            ],
+            [
+              150.8715319633484,
+              -33.90703802069761
+            ],
+            [
+              150.87119936943054,
+              -33.90691335997781
+            ],
+            [
+              150.86845278739926,
+              -33.90665513362113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "ida kennedy reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.86579203605652,
+              -33.90585373649887
+            ],
+            [
+              150.8645099401474,
+              -33.90569345617035
+            ],
+            [
+              150.86328148841858,
+              -33.906134226348655
+            ],
+            [
+              150.86301326751706,
+              -33.906739725099996
+            ],
+            [
+              150.8633404970169,
+              -33.90680650778717
+            ],
+            [
+              150.86390912532806,
+              -33.9067976034319
+            ],
+            [
+              150.86497128009796,
+              -33.90688219476938
+            ],
+            [
+              150.864799618721,
+              -33.907665773694674
+            ],
+            [
+              150.8642417192459,
+              -33.907612348087675
+            ],
+            [
+              150.863356590271,
+              -33.90786166730053
+            ],
+            [
+              150.86304545402527,
+              -33.90816886318499
+            ],
+            [
+              150.86259484291077,
+              -33.90837365982623
+            ],
+            [
+              150.86136102676392,
+              -33.90828016576844
+            ],
+            [
+              150.86064219474792,
+              -33.90846270169069
+            ],
+            [
+              150.86089968681335,
+              -33.908712018416324
+            ],
+            [
+              150.86140394210813,
+              -33.90851612676471
+            ],
+            [
+              150.86242854595184,
+              -33.90858736014466
+            ],
+            [
+              150.8629274368286,
+              -33.90856064763416
+            ],
+            [
+              150.86377501487732,
+              -33.90797742240147
+            ],
+            [
+              150.86433291435242,
+              -33.90781714606601
+            ],
+            [
+              150.86538970470428,
+              -33.907950709699826
+            ],
+            [
+              150.8655345439911,
+              -33.90760789595225
+            ],
+            [
+              150.86537897586823,
+              -33.90749214034949
+            ],
+            [
+              150.8654648065567,
+              -33.90732295880117
+            ],
+            [
+              150.8655560016632,
+              -33.90729179374248
+            ],
+            [
+              150.86579203605652,
+              -33.90585373649887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community centre",
+        "name": "Hinchinbrook  Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.86777687072754,
+          -33.91735751513641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Aubrey Keech Reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.87024450302124,
+              -33.91870189565999
+            ],
+            [
+              150.87000846862793,
+              -33.91992161327896
+            ],
+            [
+              150.8695685863495,
+              -33.919930516263086
+            ],
+            [
+              150.8692467212677,
+              -33.920215411263804
+            ],
+            [
+              150.86990118026733,
+              -33.92017089648274
+            ],
+            [
+              150.86976170539856,
+              -33.920847518645004
+            ],
+            [
+              150.87218642234802,
+              -33.92120363341416
+            ],
+            [
+              150.87304472923276,
+              -33.91912924396616
+            ],
+            [
+              150.87024450302124,
+              -33.91870189565999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.86268067359924,
+              -33.92351834313078
+            ],
+            [
+              150.8624017238617,
+              -33.92516530982589
+            ],
+            [
+              150.86383938789368,
+              -33.926046646491656
+            ],
+            [
+              150.86634993553162,
+              -33.92576177099101
+            ],
+            [
+              150.86670398712158,
+              -33.924007985204035
+            ],
+            [
+              150.86268067359924,
+              -33.92351834313078
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "open space",
+        "name": "hoxton park recreation reserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.86454749107358,
+          -33.924844821504784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "Open Space",
+        "name": "Frank Oliveri Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.88541507720944,
+          -33.90769693861664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "open space",
+        "name": "Dr James Pirie Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92728972434998,
+          -33.922645883007256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Rosebank Child Sexual Abuse Services"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92347025871277,
+          -33.927577835984884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "110 Memorial Avenue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91327786445618,
+          -33.92403914414981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Hilda M Davis Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9268605709076,
+          -33.92216068448056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "liverpool brass band hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91501593589783,
+          -33.92447536819403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "open space",
+        "name": "Liverpool Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9200370311737,
+          -33.929527392074384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "discovery park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91891050338745,
+              -33.93087158055547
+            ],
+            [
+              150.9186851978302,
+              -33.931717251177886
+            ],
+            [
+              150.91821312904358,
+              -33.93227805969659
+            ],
+            [
+              150.91782689094543,
+              -33.93356879543034
+            ],
+            [
+              150.91657161712646,
+              -33.9334352719513
+            ],
+            [
+              150.9160351753235,
+              -33.93453905975636
+            ],
+            [
+              150.9166145324707,
+              -33.93473489158224
+            ],
+            [
+              150.91798782348633,
+              -33.935224469176596
+            ],
+            [
+              150.9183633327484,
+              -33.934503453921465
+            ],
+            [
+              150.91825604438782,
+              -33.934245311173115
+            ],
+            [
+              150.91848134994507,
+              -33.93406728123557
+            ],
+            [
+              150.9186315536499,
+              -33.93402277369302
+            ],
+            [
+              150.91851353645325,
+              -33.9334352719513
+            ],
+            [
+              150.91859936714172,
+              -33.933159322764546
+            ],
+            [
+              150.91917872428894,
+              -33.933097011534095
+            ],
+            [
+              150.9186851978302,
+              -33.933007995411515
+            ],
+            [
+              150.91883540153503,
+              -33.93260742170843
+            ],
+            [
+              150.91931819915771,
+              -33.931877482560076
+            ],
+            [
+              150.91950058937073,
+              -33.931770661672125
+            ],
+            [
+              150.9197473526001,
+              -33.93193979468284
+            ],
+            [
+              150.91982245445251,
+              -33.93190418776113
+            ],
+            [
+              150.9196400642395,
+              -33.931619331851486
+            ],
+            [
+              150.91997265815735,
+              -33.93148580531585
+            ],
+            [
+              150.920090675354,
+              -33.93106742081518
+            ],
+            [
+              150.91891050338745,
+              -33.93087158055547
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92537999153134,
+          -33.92497835845179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Orange Grove Community Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91468334197998,
+          -33.912887965161985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "schell park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91417908668515,
+              -33.9119530694874
+            ],
+            [
+              150.91416835784912,
+              -33.91198868474863
+            ],
+            [
+              150.91485500335693,
+              -33.91279892792055
+            ],
+            [
+              150.91619610786438,
+              -33.912469489318376
+            ],
+            [
+              150.91599225997922,
+              -33.91165924301447
+            ],
+            [
+              150.91417908668515,
+              -33.9119530694874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "speed street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92326641082764,
+          -33.92828110565554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "frank calabro community hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.80525994300842,
+          -33.92302869824322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "George Bates Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8961546421051,
+          -33.93325724032025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "phillips park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.89614391326904,
+              -33.932100025646314
+            ],
+            [
+              150.8956503868103,
+              -33.93341746880495
+            ],
+            [
+              150.89793026447296,
+              -33.93373347409946
+            ],
+            [
+              150.89841842651367,
+              -33.93240713415032
+            ],
+            [
+              150.89614391326904,
+              -33.932100025646314
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "lurnea medical centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89685738086698,
+          -33.930849325952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Dr.C.R. O'Brien Civic Centre",
+        "number": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8836394548416,
+          -33.92034895546747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Miller Senior Citizens Centre",
+        "number": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.88149905204773,
+          -33.920291086338246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Police Citizens Youth Club",
+        "number": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.88767886161804,
+          -33.92125259907852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Miller Community Centre (old miller library)",
+        "number": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8833283185959,
+          -33.91972129589024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "moorebank community centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.95365047454834,
+          -33.9338180386977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Seton Recreation Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93335151672363,
+          -33.93236707658216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Wattle Grove Community Centre",
+        "number": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.94426274299622,
+          -33.955325874285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Wattle Grove Youth Centre",
+        "number": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.94000339508054,
+          -33.959859938346476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Australis Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.93904852867126,
+              -33.9586229948866
+            ],
+            [
+              150.93889832496643,
+              -33.95864079276175
+            ],
+            [
+              150.93791127204895,
+              -33.9596018724906
+            ],
+            [
+              150.93960642814636,
+              -33.96048285270429
+            ],
+            [
+              150.94045400619507,
+              -33.96060743502851
+            ],
+            [
+              150.94061493873596,
+              -33.960447257721
+            ],
+            [
+              150.9409475326538,
+              -33.959673063149715
+            ],
+            [
+              150.93923091888428,
+              -33.9587119842251
+            ],
+            [
+              150.93904852867126,
+              -33.9586229948866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "open space",
+        "name": "Liverpool Neighbourhood Connections",
+        "number": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93105554580688,
+          -33.91080446933342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "community facilities",
+        "name": "Voyager Point Community Centre",
+        "number": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97287654876706,
+          -33.960562941362234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Ireland Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9049415588379,
+              -33.913377668327165
+            ],
+            [
+              150.9039545059204,
+              -33.914125573185174
+            ],
+            [
+              150.90223789215088,
+              -33.91583504535602
+            ],
+            [
+              150.90249538421628,
+              -33.91636924837673
+            ],
+            [
+              150.90258121490479,
+              -33.91822112625353
+            ],
+            [
+              150.9021520614624,
+              -33.9195031719758
+            ],
+            [
+              150.899920463562,
+              -33.920963256108244
+            ],
+            [
+              150.89906215667725,
+              -33.921283759032086
+            ],
+            [
+              150.89906215667725,
+              -33.922636980306876
+            ],
+            [
+              150.89927673339844,
+              -33.923349193396895
+            ],
+            [
+              150.8994483947754,
+              -33.92516530982589
+            ],
+            [
+              150.89786052703857,
+              -33.92569945434824
+            ],
+            [
+              150.8977746963501,
+              -33.926091158202574
+            ],
+            [
+              150.90030670166016,
+              -33.92634042335388
+            ],
+            [
+              150.89996337890625,
+              -33.92555701613644
+            ],
+            [
+              150.9011650085449,
+              -33.92374090805842
+            ],
+            [
+              150.90275287628174,
+              -33.923099919492685
+            ],
+            [
+              150.9050703048706,
+              -33.92217403860543
+            ],
+            [
+              150.90524196624756,
+              -33.9211769248581
+            ],
+            [
+              150.90532779693604,
+              -33.9207139752228
+            ],
+            [
+              150.9061861038208,
+              -33.92074958682253
+            ],
+            [
+              150.906400680542,
+              -33.92035785840694
+            ],
+            [
+              150.90579986572263,
+              -33.92025102307192
+            ],
+            [
+              150.90575695037842,
+              -33.919681232355984
+            ],
+            [
+              150.90592861175537,
+              -33.91925388681838
+            ],
+            [
+              150.90635776519775,
+              -33.91914705009906
+            ],
+            [
+              150.90614318847656,
+              -33.918577252000276
+            ],
+            [
+              150.9058427810669,
+              -33.91811428823926
+            ],
+            [
+              150.90588569641113,
+              -33.917651321962744
+            ],
+            [
+              150.9060573577881,
+              -33.91722396624409
+            ],
+            [
+              150.90708732604978,
+              -33.915193997310595
+            ],
+            [
+              150.9085464477539,
+              -33.9151583833889
+            ],
+            [
+              150.90893268585205,
+              -33.915443294345735
+            ],
+            [
+              150.90910434722898,
+              -33.91597749982232
+            ],
+            [
+              150.9094476699829,
+              -33.91597749982232
+            ],
+            [
+              150.90936183929443,
+              -33.91530083898639
+            ],
+            [
+              150.9064435958862,
+              -33.91355574150775
+            ],
+            [
+              150.9049415588379,
+              -33.913377668327165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "elouera bushland reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.88867664337155,
+              -33.9211769248581
+            ],
+            [
+              150.8894920349121,
+              -33.92199598343502
+            ],
+            [
+              150.88974952697754,
+              -33.92327797235584
+            ],
+            [
+              150.8900499343872,
+              -33.92317114068261
+            ],
+            [
+              150.89009284973145,
+              -33.92352724573905
+            ],
+            [
+              150.89112281799316,
+              -33.92384773901714
+            ],
+            [
+              150.8915090560913,
+              -33.92434628171977
+            ],
+            [
+              150.89180946350098,
+              -33.92427506151231
+            ],
+            [
+              150.89155197143555,
+              -33.92342041437841
+            ],
+            [
+              150.8919811248779,
+              -33.9230643088754
+            ],
+            [
+              150.8930540084839,
+              -33.92317114068261
+            ],
+            [
+              150.89361190795898,
+              -33.923099919492685
+            ],
+            [
+              150.89399814605713,
+              -33.92281503413759
+            ],
+            [
+              150.89494228363037,
+              -33.922708201883815
+            ],
+            [
+              150.8959722518921,
+              -33.922886255565686
+            ],
+            [
+              150.89695930480957,
+              -33.923242361812974
+            ],
+            [
+              150.89751720428467,
+              -33.923313582883814
+            ],
+            [
+              150.8975601196289,
+              -33.92292186625739
+            ],
+            [
+              150.89893341064453,
+              -33.92295747693422
+            ],
+            [
+              150.89893341064453,
+              -33.92163987197782
+            ],
+            [
+              150.8970022201538,
+              -33.921604260750236
+            ],
+            [
+              150.89708805084229,
+              -33.92124814765565
+            ],
+            [
+              150.89708805084229,
+              -33.921034479084405
+            ],
+            [
+              150.89481353759766,
+              -33.920963256108244
+            ],
+            [
+              150.89180946350098,
+              -33.92146181569102
+            ],
+            [
+              150.89159488677979,
+              -33.920535917000926
+            ],
+            [
+              150.88936328887937,
+              -33.920963256108244
+            ],
+            [
+              150.88867664337155,
+              -33.9211769248581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Powell Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.87541580200195,
+              -33.92776478165383
+            ],
+            [
+              150.87970733642578,
+              -33.927515520670724
+            ],
+            [
+              150.8794069290161,
+              -33.92580628285077
+            ],
+            [
+              150.8782052993774,
+              -33.925984330057304
+            ],
+            [
+              150.8767032623291,
+              -33.926589687775746
+            ],
+            [
+              150.87541580200195,
+              -33.92776478165383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "McGirr Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.88807582855225,
+              -33.921141313437005
+            ],
+            [
+              150.88661670684814,
+              -33.921533038250395
+            ],
+            [
+              150.8860158920288,
+              -33.921817927892484
+            ],
+            [
+              150.88528633117676,
+              -33.92253014782982
+            ],
+            [
+              150.88451385498047,
+              -33.92313553009509
+            ],
+            [
+              150.8830976486206,
+              -33.92185353903076
+            ],
+            [
+              150.8809518814087,
+              -33.922708201883815
+            ],
+            [
+              150.88159561157227,
+              -33.924239451386256
+            ],
+            [
+              150.87953567504883,
+              -33.924773601714136
+            ],
+            [
+              150.8794069290161,
+              -33.92516530982589
+            ],
+            [
+              150.87949275970456,
+              -33.92637603260166
+            ],
+            [
+              150.8810806274414,
+              -33.926197986213886
+            ],
+            [
+              150.88116645812988,
+              -33.92573506386397
+            ],
+            [
+              150.88305473327637,
+              -33.92555701613644
+            ],
+            [
+              150.884428024292,
+              -33.92445311191933
+            ],
+            [
+              150.88494300842285,
+              -33.92384773901714
+            ],
+            [
+              150.8874750137329,
+              -33.92352724573905
+            ],
+            [
+              150.88910579681396,
+              -33.92370529770908
+            ],
+            [
+              150.88966369628906,
+              -33.92356285616284
+            ],
+            [
+              150.88807582855225,
+              -33.921141313437005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "miller park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.8787202835083,
+              -33.9233848038951
+            ],
+            [
+              150.87846279144287,
+              -33.92327797235584
+            ],
+            [
+              150.8772611618042,
+              -33.924737991796476
+            ],
+            [
+              150.87485790252683,
+              -33.92534335837216
+            ],
+            [
+              150.87494373321533,
+              -33.92655407861728
+            ],
+            [
+              150.87532997131348,
+              -33.926055548835706
+            ],
+            [
+              150.8789348602295,
+              -33.925129700071984
+            ],
+            [
+              150.8796215057373,
+              -33.92470238186394
+            ],
+            [
+              150.8787202835083,
+              -33.9233848038951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Mannix Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.89134812355042,
+              -33.91084898900759
+            ],
+            [
+              150.89128375053406,
+              -33.91099145180867
+            ],
+            [
+              150.89090824127197,
+              -33.91109829875322
+            ],
+            [
+              150.8903181552887,
+              -33.910751045693715
+            ],
+            [
+              150.89009284973145,
+              -33.910964740051604
+            ],
+            [
+              150.8899748325348,
+              -33.91159691605665
+            ],
+            [
+              150.89017868041992,
+              -33.91173047376759
+            ],
+            [
+              150.89101552963254,
+              -33.911712666084895
+            ],
+            [
+              150.8915627002716,
+              -33.91147226200426
+            ],
+            [
+              150.89353680610657,
+              -33.911196241668044
+            ],
+            [
+              150.89353680610657,
+              -33.91086679687075
+            ],
+            [
+              150.89399814605713,
+              -33.91068871807174
+            ],
+            [
+              150.89380502700806,
+              -33.91037707927817
+            ],
+            [
+              150.89134812355042,
+              -33.91084898900759
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "wheat park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.89136958122253,
+              -33.913253016879366
+            ],
+            [
+              150.89041471481323,
+              -33.914276934084036
+            ],
+            [
+              150.890554189682,
+              -33.914508426703456
+            ],
+            [
+              150.89023232460022,
+              -33.91492689253507
+            ],
+            [
+              150.8919382095337,
+              -33.9146063656993
+            ],
+            [
+              150.8917236328125,
+              -33.913475608622534
+            ],
+            [
+              150.89136958122253,
+              -33.913253016879366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "brownes farm reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.85863590240479,
+              -33.92888644705095
+            ],
+            [
+              150.85818529129028,
+              -33.92974103934367
+            ],
+            [
+              150.8589792251587,
+              -33.92997248994728
+            ],
+            [
+              150.8585500717163,
+              -33.930755856553944
+            ],
+            [
+              150.85790634155273,
+              -33.930524408079194
+            ],
+            [
+              150.85694074630737,
+              -33.93210892735767
+            ],
+            [
+              150.8568549156189,
+              -33.93292788082164
+            ],
+            [
+              150.85927963256836,
+              -33.93404947822134
+            ],
+            [
+              150.8590006828308,
+              -33.932304764772034
+            ],
+            [
+              150.85981607437134,
+              -33.931877482560076
+            ],
+            [
+              150.86080312728882,
+              -33.93048880056571
+            ],
+            [
+              150.85863590240479,
+              -33.92888644705095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "joe broad reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91255903244019,
+              -33.90616539183055
+            ],
+            [
+              150.91176509857178,
+              -33.906040729834615
+            ],
+            [
+              150.91127157211304,
+              -33.906272244824834
+            ],
+            [
+              150.90949058532715,
+              -33.9079640660517
+            ],
+            [
+              150.90946912765503,
+              -33.90817776739701
+            ],
+            [
+              150.90880393981934,
+              -33.90851612676471
+            ],
+            [
+              150.90893268585205,
+              -33.910350367328554
+            ],
+            [
+              150.90957641601562,
+              -33.910795565395794
+            ],
+            [
+              150.9110355377197,
+              -33.90944215606065
+            ],
+            [
+              150.9109926223755,
+              -33.908890101345285
+            ],
+            [
+              150.9106707572937,
+              -33.90839146820655
+            ],
+            [
+              150.91163635253906,
+              -33.90789283215087
+            ],
+            [
+              150.91225862503052,
+              -33.90817776739701
+            ],
+            [
+              150.91255903244019,
+              -33.90616539183055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "collimore park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91769009828568,
+              -33.919242757999704
+            ],
+            [
+              150.9168666601181,
+              -33.92043798482028
+            ],
+            [
+              150.91788589954373,
+              -33.92055817429902
+            ],
+            [
+              150.91813266277313,
+              -33.91934736883788
+            ],
+            [
+              150.91769009828568,
+              -33.919242757999704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "waddell brothers park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91834992170334,
+              -33.918120965619075
+            ],
+            [
+              150.91779470443726,
+              -33.91887773194132
+            ],
+            [
+              150.9184518456459,
+              -33.91907359977684
+            ],
+            [
+              150.91853767633438,
+              -33.91881095871266
+            ],
+            [
+              150.91898560523987,
+              -33.918837668010404
+            ],
+            [
+              150.91905802488327,
+              -33.91835467358299
+            ],
+            [
+              150.91834992170334,
+              -33.918120965619075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "liverpool apex park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91976881027222,
+              -33.918550542620906
+            ],
+            [
+              150.91959714889526,
+              -33.91943639923729
+            ],
+            [
+              150.92053055763245,
+              -33.91957884768284
+            ],
+            [
+              150.92060029506683,
+              -33.918661831646396
+            ],
+            [
+              150.91976881027222,
+              -33.918550542620906
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "liverpool pioneers memorial park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.92393159866333,
+              -33.914544040896786
+            ],
+            [
+              150.9234756231308,
+              -33.91770474127688
+            ],
+            [
+              150.9244465827942,
+              -33.917762612162726
+            ],
+            [
+              150.92455387115479,
+              -33.9177448057405
+            ],
+            [
+              150.9251171350479,
+              -33.914503974928245
+            ],
+            [
+              150.92393159866333,
+              -33.914544040896786
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "woodside park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.8560609817505,
+              -33.91159691605665
+            ],
+            [
+              150.8561360836029,
+              -33.91177499295806
+            ],
+            [
+              150.8557391166687,
+              -33.911846223614454
+            ],
+            [
+              150.85576057434082,
+              -33.912300317649425
+            ],
+            [
+              150.85633993148804,
+              -33.912950291175655
+            ],
+            [
+              150.85834622383118,
+              -33.912505104363795
+            ],
+            [
+              150.85824966430664,
+              -33.91194416566977
+            ],
+            [
+              150.85861444473267,
+              -33.91169485839848
+            ],
+            [
+              150.85819602012634,
+              -33.91151678132961
+            ],
+            [
+              150.85777759552,
+              -33.91116062607567
+            ],
+            [
+              150.8560609817505,
+              -33.91159691605665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Hammondville Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.95478773117063,
+              -33.95252700363609
+            ],
+            [
+              150.95345735549924,
+              -33.95339915762317
+            ],
+            [
+              150.95460534095764,
+              -33.954449290358376
+            ],
+            [
+              150.95715880393982,
+              -33.95479636527726
+            ],
+            [
+              150.95721244812012,
+              -33.955009949139075
+            ],
+            [
+              150.95770597457886,
+              -33.95510784156324
+            ],
+            [
+              150.95734119415283,
+              -33.95549941013365
+            ],
+            [
+              150.95726609230042,
+              -33.955623999755424
+            ],
+            [
+              150.9569013118744,
+              -33.955695193743104
+            ],
+            [
+              150.95723390579224,
+              -33.95647832367596
+            ],
+            [
+              150.95763087272644,
+              -33.956709701594875
+            ],
+            [
+              150.95793128013608,
+              -33.95676309640988
+            ],
+            [
+              150.95831751823425,
+              -33.95672749987026
+            ],
+            [
+              150.9584355354309,
+              -33.9567986929346
+            ],
+            [
+              150.9578561782837,
+              -33.95748392313284
+            ],
+            [
+              150.95860719680786,
+              -33.957982268901624
+            ],
+            [
+              150.95906853675842,
+              -33.95808015790607
+            ],
+            [
+              150.96033453941345,
+              -33.957092363695324
+            ],
+            [
+              150.9609353542328,
+              -33.95450268659188
+            ],
+            [
+              150.96080660820007,
+              -33.9542090068929
+            ],
+            [
+              150.959894657135,
+              -33.95412001284462
+            ],
+            [
+              150.95616102218628,
+              -33.9537195384755
+            ],
+            [
+              150.95607519149777,
+              -33.95339915762317
+            ],
+            [
+              150.9564399719238,
+              -33.952865186855384
+            ],
+            [
+              150.9563112258911,
+              -33.95281178959432
+            ],
+            [
+              150.95574259757996,
+              -33.95324786624581
+            ],
+            [
+              150.9553563594818,
+              -33.95319446922488
+            ],
+            [
+              150.95504522323608,
+              -33.95247360616282
+            ],
+            [
+              150.95478773117063,
+              -33.95252700363609
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "voyager park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.97239375114438,
+              -33.96014469976171
+            ],
+            [
+              150.97237765789032,
+              -33.96015804792966
+            ],
+            [
+              150.97233474254608,
+              -33.96013135159166
+            ],
+            [
+              150.97220063209534,
+              -33.960438358972844
+            ],
+            [
+              150.9728068113327,
+              -33.961128009195065
+            ],
+            [
+              150.9731286764145,
+              -33.961163603893525
+            ],
+            [
+              150.9732735157013,
+              -33.961154705220316
+            ],
+            [
+              150.97362756729126,
+              -33.96124814124266
+            ],
+            [
+              150.97429811954498,
+              -33.961087965141516
+            ],
+            [
+              150.97556948661804,
+              -33.96126593856861
+            ],
+            [
+              150.97585380077362,
+              -33.96119474924245
+            ],
+            [
+              150.9760308265686,
+              -33.96063858058107
+            ],
+            [
+              150.97239375114438,
+              -33.96014469976171
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "kokoda oval"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.96063494682312,
+              -33.95754621651357
+            ],
+            [
+              150.96033453941345,
+              -33.95814245085025
+            ],
+            [
+              150.960431098938,
+              -33.95860519700773
+            ],
+            [
+              150.960613489151,
+              -33.958827670226
+            ],
+            [
+              150.96114993095398,
+              -33.95891665935041
+            ],
+            [
+              150.9617292881012,
+              -33.95872978208163
+            ],
+            [
+              150.9618580341339,
+              -33.95846281384273
+            ],
+            [
+              150.96181511878967,
+              -33.95782208665142
+            ],
+            [
+              150.96150398254395,
+              -33.957519519355984
+            ],
+            [
+              150.9612250328064,
+              -33.95735933623455
+            ],
+            [
+              150.96096754074097,
+              -33.95732373994439
+            ],
+            [
+              150.96063494682312,
+              -33.95754621651357
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "cantello reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.95903635025024,
+              -33.94138400494705
+            ],
+            [
+              150.95757722854614,
+              -33.941633225338016
+            ],
+            [
+              150.95665454864502,
+              -33.94125939447796
+            ],
+            [
+              150.9554958343506,
+              -33.94147301231329
+            ],
+            [
+              150.95558166503906,
+              -33.941918047748615
+            ],
+            [
+              150.9564399719238,
+              -33.94198925320238
+            ],
+            [
+              150.9567618370056,
+              -33.942505490960926
+            ],
+            [
+              150.95766305923462,
+              -33.94257669592332
+            ],
+            [
+              150.95815658569336,
+              -33.94321753790475
+            ],
+            [
+              150.9583282470703,
+              -33.94396518078569
+            ],
+            [
+              150.9584355354309,
+              -33.94515783559827
+            ],
+            [
+              150.95952987670898,
+              -33.94647507671694
+            ],
+            [
+              150.96734046936035,
+              -33.94725829150196
+            ],
+            [
+              150.96622467041016,
+              -33.94789909823815
+            ],
+            [
+              150.9630274772644,
+              -33.9480058988918
+            ],
+            [
+              150.96319913864136,
+              -33.94939429519344
+            ],
+            [
+              150.96287727355957,
+              -33.949803689778896
+            ],
+            [
+              150.96261978149414,
+              -33.950889465880756
+            ],
+            [
+              150.96304893493652,
+              -33.951405649661034
+            ],
+            [
+              150.9642505645752,
+              -33.95131665268091
+            ],
+            [
+              150.96686840057373,
+              -33.95133445208437
+            ],
+            [
+              150.96837043762207,
+              -33.95092506486267
+            ],
+            [
+              150.9674048423767,
+              -33.953043177483615
+            ],
+            [
+              150.96779108047485,
+              -33.953096574599485
+            ],
+            [
+              150.96877813339233,
+              -33.953950923896436
+            ],
+            [
+              150.9698510169983,
+              -33.953648342834775
+            ],
+            [
+              150.97229719161987,
+              -33.95161924203358
+            ],
+            [
+              150.97229719161987,
+              -33.95101406225231
+            ],
+            [
+              150.97049474716187,
+              -33.94725829150196
+            ],
+            [
+              150.9698510169983,
+              -33.94941209499897
+            ],
+            [
+              150.9689712524414,
+              -33.94951889375401
+            ],
+            [
+              150.9695720672607,
+              -33.94789909823815
+            ],
+            [
+              150.96978664398193,
+              -33.94688448534449
+            ],
+            [
+              150.96879959106445,
+              -33.945656253554034
+            ],
+            [
+              150.96764087677,
+              -33.94522903834206
+            ],
+            [
+              150.9657096862793,
+              -33.943199736803734
+            ],
+            [
+              150.9656023979187,
+              -33.94287931634906
+            ],
+            [
+              150.9593152999878,
+              -33.94190024637587
+            ],
+            [
+              150.95903635025024,
+              -33.94138400494705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "deepwater park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9763526916504,
+              -33.945656253554034
+            ],
+            [
+              150.97118139266968,
+              -33.947133689631876
+            ],
+            [
+              150.97354173660278,
+              -33.95049787609686
+            ],
+            [
+              150.97519397735596,
+              -33.95208202366834
+            ],
+            [
+              150.9792709350586,
+              -33.95218881907281
+            ],
+            [
+              150.9822964668274,
+              -33.95407551578556
+            ],
+            [
+              150.9839916229248,
+              -33.9549120566023
+            ],
+            [
+              150.98424911499023,
+              -33.954306900238514
+            ],
+            [
+              150.9831976890564,
+              -33.95270499497168
+            ],
+            [
+              150.98133087158203,
+              -33.95186843245734
+            ],
+            [
+              150.9808588027954,
+              -33.95053347524257
+            ],
+            [
+              150.98135232925415,
+              -33.94820169974206
+            ],
+            [
+              150.97594499588013,
+              -33.94743629385708
+            ],
+            [
+              150.9763526916504,
+              -33.945656253554034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "Kelso Park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9853649139404,
+              -33.9478634979905
+            ],
+            [
+              150.9829831123352,
+              -33.94845090017274
+            ],
+            [
+              150.98173856735227,
+              -33.94841530015589
+            ],
+            [
+              150.9812879562378,
+              -33.95081826787225
+            ],
+            [
+              150.98169565200806,
+              -33.95167264004296
+            ],
+            [
+              150.98336935043335,
+              -33.95243800782869
+            ],
+            [
+              150.98429203033447,
+              -33.95377293516694
+            ],
+            [
+              150.98467826843262,
+              -33.95532142464321
+            ],
+            [
+              150.9845495223999,
+              -33.95614015481647
+            ],
+            [
+              150.9853219985962,
+              -33.95647832367596
+            ],
+            [
+              150.98748922348022,
+              -33.954965452545416
+            ],
+            [
+              150.98682403564453,
+              -33.95418230868819
+            ],
+            [
+              150.9882402420044,
+              -33.953488152425365
+            ],
+            [
+              150.98804712295532,
+              -33.95281178959432
+            ],
+            [
+              150.9871244430542,
+              -33.95331016272789
+            ],
+            [
+              150.98701715469358,
+              -33.95302537843754
+            ],
+            [
+              150.98699569702148,
+              -33.95268719585487
+            ],
+            [
+              150.98592281341553,
+              -33.95129885327371
+            ],
+            [
+              150.9852147102356,
+              -33.94907389805719
+            ],
+            [
+              150.98512887954712,
+              -33.9483263000486
+            ],
+            [
+              150.9853649139404,
+              -33.9478634979905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "marco reserve (and adjoining parks)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.991051197052,
+              -33.94471281710015
+            ],
+            [
+              150.99040746688843,
+              -33.945727455880906
+            ],
+            [
+              150.99135160446167,
+              -33.94647507671694
+            ],
+            [
+              150.99220991134644,
+              -33.946777683283685
+            ],
+            [
+              150.99248886108398,
+              -33.947187090455685
+            ],
+            [
+              150.99313259124756,
+              -33.947632096017735
+            ],
+            [
+              150.99253177642822,
+              -33.94841530015589
+            ],
+            [
+              150.99173784255981,
+              -33.948344100077506
+            ],
+            [
+              150.99042892456055,
+              -33.9485043001701
+            ],
+            [
+              150.98967790603635,
+              -33.94994608743395
+            ],
+            [
+              150.98800420761108,
+              -33.95275839229976
+            ],
+            [
+              150.9882616996765,
+              -33.95343475555521
+            ],
+            [
+              150.98856210708618,
+              -33.95350595137464
+            ],
+            [
+              150.98828315734863,
+              -33.953648342834775
+            ],
+            [
+              150.98851919174194,
+              -33.95391532618033
+            ],
+            [
+              150.98916292190552,
+              -33.953648342834775
+            ],
+            [
+              150.98933458328247,
+              -33.953790734056646
+            ],
+            [
+              150.99231719970703,
+              -33.95240240947967
+            ],
+            [
+              150.99145889282227,
+              -33.951405649661034
+            ],
+            [
+              150.99223136901855,
+              -33.95110305954888
+            ],
+            [
+              150.99087953567505,
+              -33.9493586955712
+            ],
+            [
+              150.9919738769531,
+              -33.948842499375324
+            ],
+            [
+              150.99291801452637,
+              -33.948611100064305
+            ],
+            [
+              150.99332571029663,
+              -33.94948329418389
+            ],
+            [
+              150.99392652511597,
+              -33.94939429519344
+            ],
+            [
+              150.9941840171814,
+              -33.94891369903675
+            ],
+            [
+              150.99472045898438,
+              -33.94889589912697
+            ],
+            [
+              150.9947419166565,
+              -33.94859330009123
+            ],
+            [
+              150.9952354431152,
+              -33.94868229991931
+            ],
+            [
+              150.99551439285278,
+              -33.94853990014972
+            ],
+            [
+              150.99579334259033,
+              -33.948557700133954
+            ],
+            [
+              150.9964370727539,
+              -33.946546278358845
+            ],
+            [
+              150.995192527771,
+              -33.94638607458081
+            ],
+            [
+              150.9940767288208,
+              -33.946101267119765
+            ],
+            [
+              150.9941840171814,
+              -33.94558505116761
+            ],
+            [
+              150.9935188293457,
+              -33.94547824747629
+            ],
+            [
+              150.99366903305054,
+              -33.945033230653316
+            ],
+            [
+              150.991051197052,
+              -33.94471281710015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "ernie smith reserve"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.94163417816162,
+              -33.92829890987563
+            ],
+            [
+              150.9413766860962,
+              -33.92715943228664
+            ],
+            [
+              150.94154834747314,
+              -33.926981387536365
+            ],
+            [
+              150.94111919403076,
+              -33.926589687775746
+            ],
+            [
+              150.94103336334229,
+              -33.925628235272114
+            ],
+            [
+              150.94124794006348,
+              -33.92520091956492
+            ],
+            [
+              150.94021797180176,
+              -33.925094090303176
+            ],
+            [
+              150.94000339508054,
+              -33.92723065008255
+            ],
+            [
+              150.93987464904785,
+              -33.9278359989436
+            ],
+            [
+              150.93927383422852,
+              -33.92886864295365
+            ],
+            [
+              150.940260887146,
+              -33.92915350806354
+            ],
+            [
+              150.94073295593262,
+              -33.92972323542503
+            ],
+            [
+              150.94180583953857,
+              -33.931040715351735
+            ],
+            [
+              150.94180583953857,
+              -33.93474379301817
+            ],
+            [
+              150.94111919403076,
+              -33.93488621586651
+            ],
+            [
+              150.94103336334229,
+              -33.93848231384162
+            ],
+            [
+              150.94000339508054,
+              -33.938553522168995
+            ],
+            [
+              150.9413766860962,
+              -33.93958603622328
+            ],
+            [
+              150.94347953796387,
+              -33.939301206010704
+            ],
+            [
+              150.94395160675046,
+              -33.93833989700821
+            ],
+            [
+              150.94382286071777,
+              -33.9346369757256
+            ],
+            [
+              150.9452390670776,
+              -33.934601369931634
+            ],
+            [
+              150.94425201416016,
+              -33.93185967908805
+            ],
+            [
+              150.94382286071777,
+              -33.92972323542503
+            ],
+            [
+              150.94326496124265,
+              -33.92915350806354
+            ],
+            [
+              150.94322204589844,
+              -33.928583776891024
+            ],
+            [
+              150.94163417816162,
+              -33.92829890987563
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "haigh park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9307765960693,
+              -33.922886255565686
+            ],
+            [
+              150.93180656433105,
+              -33.923349193396895
+            ],
+            [
+              150.93317985534668,
+              -33.92356285616284
+            ],
+            [
+              150.93390941619873,
+              -33.92399018008704
+            ],
+            [
+              150.9336519241333,
+              -33.92434628171977
+            ],
+            [
+              150.93519687652588,
+              -33.92591311121936
+            ],
+            [
+              150.93339443206784,
+              -33.927479911899304
+            ],
+            [
+              150.93425273895264,
+              -33.92829890987563
+            ],
+            [
+              150.9347677230835,
+              -33.928797426527325
+            ],
+            [
+              150.93957424163818,
+              -33.928726210041425
+            ],
+            [
+              150.93772888183594,
+              -33.9285481685662
+            ],
+            [
+              150.93751430511475,
+              -33.92808525898885
+            ],
+            [
+              150.9389305114746,
+              -33.92815647601066
+            ],
+            [
+              150.93910217285156,
+              -33.928014041907495
+            ],
+            [
+              150.93863010406494,
+              -33.92769356430452
+            ],
+            [
+              150.93785762786865,
+              -33.92765795560753
+            ],
+            [
+              150.93742847442627,
+              -33.927942824766596
+            ],
+            [
+              150.9369134902954,
+              -33.92847695187191
+            ],
+            [
+              150.93614101409912,
+              -33.9285481685662
+            ],
+            [
+              150.93558311462402,
+              -33.928014041907495
+            ],
+            [
+              150.9353256225586,
+              -33.92730186781892
+            ],
+            [
+              150.93575477600098,
+              -33.92648286025568
+            ],
+            [
+              150.93571186065674,
+              -33.92594872064577
+            ],
+            [
+              150.9360122680664,
+              -33.925592625711715
+            ],
+            [
+              150.93717098236084,
+              -33.925129700071984
+            ],
+            [
+              150.93888759613037,
+              -33.92516530982589
+            ],
+            [
+              150.94008922576904,
+              -33.9250584805195
+            ],
+            [
+              150.93940258026123,
+              -33.924595551976985
+            ],
+            [
+              150.93772888183594,
+              -33.924381891801175
+            ],
+            [
+              150.9376859664917,
+              -33.92352724573905
+            ],
+            [
+              150.93854427337646,
+              -33.92302869824322
+            ],
+            [
+              150.93493938446045,
+              -33.922494536974376
+            ],
+            [
+              150.931978225708,
+              -33.922387704318695
+            ],
+            [
+              150.9307765960693,
+              -33.922886255565686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "murrigan park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.86646795272827,
+              -33.910813373270116
+            ],
+            [
+              150.86642503738403,
+              -33.91132980000687
+            ],
+            [
+              150.86599588394162,
+              -33.9115256851919
+            ],
+            [
+              150.86653232574463,
+              -33.911614723763535
+            ],
+            [
+              150.86629629135132,
+              -33.91286125399932
+            ],
+            [
+              150.86681127548218,
+              -33.9130037134368
+            ],
+            [
+              150.86670398712158,
+              -33.91344889764405
+            ],
+            [
+              150.86709022521973,
+              -33.91305713566445
+            ],
+            [
+              150.8672833442688,
+              -33.91257633440996
+            ],
+            [
+              150.86719751358032,
+              -33.912487296842954
+            ],
+            [
+              150.86736917495728,
+              -33.91182841595594
+            ],
+            [
+              150.8685278892517,
+              -33.91193526185121
+            ],
+            [
+              150.86947202682495,
+              -33.911864031269246
+            ],
+            [
+              150.86957931518555,
+              -33.91177499295806
+            ],
+            [
+              150.87018013000488,
+              -33.91156130063171
+            ],
+            [
+              150.8698582649231,
+              -33.91129418447031
+            ],
+            [
+              150.86962223052976,
+              -33.91132980000687
+            ],
+            [
+              150.86927890777588,
+              -33.910902412585905
+            ],
+            [
+              150.86646795272827,
+              -33.910813373270116
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "heron park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.96798419952393,
+              -33.91116952997516
+            ],
+            [
+              150.96800565719604,
+              -33.91510496247844
+            ],
+            [
+              150.9709024429321,
+              -33.91487347147949
+            ],
+            [
+              150.97124576568604,
+              -33.9192360807078
+            ],
+            [
+              150.96832752227783,
+              -33.919378529488256
+            ],
+            [
+              150.96849918365479,
+              -33.92123034196184
+            ],
+            [
+              150.97010850906372,
+              -33.92137278740806
+            ],
+            [
+              150.9702157974243,
+              -33.92233428794061
+            ],
+            [
+              150.97111701965332,
+              -33.922369898863046
+            ],
+            [
+              150.9712243080139,
+              -33.92286845021423
+            ],
+            [
+              150.97092390060425,
+              -33.923545050952804
+            ],
+            [
+              150.97152471542358,
+              -33.92356285616284
+            ],
+            [
+              150.97227573394775,
+              -33.92358066136914
+            ],
+            [
+              150.97249031066895,
+              -33.9244175018677
+            ],
+            [
+              150.97156763076782,
+              -33.924684576892076
+            ],
+            [
+              150.9722328186035,
+              -33.92534335837216
+            ],
+            [
+              150.9734559059143,
+              -33.92525433414554
+            ],
+            [
+              150.97315549850464,
+              -33.92461335696745
+            ],
+            [
+              150.97583770751953,
+              -33.92439969683629
+            ],
+            [
+              150.9753656387329,
+              -33.92340260913863
+            ],
+            [
+              150.9737992286682,
+              -33.91946755985511
+            ],
+            [
+              150.97341299057007,
+              -33.915781624869744
+            ],
+            [
+              150.97392797470093,
+              -33.9135201269014
+            ],
+            [
+              150.97352027893064,
+              -33.913074943066235
+            ],
+            [
+              150.97315549850464,
+              -33.913074943066235
+            ],
+            [
+              150.9704089164734,
+              -33.911187337771345
+            ],
+            [
+              150.96798419952393,
+              -33.91116952997516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "black muscat park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.96017360687256,
+              -33.90529275403058
+            ],
+            [
+              150.96047401428223,
+              -33.905898258758874
+            ],
+            [
+              150.96206188201904,
+              -33.907750364170624
+            ],
+            [
+              150.96304893493652,
+              -33.90899695092409
+            ],
+            [
+              150.9634780883789,
+              -33.91059967853271
+            ],
+            [
+              150.96781253814697,
+              -33.91159691605665
+            ],
+            [
+              150.96781253814697,
+              -33.91113391437162
+            ],
+            [
+              150.96373558044434,
+              -33.908213384235815
+            ],
+            [
+              150.96141815185547,
+              -33.906111965283195
+            ],
+            [
+              150.96017360687256,
+              -33.90529275403058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "fairall park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.9639286994934,
+              -33.91254071939432
+            ],
+            [
+              150.96397161483762,
+              -33.913270824240215
+            ],
+            [
+              150.96485137939453,
+              -33.91335986098864
+            ],
+            [
+              150.9657096862793,
+              -33.9131995947745
+            ],
+            [
+              150.9658169746399,
+              -33.912558526904
+            ],
+            [
+              150.9639286994934,
+              -33.91254071939432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "open space",
+        "name": "peter miller park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.88496446609497,
+              -33.95069367121404
+            ],
+            [
+              150.88535070419312,
+              -33.95112085899703
+            ],
+            [
+              150.88547945022583,
+              -33.95153024527684
+            ],
+            [
+              150.88781833648682,
+              -33.95167264004296
+            ],
+            [
+              150.88829040527344,
+              -33.94976809032791
+            ],
+            [
+              150.88796854019165,
+              -33.94953669353349
+            ],
+            [
+              150.88586568832397,
+              -33.950124084167726
+            ],
+            [
+              150.88496446609497,
+              -33.95069367121404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.84880828857422,
+              -33.88751749360169
+            ],
+            [
+              150.8477783203125,
+              -33.88630621879206
+            ],
+            [
+              150.8465766906738,
+              -33.8845961544873
+            ],
+            [
+              150.84649085998535,
+              -33.88352734689018
+            ],
+            [
+              150.84503173828125,
+              -33.883171074715705
+            ],
+            [
+              150.84425926208496,
+              -33.8823160154271
+            ],
+            [
+              150.8440017700195,
+              -33.880035815430986
+            ],
+            [
+              150.84357261657715,
+              -33.879180724722815
+            ],
+            [
+              150.84434509277344,
+              -33.87775555450095
+            ],
+            [
+              150.84786415100098,
+              -33.88024958676915
+            ],
+            [
+              150.84940910339355,
+              -33.88146094756938
+            ],
+            [
+              150.85095405578613,
+              -33.88267229117208
+            ],
+            [
+              150.85249900817868,
+              -33.88366985534342
+            ],
+            [
+              150.85533142089844,
+              -33.88366985534342
+            ],
+            [
+              150.86073875427246,
+              -33.88331358376402
+            ],
+            [
+              150.8621120452881,
+              -33.8792519826091
+            ],
+            [
+              150.86125373840332,
+              -33.87889569258259
+            ],
+            [
+              150.85936546325684,
+              -33.87497640410958
+            ],
+            [
+              150.86125373840332,
+              -33.87041555094182
+            ],
+            [
+              150.86408615112305,
+              -33.864856681647396
+            ],
+            [
+              150.8704376220703,
+              -33.865569377426155
+            ],
+            [
+              150.87335586547852,
+              -33.86172074954415
+            ],
+            [
+              150.877046585083,
+              -33.850102542936106
+            ],
+            [
+              150.8744716644287,
+              -33.847607629887406
+            ],
+            [
+              150.87112426757812,
+              -33.84525521656404
+            ],
+            [
+              150.86837768554688,
+              -33.845968075926145
+            ],
+            [
+              150.8664035797119,
+              -33.84439977747867
+            ],
+            [
+              150.85850715637207,
+              -33.84218985353465
+            ],
+            [
+              150.8554172515869,
+              -33.84254629674629
+            ],
+            [
+              150.85198402404785,
+              -33.85017382509544
+            ],
+            [
+              150.8470916748047,
+              -33.86229092758422
+            ],
+            [
+              150.84580421447754,
+              -33.86991669284116
+            ],
+            [
+              150.84314346313477,
+              -33.877042960464415
+            ],
+            [
+              150.83928108215332,
+              -33.881674715337155
+            ],
+            [
+              150.83490371704102,
+              -33.89093747081251
+            ],
+            [
+              150.83726406097412,
+              -33.896637128110214
+            ],
+            [
+              150.8411693572998,
+              -33.89909498776245
+            ],
+            [
+              150.8419847488403,
+              -33.895247871752005
+            ],
+            [
+              150.84189891815186,
+              -33.89382296992601
+            ],
+            [
+              150.84099769592285,
+              -33.89321737944088
+            ],
+            [
+              150.84404468536377,
+              -33.891186838787085
+            ],
+            [
+              150.84134101867673,
+              -33.88983311816154
+            ],
+            [
+              150.84202766418454,
+              -33.88840812587154
+            ],
+            [
+              150.843186378479,
+              -33.88830125049014
+            ],
+            [
+              150.84417343139648,
+              -33.88872875121232
+            ],
+            [
+              150.84447383880615,
+              -33.889441247654894
+            ],
+            [
+              150.844988822937,
+              -33.88979749364442
+            ],
+            [
+              150.84524631500244,
+              -33.89086622268586
+            ],
+            [
+              150.8466625213623,
+              -33.89221992691498
+            ],
+            [
+              150.84614753723145,
+              -33.89428606563081
+            ],
+            [
+              150.84636211395264,
+              -33.89581782581633
+            ],
+            [
+              150.84713459014893,
+              -33.89624528886477
+            ],
+            [
+              150.84752082824707,
+              -33.897563286442136
+            ],
+            [
+              150.84820747375488,
+              -33.89795511963138
+            ],
+            [
+              150.84897994995117,
+              -33.899059367114
+            ],
+            [
+              150.8494520187378,
+              -33.89980739760653
+            ],
+            [
+              150.85043907165527,
+              -33.90208706910811
+            ],
+            [
+              150.85176944732666,
+              -33.90244326227428
+            ],
+            [
+              150.85189819335935,
+              -33.90304878724151
+            ],
+            [
+              150.85086822509766,
+              -33.90397487593153
+            ],
+            [
+              150.85134029388428,
+              -33.905648933803384
+            ],
+            [
+              150.85485935211182,
+              -33.904865336338815
+            ],
+            [
+              150.85554599761963,
+              -33.900127980094446
+            ],
+            [
+              150.85121154785153,
+              -33.89927309078149
+            ],
+            [
+              150.85031032562256,
+              -33.89702896555517
+            ],
+            [
+              150.84885120391846,
+              -33.89710020853354
+            ],
+            [
+              150.84863662719727,
+              -33.89692210097601
+            ],
+            [
+              150.84837913513184,
+              -33.89563971558043
+            ],
+            [
+              150.84825038909912,
+              -33.8952122494965
+            ],
+            [
+              150.84940910339355,
+              -33.894749158820986
+            ],
+            [
+              150.84940910339355,
+              -33.89343111775018
+            ],
+            [
+              150.85031032562256,
+              -33.89154307748606
+            ],
+            [
+              150.8503532409668,
+              -33.89029623553017
+            ],
+            [
+              150.8491086959839,
+              -33.88904937534796
+            ],
+            [
+              150.84880828857422,
+              -33.88751749360169
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
