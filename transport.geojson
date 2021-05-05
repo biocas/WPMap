@@ -114,7 +114,12 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "cabramatta station"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -136,7 +141,14 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "train station",
+        "mode": "train",
+        "name": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -147,7 +159,14 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "train station",
+        "mode": "train",
+        "name": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -378,7 +397,14 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "train station",
+        "mode": "train",
+        "name": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -389,7 +415,14 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "train station",
+        "mode": "train",
+        "name": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -422,7 +455,14 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "train station",
+        "mode": "train",
+        "name": "Campbelltown Station"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -433,7 +473,12 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Mcarthur Station"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1623,7 +1668,15 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "public transport",
+        "mode": "train",
+        "item": "train station",
+        "name": "schofields station"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2559,7 +2612,14 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "trainline",
+        "mode": "train",
+        "name": "t3"
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3167,6 +3227,25 @@
             151.2075698375702,
             -33.88366985534342
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "public transport",
+        "mode": "train",
+        "item": "train station",
+        "name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90768814086914,
+          -33.767517903241945
         ]
       }
     }
