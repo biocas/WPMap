@@ -4649,6 +4649,24 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "train: Liverpool station (add 800m catchment)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92755794525146,
+          -33.924470916939555
+        ]
+      }
     }
   ]
 }
