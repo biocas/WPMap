@@ -3668,6 +3668,695 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "car access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91545581817627,
+          -33.923852190304174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site acess",
+        "class 2": "pedestrian acess",
+        "class 3": "key intersection"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91831505298615,
+          -33.92423500011946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 3": "key intersection"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9179985523224,
+          -33.928570423770964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "cyclist access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91049909591675,
+          -33.927844901100634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site acsess",
+        "class 2": "cyclist access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91316521167755,
+          -33.923491635300394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "car access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91236591339108,
+          -33.92812976963446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "car access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9144687652588,
+          -33.92372755417916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site access",
+        "class 2": "pedestrian crossing",
+        "rating": "integrates into pedestrian park, unclear integration into bike path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.91030061244965,
+            -33.92808525898885
+          ],
+          [
+            150.9103810787201,
+            -33.927831547864734
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site access",
+        "class 2": "pedestrian crossing",
+        "rating": "low level pedestrian integration into site"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.9122532606125,
+            -33.92825439931842
+          ],
+          [
+            150.9122747182846,
+            -33.9280674547241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site access",
+        "class 2": "pedestrian crossing",
+        "rating": "poor integration onto site, no adjoining entrance or path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.9178376197815,
+            -33.92855707064881
+          ],
+          [
+            150.9178376197815,
+            -33.92877962241143
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site access",
+        "rating": "no integration into site, no signage or adjoining path",
+        "class 2": "pedestrian crossing"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.91788858175278,
+            -33.92853258991941
+          ],
+          [
+            150.91822922229767,
+            -33.92834787146172
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "site acess",
+        "class 2": "pedestrian",
+        "rating": "fence all along this street so no pedestrian permeability"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91813802719116,
+              -33.9240257903173
+            ],
+            [
+              150.91777324676514,
+              -33.925984330057304
+            ],
+            [
+              150.91747283935547,
+              -33.92737308549573
+            ],
+            [
+              150.9178054332733,
+              -33.928565972730475
+            ],
+            [
+              150.91821312904358,
+              -33.92830781198429
+            ],
+            [
+              150.91798782348633,
+              -33.927649053430954
+            ],
+            [
+              150.91796636581418,
+              -33.92684785372942
+            ],
+            [
+              150.91858863830566,
+              -33.924043595426845
+            ],
+            [
+              150.91813802719116,
+              -33.9240257903173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class ": "site access",
+        "rating": "NO pedestrian crossing here"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.91817557811737,
+            -33.92426615898219
+          ],
+          [
+            150.9185403585434,
+            -33.9243062203604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site access",
+        "class 2": "pedestrian crossing"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.91815412044525,
+            -33.92426615898219
+          ],
+          [
+            150.91820240020752,
+            -33.92413262091877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "class": "site acess",
+        "class 2": "pedestrian",
+        "rating": "NO pedestrian crossing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.91339588165283,
+              -33.923438219614496
+            ],
+            [
+              150.91325640678406,
+              -33.92365188215714
+            ],
+            [
+              150.91809511184692,
+              -33.924239451386256
+            ],
+            [
+              150.91813802719116,
+              -33.92399018008704
+            ],
+            [
+              150.91339588165283,
+              -33.923438219614496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site acess",
+        "class 2": "pedestrian corridor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.91455191373825,
+            -33.925370065622005
+          ],
+          [
+            150.9136587381363,
+            -33.92527436460465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site access",
+        "class 2": "pedestrian corridor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.91442584991455,
+            -33.92535226078971
+          ],
+          [
+            150.91420590877533,
+            -33.92629146061386
+          ],
+          [
+            150.91415762901306,
+            -33.92649176255415
+          ],
+          [
+            150.9140020608902,
+            -33.92659859006304
+          ],
+          [
+            150.91391623020172,
+            -33.92667871060677
+          ],
+          [
+            150.9138786792755,
+            -33.92678553788121
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "class": "site access",
+        "class 2": "pedestrian corridor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            150.91417372226715,
+            -33.926496213703025
+          ],
+          [
+            150.91428101062775,
+            -33.92659859006304
+          ],
+          [
+            150.9144204854965,
+            -33.926687612884756
+          ],
+          [
+            150.91442584991455,
+            -33.926767733344775
+          ],
+          [
+            150.91442584991455,
+            -33.92683895146819
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91314375400543,
+          -33.92296192826778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91239541769028,
+          -33.92350498921664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9128138422966,
+          -33.92403469287254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9106144309044,
+          -33.92733525111233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91070026159286,
+          -33.92759341480631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91195821762085,
+          -33.92818763343898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91276288032532,
+          -33.92812531857095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91578841209412,
+          -33.92868615074196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91595470905304,
+          -33.92841463721554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91709196567535,
+          -33.92414597473452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91645896434784,
+          -33.92392341086518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9144151210785,
+          -33.92362072306972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "class": "site access",
+        "class 2": "pt access",
+        "class 3": "bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9149193763733,
+          -33.92385664159098
+        ]
+      }
     }
   ]
 }
